@@ -649,10 +649,416 @@ ul.Main {
     margin: 0;
 }
 
-/*Читалка.*/
+/*Dark Matter Design.*/
+/*=========================================================================================================================*/
+
+body.DarkMatter {
+    margin: 0;
+    background-color: RGB(61, 71, 90);
+}
+
+p.DarkMatterBookTextBox {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Roboto" inherit;
+    cursor: default;
+}
+
+div.DarkMatterBookContent {
+    width: 100%;
+}
+
+
+
+div.DarkMatterDownline {
+    width: 100%;
+    background-color: #252b37;
+    height: auto;
+    margin-top: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+
+
+
+table.DarkMatterLibruaryLine {
+    margin-top: 50px;
+    width: 100%;
+}
+
+td.DarkMatterLibruaryBook {
+    width: 20.5%;
+    text-align: center;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+img.DarkMatterLibruaryBook {
+    width: 100%;
+    height: 320px;
+    border: 1px solid black;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+h1.DarkMatterLibruaryBook {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+button.DarkMatterLibruaryButtonAllow {
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    background-color: #252b37;
+    text-decoration: none;
+    transition: 0.4s; 
+    border: 3px ridge #A9A9A9;
+}
+
+button:hover.DarkMatterLibruaryButtonAllow {
+    background-color: #ff8c00;
+    cursor: pointer;
+}
+
+button:active.DarkMatterLibruaryButtonAllow {
+    outline: none;
+    border-color: #808080;
+}
+
+button:focus.DarkMatterLibruaryButtonAllow {
+    outline: none;
+}
+
+button.DarkMatterLibruaryButtonDeny {
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    background-color: #708090;
+    text-decoration: none;
+    transition: 0.4s; 
+    border: 3px ridge #A9A9A9;
+}
+
+button:active.DarkMatterLibruaryButtonDeny {
+    outline: none;
+}
+
+button:focus.DarkMatterLibruaryButtonDeny {
+    outline: none;
+}
+
+span.DarkMatterLibruaryBook {
+    padding-left: auto;
+}
+
+/*Адаптивный дизайн.*/
 /*=========================================================================================================================*/
 
 @media screen {
+    
+    /*Список глав.*/
+    /*=========================================================================================================================*/
+    details.DarkMatterBookContent {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    summary.DarkMatterBookContent {
+    background-color: #252b37;
+    cursor: pointer;
+    outline: 0;
+    color: white;
+    padding: 5px 0 5px 15px;
+    font-size: 24px;
+    -moz-user-select: none; /*Firefox.*/
+    -ms-user-select: none; /*Internet Explorer.*/
+    -khtml-user-select: none; /*KHTML browsers (e.g. Konqueror).*/
+    -webkit-user-select: none; /*Chrome, Safari, and Opera.*/
+    -webkit-touch-callout: none; /*Disable Android and iOS callouts.*/
+    transition: 0.5s;
+}
+
+    summary:hover.DarkMatterBookContent {
+    background-color: #ff8c00;
+}
+
+    div.DarkMatterBookChapter {
+    width: 100%;
+    background-color: RGB(48, 58, 76);
+    vertical-align: middle;
+    transition: 0.5s;
+    border-bottom: 1px solid #252b37;
+    border-right: 1px solid #252b37;
+    border-left: 1px solid #252b37;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    div:hover.DarkMatterBookChapter {
+        background-color: RGB(68, 78, 96);
+    }
+
+    p.DarkMatterBookChapter {
+        font-size: 24px;
+        color: white;
+        margin: 5px 0 5px 42px;
+        vertical-align: middle;
+        display: inline-block;
+        font-family: "Georgia" inherit;
+        cursor: default;
+        display: inline-block;
+    }
+
+    a.DarkMatterBookChapter {
+    
+    background: #75829b;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0;
+    transition: 0.5s;
+    }
+    
+    table.DarkMatterBookChapter {
+    width: 100%;
+    }
+
+    td.DarkMatterBookChapterLeft {
+        width: 80%;
+    }
+    
+    td.DarkMatterBookChapterRight {
+        width: 20%;
+    }
+    
+    a.DarkMatterBookChapter:hover { 
+    background: #ff8c00;
+    }
+    
+    /*Описание книги.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterBookTextBox {
+        border: 3px dashed white;
+        border-radius: 10px;
+        margin: 30px 0 30px 0;
+        width: 100%;
+        -moz-box-sizing: border-box; /* Для Firefox.*/
+        -webkit-box-sizing: border-box; /* Для Safari и Chrome.*/
+        box-sizing: border-box; /* Для IE и Opera.*/
+    }
+    
+    div.DarkMatterBookTextBoxUpline {
+        width: 100%;
+    }
+
+    img.DarkMatterBookTextBoxUpline {
+        height: auto;
+        width: 24px;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    p.DarkMatterBookTextBoxUpline {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Roboto" inherit;
+        cursor: default;
+    } 
+    
+    /*Обложка и информация о новелле.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterCover {
+        float: left;
+        width: 30%;
+        height: auto;
+    }
+    
+    img.DarkMatterCover {
+        width: 100%;
+        height: 475px;
+        border: 1px solid black;
+    }
+    
+    div.DarkMatterDescription {
+        float: left;
+        width: 69%;
+        margin-left: 1%;
+        display: table-row;
+    }
+
+    h1.DarkMatterDescription {
+        color: white;
+        font-size: 30px;
+        text-align: justify;
+        font-family: "Georgia";
+        margin-bottom: 0;
+        margin-top: 0;
+        cursor: default;
+    }
+
+    img.DarkMatterDescription {
+        max-width: 20px;
+        height: auto;
+    }
+
+    p.DarkMatterDescription {
+        font-size: 18px;
+        color: white;
+        margin-left: 15px;
+        vertical-align: middle;
+        display: table-cell;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor: default;
+    }
+    
+    table.DarkMatterDescription{
+        width: 100%;
+        padding: 0;
+    }
+    
+    td.DarkMatterDescriptionLeft {
+        width: 5%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    td.DarkMatterDescriptionMiddle {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    
+    td.DarkMatterDescriptionRight {
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+    
+    span.DarkMatterDescriptionRight {
+        font-size: 18px;
+        color: #7aad00;
+        text-align: right;
+        cursor: default;
+    }
+    
+    
+
+div.DarkMatterDescriptionStr {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+hr.DarkMatterDescription {
+    border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+
+div.DarkMatterIntro {
+    width: 100%;
+    height: auto;
+    overflow:auto;
+}
+    
+
+    
+div.DarkMatterUpline {
+    width: 100%;
+    background-color: #252b37;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+div.DarkMatterUplineMini {
+    width: 60%;
+    margin: auto;
+    vertical-align: middle;
+    height: 100%;
+}
+
+img.DarkMatterUpline {
+    height: 18px;
+    width: auto;
+    display: inline-block;
+}
+
+p.DarkMatterUpline {
+    font-size: 24px;
+    font-family: "Roboto" inherit;
+    margin: 18px 0 18px 10px;
+    display: inline-block;
+}
+    
+a.DarkMatterUpline {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    background-color: #252b37;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover.DarkMatterUpline {
+    background-color: RGB(61, 71, 90);
+    color: RGB(260, 163, 16);
+}
+        
+div.DarkMatterBook {
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+    
+div.DarkMatterLibruary {
+    width: 60%;
+    margin: auto;
+}
 
 body.Reader {
     background-color: #323B4A;
@@ -663,6 +1069,10 @@ body.Reader {
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
 
+table.ButtonReader {
+    width: 100%;
+}
+    
 a.ButtonReader {
   display: inline-block;
   background: #252b37;
@@ -670,11 +1080,12 @@ a.ButtonReader {
   text-align: center;
   text-decoration: none;
   user-select: none;
-  padding: .5em 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: none;
   border-radius: 5px;
   transition: 0.2s;
-  width: 25%;
+  width: 100%;
 } 
 
 a.ButtonReader:hover { 
@@ -702,6 +1113,16 @@ img.ButtonReader {
     max-width: 20px;
     margin-left: 0;
 }
+    
+div.ReaderPoem {
+    width: 50%;
+    margin: auto;
+    text-indent: 26px;
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+    font-family: "Georgia";
+}
 
 div.Reader {
     width: 50%;
@@ -712,7 +1133,7 @@ div.Reader {
     font-size: 17px;
     font-family: "Georgia";
 }
-
+    
 div.Main {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -750,6 +1171,14 @@ h3.Main {
 
 hr.Main {
     border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+    
+img.Reader25 {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 img.Reader50 {
@@ -778,9 +1207,286 @@ h4.Reader {
     margin: 0;
 }
     
+p.DarkMatterDownline {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: default;
+}
+    
 }
 
+/*===========================================================================================================================*/
 @media only screen and (max-device-width: 480px) {
+    
+    /*Список глав.*/
+    /*=========================================================================================================================*/
+    details.DarkMatterBookContent {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    summary.DarkMatterBookContent {
+        background-color: #252b37;
+        cursor: pointer;
+        outline: 0;
+        color: white;
+        padding: 5px 0 5px 15px;
+        font-size: 24px;
+        -moz-user-select: none; /*Firefox.*/
+        -ms-user-select: none; /*Internet Explorer.*/
+        -khtml-user-select: none; /*KHTML browsers (e.g. Konqueror).*/
+        -webkit-user-select: none; /*Chrome, Safari, and Opera.*/
+        -webkit-touch-callout: none; /*Disable Android and iOS callouts.*/
+        transition: 0.5s;
+    }
+
+    summary:hover.DarkMatterBookContent {
+        background-color: #ff8c00;
+    }
+
+    div.DarkMatterBookChapter {
+        width: 100%;
+        background-color: RGB(48, 58, 76);
+        vertical-align: middle;
+        transition: 0.5s;
+        border-bottom: 3px solid #252b37;
+        border-right: 3px solid #252b37;
+        border-left: 3px solid #252b37;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    div:hover.DarkMatterBookChapter {
+        background-color: RGB(68, 78, 96);
+    }
+
+    p.DarkMatterBookChapter {
+        font-size: 46px;
+        color: white;
+        margin: 5px 0 5px 42px;
+        vertical-align: middle;
+        display: inline-block;
+        font-family: "Georgia" inherit;
+        cursor: default;
+        width: 90%;
+        box-sizing:padding-box;
+    }
+
+    a.DarkMatterBookChapter {
+        font-size: 40px;
+        background: #75829b;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        outline: none;
+        border-radius: 5px;
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        float: right;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin: 8px;
+        transition: 0.5s;
+    }
+    
+    table.DarkMatterBookChapter {
+        width: 100%;
+    }
+    
+    td.DarkMatterBookChapterLeft {
+        width: 80%;
+        box-sizing:padding-box;
+    }
+    
+    td.DarkMatterBookChapterRight {
+        width: 20%;
+        
+    }
+
+    a.DarkMatterBookChapter:hover { 
+        background: #ff8c00;
+    }
+    
+    /*Описание книги.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterBookTextBox {
+        border: 3px solid white;
+        border-radius: 15px;
+        margin: 30px 0 30px 0;
+        width: 100%;
+        -moz-box-sizing: border-box; /* Для Firefox.*/
+        -webkit-box-sizing: border-box; /* Для Safari и Chrome.*/
+        box-sizing: border-box; /* Для IE и Opera.*/
+    }
+    
+    div.DarkMatterBookTextBoxUpline {
+        width: 100%;
+    }
+
+    img.DarkMatterBookTextBoxUpline {
+        height: auto;
+        width: 40px;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    p.DarkMatterBookTextBoxUpline {
+        font-size: 40px;
+        color: white;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Roboto" inherit;
+        cursor: default;
+    } 
+    
+div.DarkMatterCover {
+    float: left;
+    width: 35%;
+}
+
+div.DarkMatterDescription {
+    float: left;
+    width: 64%;
+    margin-left: 1%;
+}
+
+img.DarkMatterCover {
+    width: 100%;
+    height: 475px;
+    border: 1px solid black;
+}
+
+h1.DarkMatterDescription {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Georgia";
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: default;
+}
+
+img.DarkMatterDescription {
+    height: auto;
+    max-width: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+p.DarkMatterDescription {
+    font-size: 26px;
+    color: white;
+    margin-left: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: default;
+    
+    
+}
+
+p.DarkMatterDescriptionLeft {
+    font-size: 26px;
+    color: #7aad00;
+    margin-left: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+    margin-right: 5px;
+    cursor: default;
+}
+
+div.DarkMatterDescriptionStr {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+hr.DarkMatterDescription {
+    border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+
+div.DarkMatterIntro {
+    width: 100%;
+    height: auto;
+    overflow:auto;
+}
+    
+    
+    
+div.DarkMatterUpline {
+    width: 100%;
+    background-color: #252b37;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+div.DarkMatterUplineMini {
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+    height: 100%;
+}
+
+img.DarkMatterUpline {
+    height: 18px;
+    width: auto;
+    display: inline-block;
+}
+
+p.DarkMatterUpline {
+    font-size: 26px;
+    font-family: "Roboto" inherit;
+    margin: 18px 0 18px 10px;
+    display: inline-block;
+}
+    
+a.DarkMatterUpline {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    background-color: #252b37;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover.DarkMatterUpline {
+    background-color: RGB(61, 71, 90);
+    color: RGB(260, 163, 16);
+}
+    
+div.DarkMatterBook {
+    width: 95%;
+    margin: auto;
+    height: auto;
+}
+    
+div.DarkMatterLibruary {
+    width: 100%;
+    margin: auto;
+}
     
 body.Reader {
     background-color: #323B4A;
@@ -790,19 +1496,24 @@ body.Reader {
   -webkit-user-select: none; /* Chrome, Safari, and Opera*/
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
-
+    
+table.ButtonReader {
+    width: 100%;
+}
+    
 a.ButtonReader {
-    display: inline-block;
-    background: #252b37;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    outline: none;
-    transition: 0.2s;
-    width: 26%;
-    height: auto;
-    vertical-align: middle;
+  display: inline-block;
+  background: #252b37;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  
+  transition: 0.2s;
+  width: 100%;
 } 
 
 a.ButtonReader:hover { 
@@ -814,13 +1525,13 @@ a.ButtonReader:active {
 }
 
 span.ButtonReaderMain {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     margin-left: 15px;
 }
 
 span.ButtonReaderNavigate {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     margin: 0;
 }
@@ -837,6 +1548,16 @@ div.Reader {
     text-align: justify;
     color: white;
     font-size: 17px;
+    font-family: "Georgia";
+}
+    
+div.ReaderPoem {
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    text-indent: 0;
+    color: white;
+    font-size: 14px;
     font-family: "Georgia";
 }
 
@@ -876,6 +1597,14 @@ h3.Main {
 
 hr.Main {
     border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+    
+img.Reader25 {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 img.Reader50 {
@@ -902,6 +1631,15 @@ h4.Reader {
     font-style: normal;
     font-family: "Times New Roman";
     margin: 0;
+}
+    
+p.DarkMatterDownline {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+    cursor: default;
 }
     
 }
