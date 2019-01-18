@@ -381,274 +381,6 @@ p.Inferior {
     margin: 0;
 }
 
-/*Чат.*/
-/*=========================================================================================================================*/
-
-#Chat {
-    margin-left: 5px;
-}
-
-/*Страница About.*/
-/*=========================================================================================================================*/
-
-table.About {
-    border-spacing: 4px 8px;
-}
-
-td.AboutLeft {
-    width: 13.9%;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    height: auto;
-    text-align: center;
-}
-
-td.AboutRight {
-    width: 85%;
-    vertical-align: top;
-    padding: 0;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    height: auto;
-}
-
-img.Person {
-    height: auto;
-    max-width: 50%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-p.Person {
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    color: white;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-h1.Person {
-    margin: 0px;
-    color: white;
-    text-align: justify;
-    font-size: 24px;
-    cursor: default;
-    text-align: center;
-    font-family: cursive;
-    text-shadow: 3px 3px 3px black;
-}
-
-span.Person {
-    color: Aqua;
-    text-shadow: 1px 1px 1px black;
-}
-
-img.Work {
-    box-shadow: 0 0 15px lawngreen;
-    border-radius: 100px;
-    border: 1px solid lawngreen;
-}
-
-img.Pause {
-    box-shadow: 0 0 15px yellow;
-    border-radius: 100px;
-    border: 1px solid yellow;
-}
-
-img.Dropped {
-    box-shadow: 0 0 15px red;
-    border-radius: 100px;
-    border: 1px solid red;
-}
-
-span.Work {
-    color: lawngreen;
-    text-shadow: 1px 1px 1px black;
-}
-
-span.Pause {
-    color: yellow;
-    text-shadow: 1px 1px 1px black;
-}
-
-span.Dropped {
-    color: red;
-    text-shadow: 1px 1px 1px black;
-}
-
-/*Страница Libruary.*/
-/*=========================================================================================================================*/
-
-table.Libruary {
-    padding: 0;
-    margin: 0;
-    border-spacing: 4px 8px;
-}
-
-tr.Libruary {
-    
-}
-
-td.LibruaryLeft {
-    width: 12%;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    text-align: center;
-    padding: 0;
-}
-
-td.LibruaryRight {
-    width: 88%;
-    vertical-align: top;
-    padding: 0;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    height: auto;
-}
-
-img.Cover {
-    width: 250px;
-    border-radius: 6px 6px 0px 0px;
-    border-bottom: 4px solid black;
-    height: 345px;
-}
-
-a.ToRead {
-    width: 40%; 
-}
-
-img.ToRead {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-img.NoRead {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    cursor: default;
-}
-
-img:hover.ToRead {
-    box-shadow: 0 0 15px #00FF00;
-    border-radius: 10px;
-}
-
-h1.BookName {
-    margin-left: 5px;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: white;
-    text-align: justify;
-    font-size: 30px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-p.Libruary {
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    color: white;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-span.BookSection {
-    color: Aqua;
-    text-shadow: 1px 1px 1px black;
-}
-
-/*Страницы main для новелл.*/
-/*=========================================================================================================================*/
-
-body.FST {
-    background: black url('https://dubostorage001.github.io/Resources.fol/47.jpg') no-repeat;
-    background-size: 100%;
-}
-
-body.TS {
-    background: black url('https://dubostorage001.github.io/Resources.fol/51.jpg') no-repeat;
-    background-size: 100%;
-}
-
-body.ABF {
-    background: black url('https://dubostorage001.github.io/Resources.fol/52.jpg') no-repeat;
-    background-size: 100%;
-}
-
-body.PGR {
-    background: black url('https://dubostorage001.github.io/Resources.fol/5.jpeg') no-repeat;
-    background-size: 100%;
-}
-
-body.BSD {
-    background: black url('https://dubostorage001.github.io/Resources.fol/53.jpg') no-repeat;
-    background-size: 100%;
-}
-
-table.Main {
-    width: 100%;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
-}
-
-img.CoverMain {
-    width: 315px;
-    border-radius: 6px 6px 6px 6px;
-    height: 435px;
-    display: block;
-}
-
-details.Main {
-    color: GreenYellow;
-    margin-left: 20px;
-    cursor: pointer;
-    text-align: justify;
-    font-size: 18px;
-        -moz-user-select: none; /* Firefox*/
-      -ms-user-select: none; /* Internet Explorer*/
-   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror)*/
-  -webkit-user-select: none; /* Chrome, Safari, and Opera*/
-  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
-}
-
-summary.Main {
-    outline: 0;
-    padding: 0;
-    text-shadow: 1px 1px 1px black;
-}
-
-ul.Main {
-    margin: 0;
-}
-
 /*Dark Matter Design.*/
 /*=========================================================================================================================*/
 
@@ -675,14 +407,6 @@ div.DarkMatterBookContent {
 
 
 
-div.DarkMatterDownline {
-    width: 100%;
-    background-color: #252b37;
-    height: auto;
-    margin-top: 40px;
-    vertical-align: middle;
-    text-align: center;
-}
 
 
 
@@ -773,10 +497,383 @@ span.DarkMatterLibruaryBook {
     padding-left: auto;
 }
 
-/*Адаптивный дизайн.*/
+/*Хранилище DUBO.*/
+/*=========================================================================================================================*/
+
+body.Storage {
+    background-color: RGB(61, 71, 90);
+    margin: 0;
+}
+
+div.Storage {
+    width: 100%;
+    height: 100%;
+}
+
+div.StorageEmptySpace {
+    height: 40px;
+    width: 100%;
+}
+
+table.Storage {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border: none;
+    padding: 0;
+    border: 4px solid RGB(51, 61, 80);
+}
+
+th.StorageFileLine {
+    padding: 0;
+    height: 40px;
+    background-color: #252b37;
+    border-left: 4px solid RGB(51, 61, 80);
+    border-top: 4px solid RGB(51, 61, 80);
+    border-right: 4px solid RGB(51, 61, 80);
+}
+
+p.StorageFileLine {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    cursor: default;
+}
+
+td.StorageFileLine {
+    width: 100%;
+    border-right: 4px solid RGB(51, 61, 80);
+    padding: 0;
+}
+
+td.StorageFileLineLeft {
+    width: 3%;
+    height: 40px;
+    padding: 0;
+    background-color: #252b37;
+    border-top: 1px solid RGBA(0,0,0,0.2);
+}
+
+img.StorageFileLineLeft {
+    width: 50%;
+    height: auto;
+    padding-left: 15px;
+}
+
+td.StorageFileLineMiddle {
+    width: 70%;
+    height: 40px;
+    padding: 0;
+    background-color: #252b37;
+    border-top: 1px solid RGBA(0,0,0,0.2);
+}
+
+td.StorageFileLineRight {
+    width: 20%;
+    height: 40px;
+    padding: 0;
+    background-color: #252b37;
+    border-top: 1px solid RGBA(0,0,0,0.2);
+    text-align: left;
+}
+
+p.StorageFileLineRight {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 15px;
+    cursor: default;
+}
+
+a.StorageFileLineRight {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover.StorageFileLineRight {
+    color: RGB(260, 163, 16);
+}
+
+span.StorageFileLineRightSize {
+    color: #B22222;
+}
+
+span.StorageFileLineRightTime {
+    color: green;
+}
+
+a.StorageFileLineLeft {
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+a:hover.StorageFileLineLeft {
+    color: RGB(260, 163, 16);
+}
+
+div.StorageDirectory {
+    width: 90%;
+    margin: auto;
+}
+
+table.StorageDirectory {
+    border-collapse: collapse;
+    width: 100%;
+    height: 50px;
+    border: 4px solid RGB(51, 61, 80);
+    background-color: #252b37;
+    margin-bottom: 40px;
+}
+
+td.StorageDirectoryLeft {
+    width: 90%;
+    height: 100%;
+}
+
+td.StorageDirectoryRight {
+    width: 10%;
+    height: 100%;
+    padding: 0;
+    border-left: 4px solid RGB(51, 61, 80);
+    text-align: center;
+}
+
+button.StorageDirectoryRight {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(147, 160, 185);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover.StorageDirectoryRight {
+    color: black;
+    background-color: rgb(197, 210, 235);
+}
+
+button:focus.StorageDirectoryRight {
+    outline: none;
+}
+
+button:active.StorageDirectoryRight {
+    outline: none;
+    background-color: rgb(167, 180, 205);
+    border: 1px solid black;
+}
+
+p.StorageDirectoryLeft {
+    padding: 10px;
+    margin: 0;
+    color: white;
+    font-size: 28px;
+    font-family: "Roboto" inherit;
+    text-decoration: none;
+    cursor: default;
+}
+
+/*Типы ячеек изображений.*/
+
+div.StorageImageBox {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: auto;
+    border-top: 4px solid RGB(51, 61, 80);
+    border-right: 2px solid RGB(51, 61, 80);
+    border-left: 2px solid RGB(51, 61, 80);
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+}
+
+div.StorageImageBoxLeft {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: auto;
+    border-top: 4px solid RGB(51, 61, 80);
+    border-right: 2px solid RGB(51, 61, 80);
+    box-sizing: border-box;
+    float: left;
+}
+
+div.StorageImageBoxRight {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: auto;
+    border-top: 4px solid RGB(51, 61, 80);
+    border-left: 2px solid RGB(51, 61, 80);
+    box-sizing: border-box;
+    float: left;
+}
+
+div.StorageImageBoxEnd {
+    padding: 0;
+    margin: 0;
+    width: calc(10% + 2px);
+    height: auto;
+    border-top: 4px solid RGB(51, 61, 80);
+    border-right: 4px solid RGB(51, 61, 80);
+    border-left: 2px solid RGB(51, 61, 80);
+    box-sizing: border-box;
+    float: left;
+}
+
+div.StorageImageBoxStart {
+    padding: 0;
+    margin: 0;
+    width: calc(10% + 2px);
+    height: auto;
+    border-top: 4px solid RGB(51, 61, 80);
+    border-right: 4px solid RGB(51, 61, 80);
+    box-sizing: border-box;
+    float: left;
+}
+
+/*Изображение и кнопка получения прямой ссылки.*/
+
+div.StorageBoxMagnus {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+div.StorageBoxParvus {
+    width: 100%;
+    border-top: 4px solid RGB(51, 61, 80);
+}
+
+img.StorageImage {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+button.StorageBoxParvus {
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: none;
+    height: 20px;
+    background-color: rgb(147, 160, 185);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover.StorageBoxParvus {
+    background-color: rgb(197, 210, 235);
+    color: black;
+}
+
+button:focus.StorageBoxParvus {
+    outline: none;
+}
+
+button:active.StorageBoxParvus {
+    outline: none;
+    background-color: rgb(167, 180, 205);
+    border: 1px solid black;
+}
+
+/*Адаптивный Dark Matter Design.*/
 /*=========================================================================================================================*/
 
 @media screen {
+    
+    /*Верхняя панель навигации.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterUpline {
+        width: 100%;
+        background-color: #252b37;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+    
+    table.DarkMatterUplineMagnus {
+        width: 60%;
+        margin: auto;
+        height: 60px;
+        border-collapse: collapse;
+    }
+    
+    td.DarkMatterUplineMagnus {
+        padding: 0;
+        width: 20%;
+        
+    }
+    
+    table.DarkMatterUplineParvus {
+        width: 100%;  
+        transition: 0.4s;
+        border-collapse: collapse;
+    }
+    
+    table:hover.DarkMatterUplineParvus {
+        background-color: RGB(61, 71, 90);
+    }
+    
+    td.DarkMatterUplineParvusLeft {
+        width: 30%;
+        height: 60px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+    }
+    
+    td.DarkMatterUplineParvusRight {
+        width: 70%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img.DarkMatterUplineParvus {
+        max-height: 50%;
+        max-width: 50%;
+    }
+    
+    a.DarkMatterUplineParvus {
+        margin: 0;
+        padding: 0;
+        transition: 0.4s;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    
+    a:hover.DarkMatterUplineParvus {
+        color: RGB(260, 163, 16);
+    }
     
     /*Список глав.*/
     /*=========================================================================================================================*/
@@ -983,6 +1080,19 @@ span.DarkMatterLibruaryBook {
         cursor: default;
     }
     
+    /*Нижняя панель страницы.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterDownline {
+        width: 100%;
+        background-color: #252b37;
+        height: auto;
+        margin-top: 40px;
+        vertical-align: middle;
+        text-align: center;
+        
+    }
+
     
 
 div.DarkMatterDescriptionStr {
@@ -1003,51 +1113,7 @@ div.DarkMatterIntro {
     
 
     
-div.DarkMatterUpline {
-    width: 100%;
-    background-color: #252b37;
-    height: 60px;
-    margin-bottom: 40px;
-}
 
-div.DarkMatterUplineMini {
-    width: 60%;
-    margin: auto;
-    vertical-align: middle;
-    height: 100%;
-}
-
-img.DarkMatterUpline {
-    height: 18px;
-    width: auto;
-    display: inline-block;
-}
-
-p.DarkMatterUpline {
-    font-size: 24px;
-    font-family: "Roboto" inherit;
-    margin: 18px 0 18px 10px;
-    display: inline-block;
-}
-    
-a.DarkMatterUpline {
-    height: 100%;
-    width: 20%;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    transition: 0.5s;
-    background-color: #252b37;
-    cursor: pointer;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover.DarkMatterUpline {
-    background-color: RGB(61, 71, 90);
-    color: RGB(260, 163, 16);
-}
         
 div.DarkMatterBook {
     width: 60%;
@@ -1220,6 +1286,74 @@ p.DarkMatterDownline {
 
 /*===========================================================================================================================*/
 @media only screen and (max-device-width: 480px) {
+    
+    /*Верхняя панель навигации.*/
+    /*=========================================================================================================================*/
+    
+    div.DarkMatterUpline {
+        width: 100%;
+        background-color: #252b37;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+    
+    table.DarkMatterUplineMagnus {
+        width: 100%;
+        margin: auto;
+        height: 60px;
+        border-collapse: collapse;
+    }
+    
+    td.DarkMatterUplineMagnus {
+        padding: 0;
+        width: 20%;
+        
+    }
+    
+    table.DarkMatterUplineParvus {
+        width: 100%;  
+        transition: 0.4s;
+        border-collapse: collapse;
+    }
+    
+    table:hover.DarkMatterUplineParvus {
+        background-color: RGB(61, 71, 90);
+    }
+    
+    td.DarkMatterUplineParvusLeft {
+        width: 30%;
+        height: 60px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+    }
+    
+    td.DarkMatterUplineParvusRight {
+        width: 70%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img.DarkMatterUplineParvus {
+        max-height: 50%;
+        max-width: 50%;
+    }
+    
+    a.DarkMatterUplineParvus {
+        margin: 0;
+        padding: 0;
+        transition: 0.4s;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    
+    a:hover.DarkMatterUplineParvus {
+        color: RGB(260, 163, 16);
+    }
     
     /*Список глав.*/
     /*=========================================================================================================================*/

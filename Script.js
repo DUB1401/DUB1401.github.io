@@ -1,11 +1,14 @@
-/*Автослайдинг новостей.*/
-/*=========================================================================================================================*/
+/*Копирование аргумента в буфер обмена.*/
+function TextCopy(URLtext) {
+        var copytext = document.createElement('input')
+        copytext.value = URLtext
+        document.body.appendChild(copytext)
+        copytext.select()
+        document.execCommand('copy')
+        document.body.removeChild(copytext)
+    }
 
-var slides = document.querySelectorAll('#Slides .Slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,10000);
-function nextSlide() {
-    slides[currentSlide].className = 'Slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'Slide Showing';
+/*Загружает текст в Footer сайта.*/
+function DownlineUpdate() {
+    document.getElementById("Downline").innerHTML="Copyright 2017-2019. Все права защищены. Created by DUBO ProjectX & Powered by GitHub Pages.";
 }
