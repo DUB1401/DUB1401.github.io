@@ -1108,6 +1108,74 @@ button:active.StorageBoxParvus {
         cursor: default;
     }
     
+    /*Читалка.*/
+    /*=========================================================================================================================*/
+    
+    table.ButtonReader {
+        width: 100%;
+    }
+
+    a.ButtonReader {
+        display: inline-block;
+        background: #252b37;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        border-radius: 5px;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    a.ButtonReader:hover {
+        background: #f0a310;
+    }
+
+    a.ButtonReader:active {
+        background: white;
+    }
+
+    span.ButtonReaderMain {
+        font-size: 24px;
+        color: white;
+        margin-left: 15px;
+    }
+
+    span.ButtonReaderNavigate {
+        font-size: 24px;
+        color: white;
+        margin: 0;
+    }
+
+    img.ButtonReader {
+        height: auto;
+        max-width: 20px;
+        margin-left: 0;
+    }
+
+    div.ReaderPoem {
+        width: 50%;
+        margin: auto;
+        text-indent: 26px;
+        text-align: justify;
+        color: white;
+        font-size: 17px;
+        font-family: "Georgia";
+    }
+
+    div.Reader {
+        width: 50%;
+        margin: auto;
+        text-indent: 3%;
+        text-align: justify;
+        color: white;
+        font-size: 17px;
+        font-family: "Georgia";
+    }
+    
     /*Нижняя панель страницы.*/
     /*=========================================================================================================================*/
     
@@ -1122,193 +1190,128 @@ button:active.StorageBoxParvus {
     }
 
     
+    div.DarkMatterDescriptionStr {
+        width: 100%;
+        vertical-align: top;
+        display: inline-block;
+    }
 
-div.DarkMatterDescriptionStr {
-    width: 100%;
-    vertical-align: top;
-    display: inline-block;
-}
+    hr.DarkMatterDescription {
+        border: 0.5px solid RGBA(0, 0, 0, 0.2);
+    }
 
-hr.DarkMatterDescription {
-    border: 0.5px solid RGBA(0, 0, 0, 0.2);
-}
+    div.DarkMatterIntro {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
 
-div.DarkMatterIntro {
-    width: 100%;
-    height: auto;
-    overflow:auto;
-}
-    
+    div.DarkMatterBook {
+        width: 60%;
+        margin: auto;
+        height: auto;
+    }
 
-    
+    div.DarkMatterLibruary {
+        width: 60%;
+        margin: auto;
+    }
 
-        
-div.DarkMatterBook {
-    width: 60%;
-    margin: auto;
-    height: auto;
-}
-    
-div.DarkMatterLibruary {
-    width: 60%;
-    margin: auto;
-}
+    body.Reader {
+        background-color: #323B4A;
+        -moz-user-select: none;
+        /* Firefox*/
+        -ms-user-select: none;
+        /* Internet Explorer*/
+        -khtml-user-select: none;
+        /* KHTML browsers (e.g. Konqueror)*/
+        -webkit-user-select: none;
+        /* Chrome, Safari, and Opera*/
+        -webkit-touch-callout: none;
+        /* Disable Android and iOS callouts*/
+    }
 
-body.Reader {
-    background-color: #323B4A;
-    -moz-user-select: none; /* Firefox*/
-      -ms-user-select: none; /* Internet Explorer*/
-   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror)*/
-  -webkit-user-select: none; /* Chrome, Safari, and Opera*/
-  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
-}
+    div.Main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
 
-table.ButtonReader {
-    width: 100%;
-}
-    
-a.ButtonReader {
-  display: inline-block;
-  background: #252b37;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  outline: none;
-  border-radius: 5px;
-  transition: 0.2s;
-  width: 100%;
-} 
+    h1.Main {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Georgia";
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
 
-a.ButtonReader:hover { 
-    background: #f0a310;
-}
+    h2.Main {
+        color: white;
+        font-size: 26px;
+        text-align: left;
+        font-family: "Roboto"inherit;
+        margin-bottom: 0px;
+        margin-top: 10px
+    }
 
-a.ButtonReader:active {
-  background: white;
-}
+    h3.Main {
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        font-family: "Roboto"inherit;
+        margin-bottom: 0px;
+        margin-top: 10px
+    }
 
-span.ButtonReaderMain {
-    font-size: 24px;
-    color: white;
-    margin-left: 15px;
-}
+    hr.Main {
+        border: 0.5px solid RGBA(0, 0, 0, 0.2);
+    }
 
-span.ButtonReaderNavigate {
-    font-size: 24px;
-    color: white;
-    margin: 0;
-}
+    img.Reader25 {
+        width: 25%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 
-img.ButtonReader {
-    height: auto;
-    max-width: 20px;
-    margin-left: 0;
-}
-    
-div.ReaderPoem {
-    width: 50%;
-    margin: auto;
-    text-indent: 26px;
-    text-align: justify;
-    color: white;
-    font-size: 17px;
-    font-family: "Georgia";
-}
+    img.Reader50 {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 
-div.Reader {
-    width: 50%;
-    margin: auto;
-    text-indent: 26px;
-    text-align: justify;
-    color: white;
-    font-size: 17px;
-    font-family: "Georgia";
-}
-    
-div.Main {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
+    img.Reader75 {
+        width: 75%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 
-h1.Main {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-family: "Georgia";
-    margin-bottom: 20px;
-    margin-top: 0;
-}
+    h4.Reader {
+        text-indent: 3%;
+        text-align: justify;
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-family: "Times New Roman";
+        margin: 0;
+    }
 
-h2.Main {
-    color: white;
-    font-size: 26px;
-    text-align: left;
-    font-family: "Roboto" inherit;
-    margin-bottom: 0px;
-    margin-top: 10px
-}
-
-h3.Main {
-    color: white;
-    font-size: 20px;
-    text-align: left;
-    font-family: "Roboto" inherit;
-    margin-bottom: 0px;
-    margin-top: 10px
-}
-
-hr.Main {
-    border: 0.5px solid RGBA(0, 0, 0, 0.2);
-}
-    
-img.Reader25 {
-    width: 25%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-img.Reader50 {
-    width: 50%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-img.Reader75 {
-    width: 75%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-h4.Reader {
-    text-indent: 26px;
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    font-style: normal;
-    font-family: "Times New Roman";
-    margin: 0;
-}
-    
-p.DarkMatterDownline {
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    font-size: 20px;
-    overflow: hidden;
-    cursor: default;
-}
+    p.DarkMatterDownline {
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+        font-size: 20px;
+        overflow: hidden;
+        cursor: default;
+    }
     
 }
 
@@ -1674,6 +1677,10 @@ p.DarkMatterDownline {
         vertical-align: middle;
         display: inline-block;
     }
+    
+    p.DarkMatterBookTextBox {
+        text-indent: 7%;
+    }
 
     p.DarkMatterBookTextBoxUpline {
         font-size: 40px;
@@ -1716,6 +1723,175 @@ p.DarkMatterDownline {
         overflow: auto;
     }
     
+    /*Читалка.*/
+    /*=========================================================================================================================*/
+    
+    body.Reader {
+        background-color: #323B4A;
+        -moz-user-select: none;
+        /* Firefox*/
+        -ms-user-select: none;
+        /* Internet Explorer*/
+        -khtml-user-select: none;
+        /* KHTML browsers (e.g. Konqueror)*/
+        -webkit-user-select: none;
+        /* Chrome, Safari, and Opera*/
+        -webkit-touch-callout: none;
+        /* Disable Android and iOS callouts*/
+        width: 100%;
+        margin: 0;
+    }
+
+    table.ButtonReader {
+        width: 100%;
+    }
+    
+    /*Кнопки навигации.*/
+    
+    div.Main {
+        padding-top: 20px;
+        padding-bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    a.ButtonReader {
+        display: inline-block;
+        background: #252b37;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        outline: none;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    a.ButtonReader:hover {
+        background: #f0a310;
+    }
+
+    a.ButtonReader:active {
+        background: white;
+    }
+
+    span.ButtonReaderMain {
+        font-size: 40px;
+        color: white;
+        margin-left: 15px;
+    }
+
+    span.ButtonReaderNavigate {
+        font-size: 40px;
+        color: white;
+        margin: 0;
+    }
+
+    img.ButtonReader {
+        height: auto;
+        max-width: 30px;
+        margin-left: 0;
+    }
+    
+    /*Контейнеры текста.*/
+    
+    div.Reader {
+        margin: auto;
+        width: 95%;
+        text-align: justify;
+        color: white;
+        padding: 0;
+        font-size: 24px;
+        font-family: "Roboto";
+        line-height: 300%;
+        text-indent: 10%;
+        word-break: break-word;
+    }
+
+    div.ReaderPoem {
+        width: 95%;
+        margin: auto;
+        text-align: justify;
+        text-indent: 0;
+        color: white;
+        font-size: 14px;
+        font-family: "Georgia";
+    }
+    
+    /*Размеры иллюстраций.*/
+    
+    img.Reader25 {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    img.Reader50 {
+        width: 75%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    img.Reader75 {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    /*Жирные подзаголовки новеллы.*/
+
+    h4.Reader {
+        text-indent: 26px;
+        text-align: justify;
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-family: "Times New Roman";
+        margin: 0;
+    }
+    
+    /*Информация о главе.*/
+    
+    h1.Main {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Georgia";
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    h2.Main {
+        color: white;
+        font-size: 34px;
+        text-align: left;
+        font-family: "Roboto" inherit;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        text-indent: 30px;
+    }
+
+    h3.Main {
+        color: white;
+        font-size: 40px;
+        text-align: left;
+        font-family: "Roboto" inherit;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-indent: 30px;
+    }
+
+    hr.Main {
+        border: 0.5px solid RGBA(0, 0, 0, 0.2);
+    }
     
     
 div.DarkMatterUpline {
@@ -1774,151 +1950,7 @@ div.DarkMatterLibruary {
     width: 100%;
     margin: auto;
 }
-    
-body.Reader {
-    background-color: #323B4A;
-    -moz-user-select: none; /* Firefox*/
-      -ms-user-select: none; /* Internet Explorer*/
-   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror)*/
-  -webkit-user-select: none; /* Chrome, Safari, and Opera*/
-  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
-}
-    
-table.ButtonReader {
-    width: 100%;
-}
-    
-a.ButtonReader {
-  display: inline-block;
-  background: #252b37;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  outline: none;
-  
-  transition: 0.2s;
-  width: 100%;
-} 
 
-a.ButtonReader:hover { 
-    background: #f0a310;
-}
-
-a.ButtonReader:active {
-    background: white;
-}
-
-span.ButtonReaderMain {
-    font-size: 40px;
-    color: white;
-    margin-left: 15px;
-}
-
-span.ButtonReaderNavigate {
-    font-size: 40px;
-    color: white;
-    margin: 0;
-}
-
-img.ButtonReader {
-    height: auto;
-    max-width: 30px;
-    margin-left: 0;
-}
-
-div.Reader {
-    width: 100%;
-    text-indent: 10%;
-    text-align: justify;
-    color: white;
-    font-size: 17px;
-    font-family: "Georgia";
-}
-    
-div.ReaderPoem {
-    width: 95%;
-    margin: auto;
-    text-align: justify;
-    text-indent: 0;
-    color: white;
-    font-size: 14px;
-    font-family: "Georgia";
-}
-
-div.Main {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-h1.Main {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-family: "Georgia";
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-
-h2.Main {
-    color: white;
-    font-size: 26px;
-    text-align: left;
-    font-family: "Roboto" inherit;
-    margin-bottom: 0px;
-    margin-top: 10px
-}
-
-h3.Main {
-    color: white;
-    font-size: 20px;
-    text-align: left;
-    font-family: "Roboto" inherit;
-    margin-bottom: 0px;
-    margin-top: 10px
-}
-
-hr.Main {
-    border: 0.5px solid RGBA(0, 0, 0, 0.2);
-}
-    
-img.Reader25 {
-    width: 50%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-img.Reader50 {
-    width: 75%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-img.Reader75 {
-    width: %;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-h4.Reader {
-    text-indent: 26px;
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    font-style: normal;
-    font-family: "Times New Roman";
-    margin: 0;
-}
     
 p.DarkMatterDownline {
     display: inline-block;
