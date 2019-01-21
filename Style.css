@@ -744,6 +744,47 @@ button:active.StorageBoxParvus {
 
 @media screen {
     
+    /*Страница ошибки.*/
+    /*=========================================================================================================================*/
+    div.ErrorWindow {
+        width: 30%;
+        margin: auto;
+        margin-top: 200px;
+    }
+    
+    img.ErrorWindow {
+        width: 20%;
+        float: left;
+        padding-right: 3%;
+        
+    }
+    
+    p.ErrorWindow {
+        font-size: 18px;
+        text-align: justify;
+        font-family: "Times New Roman";
+    }
+    
+    h1.ErrorWindow {
+        padding: 0;
+        margin: 0;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    a.ErrorWindow {
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        color: blue;
+        font-size: 18px;
+    }
+    
+    a:hover.ErrorWindow {
+        color: green;
+    }
+    
     /*Страница библиотеки.*/
     /*=========================================================================================================================*/
     table.DarkMatterLibruaryLine {
@@ -1317,6 +1358,48 @@ button:active.StorageBoxParvus {
 
 /*===========================================================================================================================*/
 @media only screen and (max-device-width: 480px) {
+    
+    /*Страница ошибки.*/
+    /*=========================================================================================================================*/
+    div.ErrorWindow {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    img.ErrorWindow {
+        width: 20%;
+        float: left;
+        padding-right: 3%;
+        
+    }
+    
+    p.ErrorWindow {
+        font-size: 18px;
+        text-align: justify;
+        font-family: "Times New Roman";
+    }
+    
+    h1.ErrorWindow {
+        padding: 0;
+        margin: 0;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    a.ErrorWindow {
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        color: blue;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    
+    a:hover.ErrorWindow {
+        color: green;
+    }
     
     /*Страница библиотеки.*/
     /*=========================================================================================================================*/
