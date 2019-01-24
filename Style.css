@@ -1,173 +1,179 @@
 ﻿/*CSS: таблица стилей DUBO. Версия: 0.0.1*/
 /*=========================================================================================================================*/
 
-body.System {
-    background: black url("https://dubostorage001.github.io/Resources.fol/32.jpg") no-repeat;
-    background-size: 100%;
-}
-
-table.System {
+div.DarkMatterContent {
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
-p.System {
-    margin: 0px;
-    margin: 0px;
+:root {
+    --color-light-dark: RGB(48, 58, 76);
+    --color-dark: #252b37;
+    --color-top-dark: #11141a;
+    --color-orange: RGB(260, 163, 16);
+    --color-grey: RGB(117, 130, 155);
+}
+
+/*=========================================================================================================================*/
+
+div.DarkMatterPersons {
+    width: 100%;
+    background-color: var(--color-light-dark);
+}
+
+div.Person {
+    border-bottom: 2px solid var(--color-dark);
+    width: 100%;
+    margin-top: -1px;
+}
+
+div.PersonTitle {
+    text-align: center;
+    vertical-align: middle;
     color: white;
-    text-align: justify;
-    font-size: 18px;
+    font-size: 36px;
+    background-color: var(--color-top-dark);
     cursor: default;
 }
 
-div.Contanier {
-    overflow: hidden;
+table.Person {
+    width: 100%;
+    padding: 0;
+    transition: 0.4s;
 }
 
-div.ContainerLeft {
+td.PersonPicture {
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    
+}
+
+td.PersonDataLeft {
+    padding: 0;
+    padding-left: 10px;
+    height: 200px;
+    width: calc(100% - 200px);
+    vertical-align: top;
+    background: linear-gradient(to right, var(--color-dark), var(--color-light-dark));
+}
+
+td.PersonDataRight {
+    
+    padding: 0;
+    padding-left: 10px;
+    height: 200px;
+    width: calc(100% - 200px);
+    vertical-align: top;
+    background: linear-gradient(to left, var(--color-dark), var(--color-light-dark));
+}
+
+img.PersonPictureLeft {
+    height: 80%;
     width: 80%;
-    display:inline-block;
-    vertical-align: top;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+    border-radius: 50%;
 }
 
-div.ContainerRight {
-    width: 18.9%;
-    display:inline-block;
-    margin-left: 10px;
-    vertical-align: top;
-}
-
-div.Left {
+img:hover.PersonPictureLeft {
+    height: 100%;
     width: 100%;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
+    border-radius: 0 10% 10% 0;
 }
 
-div.Right {
+img.PersonPictureRight {
+    height: 80%;
+    width: 80%;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+    border-radius: 50%;
+}
+
+img:hover.PersonPictureRight {
+    height: 100%;
     width: 100%;
-    vertical-align: text-top;
-    padding: 0;
-    vertical-align: top;
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 8px;
+    border-radius: 10% 0 0 10%;
 }
 
-a.System {
-    text-decoration: underline;
+h1.PersonData {
     margin: 0;
+    padding: 0;
+    padding-top: 10px;
     color: white;
-    text-align: justify;
-    font-size: 18px;
+    font-family: "Verdana";
+    font-size: 28px;
+    cursor: default;
 }
 
-a:hover.System {
-    color: aqua;
-    text-decoration: underline;
-}
-
-a.SystemDownload {
-    text-decoration: underline;
+p.PersonData {
+    font-family: "Verdana";
+    color: white;
     margin: 0;
-    color: Magenta;
-    text-align: justify;
-    font-size: 18px;
-}
-
-a:hover.SystemDownload {
-    color: Green;
-    text-decoration: underline;
-}
-
-/*Заголовок сайта.
-/*=========================================================================================================================*/
-
-td.Logo {
-    height: 50px;
-    width: 50px;
-    padding: 0;
-    margin: 0;
-}
-
-h1.Logo {
-    font-size: 40px;
-    color: aqua;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 10px;
     padding: 0;
     cursor: default;
-    font-family: "SlantCYRILLIC";
-    letter-spacing: 3px;
-    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
-
+    
 }
 
-tr.UpLine {
-    margin: 0;
-    padding: 0;
+span.PersonAtWork {
+    color: green;
+    padding-left: 10px;
+    font-size: 32px;
+    text-shadow: 0px 0px 1px, 0 0 10px green;
 }
 
-img.Logo {
-    max-height: 100%;
-    max-width: 100%;
-    margin-left: 10px;
+span.PersonAtPause {
+    color: orange;
+    padding-left: 10px;
+    font-size: 32px;
+    text-shadow: 0px 0px 1px, 0 0 10px orange;
 }
 
-td.LogoEmpty {
-    width: 10px;
-    padding: 0;
+span.PersonAtOut {
+    color: red;
+    padding-left: 10px;
+    font-size: 32px;
+    text-shadow: 0px 0px 1px, 0 0 10px red;
 }
 
-td.LogoRight {
-    padding: 0;
+
+
+div.LogoContainer {
+    width: 100%;
+    margin-top: -40px;
 }
 
-/*Слайдер новостей.*/
+img.LogoContainer {
+    display: block;
+    width: 100%;
+}
+
+/*Dark Matter Design.*/
 /*=========================================================================================================================*/
 
-#Slides {
-    position: relative;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+body.DarkMatter {
+    margin: 0;
+    background-color: RGB(61, 71, 90);
 }
 
-.Slide {
-    position: absolute;
-    box-sizing: border-box;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: 1;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+p.DarkMatterBookTextBox {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Roboto" inherit;
+    cursor: default;
 }
 
-.Showing {
-    opacity: 1;
-    z-index: 2;
-}
-
-img.SlideImage {
-    border-radius: 6px;
-    height: 100%;
+div.DarkMatterBookContent {
     width: 100%;
 }
 
-
+/*Слайдер обложек.*/
 
 #DarkMatterCoverSlides {
     position: relative;
@@ -194,244 +200,6 @@ img.SlideImage {
 .DarkMatterCoverShowing {
     opacity: 1;
     z-index: 2;
-}
-
-/*Лампа фантазии.
-/*=========================================================================================================================*/
-
-#FantasyCat {
-    margin-left: 10px;
-    margin-top: 10px;
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 0 15px white;
-    border-radius: 100px;
-    border: 1px solid white;
-}
-
-.FantasyLeft {
-    width: 10%;
-    height: 150px;
-    text-align: center;
-}
-
-.FantasyRight {
-    text-align: justify;
-    vertical-align: top;
-    width: 85%;
-    height: auto;
-}
-
-a.Fantasy {
-    text-decoration: underline;
-    margin-left: 15px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    color: white;
-    text-align: justify;
-    font-size: 18px;
-}
-
-a:hover.Fantasy {
-    color: aqua;
-    text-decoration: underline;
-}
-
-p.Fantasy {
-    margin-left: 15px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    color: white;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-}
-
-/*Навигация.*/
-/*=========================================================================================================================*/
-
-div.Superior {
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    width: 20%;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    text-align: center;
-    margin-left: 40%;
-}
-
-a.Superior {
-    color: white;
-    text-align: justify;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-a:hover.Superior {
-    color: lawngreen;
-    text-align: justify;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-/*Новости проекта и кнопки навигации.
-/*=========================================================================================================================*/
-
-h1.News {
-    margin-left: 5px;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: white;
-    text-align: justify;
-    font-size: 24px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-p.News {
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    color: white;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-}
-
-span.News {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-right: 10px;
-    color: lawngreen;
-    text-align: justify;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: default;
-}
-
-h1.Right {
-    margin: 0px;
-    color: white;
-    text-align: justify;
-    font-size: 24px;
-    cursor: default;
-    text-align: center;
-}
-
-img:hover.Buttons {
-    box-shadow: 0 0 15px #00FF00;
-}
-
-img.Buttons {
-    max-height: 95%;
-    max-width: 95%;
-    border-radius: 10px;
-    box-shadow: 0 0 15px white;
-    margin-left: 8px;
-    margin-top: 4px;
-}
-
-/*Статусы проектов.
-/*=========================================================================================================================*/
-
-h1.Opplay {
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 10px;
-    color: white;
-    text-align: justify;
-    font-size: 24px;
-    cursor: default;
-}
-
-ul.Opplay {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 0;
-    list-style-type: none;
-}
-
-li.Work {
-    margin: 0;
-    padding: 0;
-    color: lawngreen;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-li.Pause {
-    margin: 0px;
-    margin: 0px;
-    color: yellow;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-li.Dropped {
-    margin: 0px;
-    margin: 0px;
-    color: red;
-    text-align: justify;
-    font-size: 18px;
-    cursor: default;
-    text-shadow: 1px 1px 1px black;
-}
-
-/*Нижняя черта копирайта.
-/*=========================================================================================================================*/
-
-table.Inferior {
-    background-color: RGBA(128, 128, 128, 0.5);
-    border: 4px solid black;
-    width: 100%;
-    border-radius: 10px;
-}
-
-tb.Inferior {
-    padding: 0;
-    margin: 0;
-    height: auto;
-}
-
-p.Inferior {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    cursor: default;
-    margin: 0;
-}
-
-/*Dark Matter Design.*/
-/*=========================================================================================================================*/
-
-body.DarkMatter {
-    margin: 0;
-    background-color: RGB(61, 71, 90);
-}
-
-p.DarkMatterBookTextBox {
-    font-size: 18px;
-    color: white;
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-family: "Roboto" inherit;
-    cursor: default;
-}
-
-div.DarkMatterBookContent {
-    width: 100%;
 }
 
 /*Хранилище DUBO.*/
@@ -785,6 +553,116 @@ button:active.StorageBoxParvus {
         color: green;
     }
     
+    /*=========================================================================================================================*/
+    /*Главная страница.*/
+    
+    div.DarkMatterRelises {
+        width: 60%;
+        margin-top: 40px;
+        margin: auto;
+        background-color: var(--color-light-dark);
+    }
+
+    table.DarkMatterRelises {
+        width: 100%;
+        height: 64px;
+        table-layout: fixed;
+        box-sizing: border-box;
+        border-left: 2px solid var(--color-dark);
+        border-right: 2px solid var(--color-dark);
+    }
+    
+    div.DarkMatterRelisesHead {
+        width: 100%;
+        height: 64px;
+        display: table;
+        background-color: var(--color-dark);
+        text-align: left;
+    }
+    
+    p.DarkMatterRelisesHead {
+        padding-left: 15px;
+        font-size: 36px;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: "Times New Roman";
+    }
+
+    td.DarkMatterRelisesCover {
+        width: 48px;
+        padding: 0;
+        height: 64px;
+        border-bottom: 2px solid var(--color-dark);
+        border-right: 1px solid var(--color-dark);
+        box-sizing: border-box;
+    }
+
+    td.DarkMatterRelisesName {
+        width: calc(77% - 48px);
+        padding: 0;
+        border-bottom: 2px solid var(--color-dark);
+    }
+
+    h1.DarkMatterRelisesName {
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    p.DarkMatterRelisesName {
+        color: white;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    span.DarkMatterRelisesName {
+        padding-left: 20px;
+        color: green;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+
+    td.DarkMatterRelisesRead {
+        width: 13%;
+        height: 100%;
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+        border-bottom: 2px solid var(--color-dark);
+    }
+
+    a.DarkMatterRelisesRead {
+        width: calc(100% - 10px);
+        border: none;
+        height: 48px;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: var(--color-grey);
+        border-radius: 10px;
+        transition: 0.4s;
+        cursor: pointer;
+        padding: 10px;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    a:hover.DarkMatterRelisesRead {
+        background-color: var(--color-orange);
+    }
+
+    img.DarkMatterRelisesCover {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    
     /*Страница библиотеки.*/
     /*=========================================================================================================================*/
     table.DarkMatterLibruaryLine {
@@ -935,6 +813,7 @@ button:active.StorageBoxParvus {
         color: white;
         text-decoration: none;
         font-size: 24px;
+        outline: none;
     }
     
     a:hover.DarkMatterUplineParvus {
@@ -1217,6 +1096,19 @@ button:active.StorageBoxParvus {
         font-family: "Georgia";
     }
     
+    div.DarkBackground {
+        background-color: RGB(37, 43, 55);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    
+    p.Italic {
+        font-style: italic;
+    }
+    
     /*Нижняя панель страницы.*/
     /*=========================================================================================================================*/
     
@@ -1227,10 +1119,19 @@ button:active.StorageBoxParvus {
         margin-top: 40px;
         vertical-align: middle;
         text-align: center;
-        
     }
-
     
+    p.DarkMatterDownline {
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+        font-size: 20px;
+        overflow: hidden;
+        cursor: default;
+    }
+    
+    
+
     div.DarkMatterDescriptionStr {
         width: 100%;
         vertical-align: top;
@@ -1345,22 +1246,126 @@ button:active.StorageBoxParvus {
         margin: 0;
     }
 
-    p.DarkMatterDownline {
-        display: inline-block;
-        vertical-align: middle;
-        color: white;
-        font-size: 20px;
-        overflow: hidden;
-        cursor: default;
-    }
+    
     
 }
 
 /*===========================================================================================================================*/
 @media only screen and (max-device-width: 480px) {
     
+    /*=========================================================================================================================*/
+    /*Главная страница.*/
+    
+    div.DarkMatterRelises {
+        width: calc(100% - 2px);
+        margin-top: 40px;
+        margin: auto;
+        background-color: var(--color-light-dark);
+    }
+
+    table.DarkMatterRelises {
+        width: 100%;
+        height: 64px;
+        table-layout: fixed;
+        box-sizing: border-box;
+        border-left: 2px solid var(--color-dark);
+        border-right: 2px solid var(--color-dark);
+    }
+    
+    div.DarkMatterRelisesHead {
+        width: 100%;
+        height: 64px;
+        display: table;
+        background-color: var(--color-dark);
+        text-align: left;
+    }
+    
+    p.DarkMatterRelisesHead {
+        padding-left: 15px;
+        font-size: 36px;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: "Times New Roman";
+    }
+
+    td.DarkMatterRelisesCover {
+        width: 48px;
+        padding: 0;
+        height: 64px;
+        border-bottom: 2px solid var(--color-dark);
+        border-right: 1px solid var(--color-dark);
+        box-sizing: border-box;
+    }
+
+    td.DarkMatterRelisesName {
+        width: calc(77% - 48px);
+        padding: 0;
+        border-bottom: 2px solid var(--color-dark);
+    }
+
+    h1.DarkMatterRelisesName {
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    p.DarkMatterRelisesName {
+        color: white;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    span.DarkMatterRelisesName {
+        padding-left: 20px;
+        color: green;
+        vertical-align: middle;
+        font-size: 18px;
+    }
+
+    td.DarkMatterRelisesRead {
+        width: 13%;
+        height: 100%;
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+        border-bottom: 2px solid var(--color-dark);
+    }
+
+    a.DarkMatterRelisesRead {
+        width: calc(100% - 10px);
+        border: none;
+        height: 48px;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: var(--color-grey);
+        border-radius: 10px;
+        transition: 0.4s;
+        cursor: pointer;
+        padding: 10px;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    a:hover.DarkMatterRelisesRead {
+        background-color: var(--color-orange);
+    }
+
+    img.DarkMatterRelisesCover {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    
     /*Страница ошибки.*/
     /*=========================================================================================================================*/
+    
     div.ErrorWindow {
         width: 100%;
         margin: auto;
@@ -1575,11 +1580,11 @@ button:active.StorageBoxParvus {
         color: white;
         padding: 5px 0 5px 15px;
         font-size: 24px;
-        -moz-user-select: none; /*Firefox.*/
-        -ms-user-select: none; /*Internet Explorer.*/
-        -khtml-user-select: none; /*KHTML browsers (e.g. Konqueror).*/
-        -webkit-user-select: none; /*Chrome, Safari, and Opera.*/
-        -webkit-touch-callout: none; /*Disable Android and iOS callouts.*/
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
         transition: 0.5s;
     }
 
@@ -1954,22 +1959,22 @@ button:active.StorageBoxParvus {
 
     h2.Main {
         color: white;
-        font-size: 34px;
+        font-size: 30px;
         text-align: left;
         font-family: "Roboto" inherit;
         margin-bottom: 0px;
         margin-top: 10px;
-        text-indent: 30px;
+        padding-left: 30px;
     }
 
     h3.Main {
         color: white;
-        font-size: 40px;
+        font-size: 36px;
         text-align: left;
         font-family: "Roboto" inherit;
         margin-bottom: 0px;
         margin-top: 0px;
-        text-indent: 30px;
+        padding-left: 30px;
     }
 
     hr.Main {
