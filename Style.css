@@ -1099,12 +1099,13 @@ button:active.StorageBoxParvus {
 
     div.Reader {
         width: 50%;
+        line-height: 25px;
         margin: auto;
         text-indent: 3%;
         text-align: justify;
         color: white;
         font-size: 17px;
-        font-family: "Georgia";
+        font-family: 'Roboto', sans-serif;
     }
     
     div.DarkBackground {
@@ -2327,10 +2328,7 @@ p.DarkMatterDownline {
 /*Загрузка шрифтов.*/
 /*=========================================================================================================================*/
 
-@font-face {
-    font-family: 'Roboto';
-    src: url(https://dubostorage001.github.io/FILES.fol/Roboto-Black.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 @font-face {
     font-family: "SlantCYRILLIC"; 
