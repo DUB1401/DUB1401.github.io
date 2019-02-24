@@ -1120,6 +1120,10 @@ button:active.StorageBoxParvus {
     p.Italic {
         font-style: italic;
     }
+
+    span.Italic {
+        font-style: italic;
+    }
     
     /*Нижняя панель страницы.*/
     /*=========================================================================================================================*/
@@ -1141,8 +1145,6 @@ button:active.StorageBoxParvus {
         overflow: hidden;
         cursor: default;
     }
-    
-    
 
     div.DarkMatterDescriptionStr {
         width: 100%;
