@@ -10,7 +10,7 @@ function TextCopy(URLtext) {
 
 /*Загружает текст в Footer сайта.*/
 function DownlineUpdate() {
-    document.getElementById("Downline").innerHTML="Copyright 2017-2019. Все права защищены. Created by DUBO ProjectX & Powered by GitHub Pages.";
+    document.getElementById("Downline").innerHTML="Copyright © 2017-2019. Created by Evolv Group & Powered by GitHub Pages.";
 }
 
 /**/
