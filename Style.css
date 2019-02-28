@@ -1008,6 +1008,16 @@ button:active.StorageBoxParvus {
         margin-bottom: 5px;
         cursor: default;
     }
+
+    a.DarkMatterDescription {
+        color: rgb(167, 164, 164);
+        transition: 0.4s;
+        text-decoration: none;
+    }
+
+    a:hover.DarkMatterDescription {
+        color: RGB(255, 163, 16);
+    }
     
     table.DarkMatterDescription{
         width: 100%;
