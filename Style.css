@@ -562,6 +562,53 @@ button:active.StorageBoxParvus {
     a:hover.ErrorWindow {
         color: green;
     }
+
+    /*Страница отложенной публикации.*/
+    /*=========================================================================================================================*/
+
+    button.DelayedPublication {
+        width: 100%;
+        color: white;
+        font-size: 32px;
+        background-color: #252b37;
+        text-decoration: none;
+        transition: 0.4s;
+        border: none;
+        border-radius: 5px;
+        font-style: "Roboto";
+        width: 40%;
+        margin: auto;
+        display: block;
+        outline: none;
+    }
+
+    button:hover.DelayedPublication {
+        background-color: RGB(260, 163, 16);
+        cursor: pointer;
+        outline: none;
+    }
+
+    button:active.DelayedPublication {
+        outline: none;
+        background-color: RGB(220, 113, 0);
+    }
+
+    div.DelayedPublication {
+        width: 40%;
+        margin: auto;
+        outline: none;
+        line-height: 25px;
+        margin: auto;
+        text-indent: 3%;
+        text-align: justify;
+        color: white;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 40px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
     
     /*=========================================================================================================================*/
     /*Главная страница.*/
@@ -1428,6 +1475,53 @@ button:active.StorageBoxParvus {
     
     a:hover.ErrorWindow {
         color: green;
+    }
+
+    /*Страница отложенной публикации.*/
+    /*=========================================================================================================================*/
+
+    button.DelayedPublication {
+        width: 60%;
+        height: 40px;
+        color: white;
+        font-size: 32px;
+        background-color: #252b37;
+        text-decoration: none;
+        transition: 0.4s;
+        border: none;
+        border-radius: 5px;
+        font-style: "Roboto";
+        margin: auto;
+        display: block;
+        outline: none;
+        margin-top: 40px;
+    }
+
+    button:hover.DelayedPublication {
+        background-color: RGB(260, 163, 16);
+        cursor: pointer;
+        outline: none;
+    }
+
+    button:active.DelayedPublication {
+        outline: none;
+        background-color: RGB(220, 113, 0);
+    }
+
+    div.DelayedPublication {
+        width: 90%;
+        margin: auto;
+        outline: none;
+        line-height: 150%;
+        margin: auto;
+        text-indent: 3%;
+        text-align: justify;
+        color: white;
+        font-size: 24px;
+        margin-top: 40px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
     }
     
     /*Страница библиотеки.*/
