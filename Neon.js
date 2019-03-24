@@ -1,6 +1,12 @@
 //Начальный стиль бокового меню.
 var MenuMode;
 
+function pause(delay) {
+    var startTime = Date.now();
+  
+    while (Date.now() - startTime < delay);
+  }
+
 function FlipMenu() {
     document.getElementById('AdaptiveMenu').style.left = "0";
 }
@@ -14,7 +20,7 @@ function UnflipMenu() {
 var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Следы во времени=Time Steps";
 var SubHrefArray = "for-the-sake-of-tomorrow/main.html|";
 
-/**/
+/*Функция поиска новелл.*/
 function Search() {
     var SearchArray = SubSearchArray.split('|');
     var HrefArray = SubHrefArray.split('|');
@@ -55,33 +61,69 @@ function PageDataUpdate() {
 // file:///C:/Users/Влад/Documents/GitHub/DUB1401.github.io/read.html?novel=forgotten-choice+chapter=1
 
 function LoadChapter() {
-    //Чтение аргументов страницы чтения.
+    //Чтение аргументов страницы.
     var Arguments = window.location.href.split('?')[1];
     Arguments = Arguments.split('+');
     //Составление адреса для чтения базы данных.
     var Path = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/" + Arguments[1].split('=')[1] + ".txt";
     var Declaration = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/Declaratio.txt";
-    //Загрузка декларации.
-    $('#bufer').load(Declaration);
-    var DeclValue = document.getElementById("bufer").textContent;
-    $('#bufer').remove();
-    //Проверка корректности аргументов страницы.
-    if (Arguments[1].split('=')[1] <= DeclValue) {
-        $('#Reader').load(Path);
-    }
+    
+    $.get(Declaration, function(decl){
+        $.get(Path, function(data) {
 
-    /*
-    //Сохранение свойств главы.
-    var Volume = document.getElementById("volume_in").textContent;
-    var Chapter = document.getElementById("chapter_in").textContent;
-    //Удаление элементов-контейнеров.
-    $('#volume_in').remove();
-    $('#chapter_in').remove();
-    //Установка параметров главы.
-    document.getElementById("volume_off").textContent = Volume;
-    document.getElementById("chapter_off").textContent = Chapter;
-    document.title = Chapter;
+            var Tables = document.getElementsByClassName("SelectorTable");
 
-    */
+            //Если глава не первая.
+            if (Arguments[1].split('=')[1] > 1) {
+                //Создание кнопок "Предыдущая".
+                var TDL = document.createElement('td');
+                var AL = document.createElement('a');
+                AL.className = "ButtonReader";
+                AL.innerHTML = "<span class=\"ButtonReaderNavigate\">← Предыдущая</span>";
+                AL.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (Arguments[1].split('=')[1] - 1);
+                TDL.appendChild(AL);
+                for (var i = 0; i <= 1; i++) Tables[i].appendChild(TDL);
+            }
+            //Создание кнопок "Оглавление".
+            var TD = document.createElement('td');
+            var A = document.createElement('a');
+            A.className = "ButtonReader";
+            A.innerHTML = "<img class=\"ButtonReader\" src=\"Images/Book.png\"><span class=\"ButtonReaderMain\">Оглавление</span>";
+            A.href = "../Books/" +  Arguments[0].split('=')[1] + ".html";
+            TD.appendChild(A);
+            for (var i = 0; i <= 1; i++) Tables[i].appendChild(TD);
+            //Если не последняя.
+            if (Arguments[1].split('=')[1] < decl) {
+                //Создание кнопок "Следующая".
+                var TDR = document.createElement('td');
+                var AR = document.createElement('a');
+                AR.className = "ButtonReader";
+                AR.innerHTML = "<span class=\"ButtonReaderNavigate\">Следующая →</span>";
+                AR.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (+Arguments[1].split('=')[1] + 1);
+                TDR.appendChild(AR);
+                for (var i = 0; i <= 1; i++) Tables[i].appendChild(TDR);
+            }
+
+            //Вставка текста.
+            document.getElementById("Reader").innerHTML = data;
+    
+            //Сохранение свойств главы.
+            var Novel = document.getElementById("novel_in").textContent;
+            var Volume = document.getElementById("volume_in").textContent;
+            var Chapter = document.getElementById("chapter_in").textContent;
+            //Удаление элементов-контейнеров.
+            $('#novel_in').remove();
+            $('#volume_in').remove();
+            $('#chapter_in').remove();
+            //Установка параметров главы.
+            document.getElementById("novel_off").textContent = Novel;
+            document.getElementById("volume_off").textContent = Volume;
+            document.getElementById("chapter_off").textContent = Chapter;
+            document.title = Chapter;
+        });
+    
+    });
+
+    
     
 }

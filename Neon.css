@@ -226,6 +226,169 @@ td.DarkMatterRelisesDescription {
     width: calc(100% - 48px);
 }
 
+/*Читалка*/
+
+body.Reader {
+    background-color: #323B4A;
+}
+
+div.Main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+	min-width: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+h1.Main {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-family: "Georgia";
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+h2.Main {
+	color: white;
+	font-size: 26px;
+	text-align: left;
+	font-family: "Roboto"inherit;
+	margin-bottom: 0px;
+	margin-top: 10px
+}
+
+h3.Main {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	font-family: "Roboto"inherit;
+	margin-bottom: 0px;
+	margin-top: 10px
+}
+
+hr.Main {
+	border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+
+img.Reader25 {
+	width: 25%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+img.Reader50 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+img.Reader75 {
+	width: 75%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h4.Reader {
+	text-indent: 50px;
+	text-align: justify;
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	font-family: "Times New Roman";
+	margin: 0;
+}
+
+table.ButtonReader {
+	width: 100%;
+}
+
+a.ButtonReader {
+	display: inline-block;
+	background: #252b37;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: none;
+	border-radius: 5px;
+	transition: 0.2s;
+	width: 100%;
+}
+
+a.ButtonReader:hover {
+	background: #f0a310;
+}
+
+a.ButtonReader:active {
+	background: white;
+}
+
+span.ButtonReaderMain {
+	font-size: 24px;
+	color: white;
+	margin-left: 15px;
+}
+
+span.ButtonReaderNavigate {
+	font-size: 24px;
+	color: white;
+	margin: 0;
+}
+
+img.ButtonReader {
+	height: auto;
+	max-width: 20px;
+	margin-left: 0;
+}
+
+div.ReaderPoem {
+	width: 50%;
+	margin: auto;
+	text-indent: 26px;
+	text-align: justify;
+	color: white;
+	font-size: 17px;
+	font-family: "Georgia";
+}
+
+div.Reader {
+	max-width: 1000px;
+	line-height: 25px;
+	margin: auto;
+	text-indent: 50px;
+	text-align: justify;
+	color: white;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+
+div.DarkBackground {
+	background-color: RGB(37, 43, 55);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 20px;
+}
+
+p.Italic {
+	font-style: italic;
+}
+
+span.Italic {
+	font-style: italic;
+}
+
 /*Для смартфонов*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
