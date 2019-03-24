@@ -52,11 +52,25 @@ function PageDataUpdate() {
     MenuMode = document.getElementById('AdaptiveMenu').style.left;
 }
 
-// file:///C:/Users/Влад/Documents/GitHub/DUB1401.github.io/read.html?novel=123+chapter=18
+// file:///C:/Users/Влад/Documents/GitHub/DUB1401.github.io/read.html?novel=forgotten-choice+chapter=1
 
 function LoadChapter() {
-    //$('#Reader').load('https://dubos-update-server.github.io/Manual.html');
+    //Чтение аргументов страницы чтения.
+    var Arguments = window.location.href.split('?')[1];
+    Arguments = Arguments.split('+');
+    //Составление адреса для чтения базы данных.
+    var Path = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/" + Arguments[1].split('=')[1] + ".txt";
+    var Declaration = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/Declaratio.txt";
+    //Загрузка декларации.
+    $('#bufer').load(Declaration);
+    var DeclValue = document.getElementById("bufer").textContent;
+    $('#bufer').remove();
+    //Проверка корректности аргументов страницы.
+    if (Arguments[1].split('=')[1] <= DeclValue) {
+        $('#Reader').load(Path);
+    }
 
+    /*
     //Сохранение свойств главы.
     var Volume = document.getElementById("volume_in").textContent;
     var Chapter = document.getElementById("chapter_in").textContent;
@@ -68,6 +82,6 @@ function LoadChapter() {
     document.getElementById("chapter_off").textContent = Chapter;
     document.title = Chapter;
 
-    var Arguments = window.location.href.split('?')[1];
+    */
     
 }
