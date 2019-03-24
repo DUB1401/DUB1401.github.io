@@ -72,7 +72,6 @@ function LoadChapter() {
         $.get(Path, function(data) {
 
             var Tables = document.getElementsByClassName("SelectorTable");
-
             //Если глава не первая.
             if (Arguments[1].split('=')[1] > 1) {
                 //Создание кнопок "Предыдущая".
@@ -82,16 +81,18 @@ function LoadChapter() {
                 AL.innerHTML = "<span class=\"ButtonReaderNavigate\">← Предыдущая</span>";
                 AL.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (Arguments[1].split('=')[1] - 1);
                 TDL.appendChild(AL);
-                for (var i = 0; i <= 1; i++) Tables[i].appendChild(TDL);
+                for (var i = 0; i < 2; i++) Tables[i].appendChild(TDL.cloneNode(true));
             }
+
             //Создание кнопок "Оглавление".
             var TD = document.createElement('td');
             var A = document.createElement('a');
             A.className = "ButtonReader";
             A.innerHTML = "<img class=\"ButtonReader\" src=\"Images/Book.png\"><span class=\"ButtonReaderMain\">Оглавление</span>";
-            A.href = "../Books/" +  Arguments[0].split('=')[1] + ".html";
+            A.href = "Books/" +  Arguments[0].split('=')[1] + ".html";
             TD.appendChild(A);
-            for (var i = 0; i <= 1; i++) Tables[i].appendChild(TD);
+            for (var i = 0; i < 2; i++) Tables[i].appendChild(TD.cloneNode(true));
+
             //Если не последняя.
             if (Arguments[1].split('=')[1] < decl) {
                 //Создание кнопок "Следующая".
@@ -101,7 +102,7 @@ function LoadChapter() {
                 AR.innerHTML = "<span class=\"ButtonReaderNavigate\">Следующая →</span>";
                 AR.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (+Arguments[1].split('=')[1] + 1);
                 TDR.appendChild(AR);
-                for (var i = 0; i <= 1; i++) Tables[i].appendChild(TDR);
+                for (var i = 0; i < 2; i++) Tables[i].appendChild(TDR.cloneNode(true));
             }
 
             //Вставка текста.
