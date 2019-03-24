@@ -1,0 +1,383 @@
+:root {
+    --color-light-dark: RGB(48, 58, 76);
+    --color-dark: #252b37;
+    --color-top-dark: #11141a;
+    --color-yellow: RGB(240, 163, 16);
+    --color-orange: RGB(260, 163, 16);
+    --color-dark-orange: RGB(204, 128, 6);
+    --color-grey: RGB(117, 130, 155);
+}
+
+body.DarkMatter {
+    margin: 0;
+    background-color: var(--color-light-dark);
+    min-width: 400px;
+}
+
+div.NoScript {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-top-dark);
+    color: white;
+    position: fixed;
+    font-size: 72px;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+div.DarkMatterContent {
+    width: 100%;
+}
+
+div.DarkMatterContainer {
+    width: 100%;
+}
+
+div.DarkMatterDownline {
+    width: 100%;
+    background-color: var(--color-dark);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Шапка сайта*/
+
+div.DarkMatterUpline {
+    background-color: var(--color-dark);
+    width: 100%;
+    height: 60px;
+}
+
+button.DarkMatterUpline {
+    color: white;
+    font-size: 34px;
+    background-color: var(--color-dark);
+    width: 60px;
+    height: 60px;
+    border: none;
+    transition: 0.4s;
+}
+
+button:hover.DarkMatterUpline {
+    background-color: var(--color-top-dark);
+    cursor: pointer;
+}
+
+button:focus.DarkMatterUpline {
+    outline: none;
+}
+
+/*Панель поиска*/
+
+div.DarkMatterUplineSearch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    vertical-align: middle;
+}
+
+input.DarkMatterUplineSearch {
+    display: inline-block;
+    border: none;
+    background-color: var(--color-top-dark);
+    margin: 14.5px 20px 0 0;
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 4px 10px 4px 10px;
+    vertical-align: middle;
+    outline: none;
+    color: white;
+    width: 300px;
+}
+
+input:active.DarkMatterUplineSearch {
+    outline: none;
+}
+
+div.DarkMatterUplineSearchElement {
+    width: 300px;
+    background-color: var(--color-top-dark);
+    padding: 4px 10px 4px 10px;
+    transition: 0.4s;
+    border-top: 1px solid var(--color-orange);
+}
+
+div:hover.DarkMatterUplineSearchElement {
+    background-color: var(--color-grey);
+}
+
+a.DarkMatterUplineSearchElement {
+    color: white;
+    text-decoration: none;
+}
+
+/*Меню навигации*/
+
+div.DarkMatterMenu {
+    transition: 0.4s;
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    left: -400px;
+    top: 0;
+    background-color: var(--color-top-dark);
+    position: fixed;
+}
+
+h1.DarkMatterMenu {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+button.DarkMatterMenu {
+    color: white;
+    font-size: 20px;
+    background-color: var(--color-top-dark);
+    width: 60px;
+    height: 60px;
+    border: none;
+    transition: 0.4s;
+    margin-left: 20px;
+    margin-right: 5px;
+    float: right;
+    position: relative;
+    top: -65px;
+    border-radius: 50%;
+}
+
+button:hover.DarkMatterMenu {
+    background-color: var(--color-orange);
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+button:focus.DarkMatterMenu {
+    outline: none;
+}
+
+ul.DarkMatterMenuElement {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li.DarkMatterMenuElement {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    width: 80%;
+    list-style-type: none;
+    border-bottom: 1px solid var(--color-dark);
+    
+}
+
+a.DarkMatterMenuElement {
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    transition: 0.4s;
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 28px;
+}
+
+a:hover.DarkMatterMenuElement {
+    text-decoration: none;
+    padding-left: 5%;
+    color: var(--color-orange);
+    cursor: pointer;
+}
+
+a:active.DarkMatterMenuElement {
+    color: var(--color-dark-orange);
+}
+
+span.DarkMatterMenuElement {
+    background-size: 100%;
+    width: 22px; 
+    height: 22px; 
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/*Таблица обновлений новелл*/
+
+table.DarkMatterRelises {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    border: 1px solid red;
+}
+
+td.DarkMatterRelisesCover {
+    width: 48px;
+    height: 64px;
+}
+
+td.DarkMatterRelisesDescription {
+    width: calc(100% - 48px);
+}
+
+/*Для смартфонов*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    div.DarkMatterDownline {
+        width: 100%;
+        background-color: var(--color-dark);
+        text-align: center;
+        color: white;
+        font-size: 26px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /*Шапка сайта*/
+
+    div.DarkMatterUpline {
+        background-color: var(--color-dark);
+        width: 100%;
+        height: 80px;
+    }
+
+    button.DarkMatterUpline {
+        color: white;
+        font-size: 40px;
+        background-color: var(--color-dark);
+        width: 80px;
+        height: 80px;
+        border: none;
+        transition: 0.4s;
+    }
+
+    /*Панель поиска*/
+
+    div.DarkMatterUplineSearch {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 80px;
+        vertical-align: middle;
+    }
+
+    input.DarkMatterUplineSearch {
+        display: inline-block;
+        border: none;
+        background-color: var(--color-top-dark);
+        margin: 14.5px 20px 0 0;
+        font-size: 30px;
+        border-radius: 15px 15px 15px 15px;
+        padding: 4px 10px 4px 10px;
+        vertical-align: middle;
+        outline: none;
+        color: white;
+        width: 400px;
+        height: 43px;
+    }
+
+    input:active.DarkMatterUplineSearch {
+        outline: none;
+    }
+
+    div.DarkMatterUplineSearchElement {
+        width: 400px;
+        background-color: var(--color-top-dark);
+        padding: 4px 10px 4px 10px;
+        transition: 0.4s;
+        border-top: 1px solid var(--color-orange);
+    }
+
+    div:hover.DarkMatterUplineSearchElement {
+        background-color: var(--color-grey);
+    }
+
+    a.DarkMatterUplineSearchElement {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    /*Меню навигации*/
+
+    div.DarkMatterMenu {
+        transition: 0.4s;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        background-color: var(--color-top-dark);
+        position: fixed;
+    }
+
+    h1.DarkMatterMenu {
+        color: white;
+        font-size: 70px;
+        margin-top: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+    button.DarkMatterMenu {
+        color: white;
+        font-size: 40px;
+        background-color: var(--color-top-dark);
+        width: 80px;
+        height: 80px;
+        border: none;
+        transition: 0.4s;
+        margin-left: 20px;
+        margin-right: 5px;
+        float: right;
+        position: relative;
+        top: -120px;
+        right: 20px;
+        border-radius: 50%;
+    }
+
+    li.DarkMatterMenuElement {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+        width: 90%;
+        list-style-type: none;
+        border-bottom: 1px solid var(--color-dark);
+        
+    }
+
+    a.DarkMatterMenuElement {
+        width: 100%;
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+        transition: 0.4s;
+        display: block;
+        margin-top: 15px;
+        padding-bottom: 10px;
+        background-size: 50px;
+        background:url() no-repeat left center;
+    }
+
+    a:hover.DarkMatterMenuElement {
+        text-decoration: none;
+        padding-left: 0;
+        color: var(--color-orange);
+    }
+
+    span.DarkMatterMenuElement {
+        background-size: 100%;
+        width: 30px; 
+        height: 30px; 
+        margin-right: 20px;
+        display: inline-block;
+    }
+}
