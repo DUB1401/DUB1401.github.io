@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 
-<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8" />
-    <title>Evolv Box</title>
-    <link rel="stylesheet" type="text/css" href="Neon.css" />
+    <title>Информация</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
     <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script src="Neon.js"></script>
+    <script src="Script.js"></script>
 </head>
 
-<body class="DarkMatter" onload="PageDataUpdate()">
+<body class="DarkMatter" onload="DownlineUpdate()">
 
-    <!--Верхняя панель навигации-->
+    <!--Верхняя панель навигации.-->
     <div class="DarkMatterUpline">
-        <h6 class="DarkMatterUpline">О нас</h6>
-        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
-        <div class="DarkMatterUplineSearch" id="SearchContainer">
-            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
-                oninput="Search()">
+        <table class="DarkMatterUplineMagnus">
+            <tr>
 
+                <td class="DarkMatterUplineMagnus">
+                    <table class="DarkMatterUplineParvus">
+                        <tr>
+                            <td class="DarkMatterUplineParvusLeft">
+                                <img class="DarkMatterUplineParvus" src="Images/Home.png">
+                            </td>
+                            <td class="DarkMatterUplineParvusRight">
+                                <a class="DarkMatterUplineParvus" href="index.html">Главная</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
 
-        </div>
+                <td class="DarkMatterUplineMagnus">
+                    <table class="DarkMatterUplineParvus">
+                        <tr>
+                            <td class="DarkMatterUplineParvusLeft">
+                                <img class="DarkMatterUplineParvus" src="Images/Libruary.png">
+                            </td>
+                            <td class="DarkMatterUplineParvusRight">
+                                <a class="DarkMatterUplineParvus" href="Libruary.html">Библиотека</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td class="DarkMatterUplineMagnus">
+                    <table class="DarkMatterUplineParvus">
+                        <tr>
+                            <td class="DarkMatterUplineParvusLeft">
+                                <img class="DarkMatterUplineParvus" src="Images/Box.png">
+                            </td>
+                            <td class="DarkMatterUplineParvusRight">
+                                <a class="DarkMatterUplineParvus" href="Storage.html">Хранилище</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td class="DarkMatterUplineMagnus">
+                    <table class="DarkMatterUplineParvus">
+                        <tr>
+                            <td class="DarkMatterUplineParvusLeft">
+                                <img class="DarkMatterUplineParvus" src="Images/About.png">
+                            </td>
+                            <td class="DarkMatterUplineParvusRight">
+                                <a class="DarkMatterUplineParvus" href="About.html">Информация</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td class="DarkMatterUplineMagnus">
+                    <table class="DarkMatterUplineParvus">
+                        <tr>
+                            <td class="DarkMatterUplineParvusLeft">
+                                <img class="DarkMatterUplineParvus" src="Images/VK.png">
+                            </td>
+                            <td class="DarkMatterUplineParvusRight">
+                                <a class="DarkMatterUplineParvus" href="https://vk.com/evolv_group" target="_blank">ВКонтакте</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+        </table>
     </div>
 
-    <!--Содержимое страницы-->
-    <div class="DarkMatterContent" id="result">
+    <div class="DarkMatterContent">
         
         <div class="LogoContainer">
             <img class="LogoContainer" src="https://dubostorage001.github.io/Resources.fol/32.png">
@@ -188,40 +247,12 @@
             </div>
             
         </div>
-
+        
     </div>
-
-    <!--Меню навигации-->
-    <div class="DarkMatterMenu" id="AdaptiveMenu">
-        <h1 class="DarkMatterMenu">Evolv Box</h1>
-        <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
-        <ul class="DarkMatterMenuElement">
-            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="index.html"><span class="DarkMatterMenuElement"
-                        style="background-image: url(Images/Home.png);"></span>Главная страница</a></li>
-            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="Libruary.html"><span class="DarkMatterMenuElement"
-                        style="background-image: url(Images/Libruary.png);"></span>Библиотека</a></li>
-            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="Storage.html"><span class="DarkMatterMenuElement"
-                        style="background-image: url(Images/Box.png);"></span>Хранилище</a></li>
-            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="About.html"><span class="DarkMatterMenuElement"
-                        style="background-image: url(Images/About.png);"></span>О нас</a></li>
-            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
-                        class="DarkMatterMenuElement" style="background-image: url(Images/VK.png);"></span>Группа
-                    ВКонтакте</a></li>
-        </ul>
-    </div>
-
-    <!--Footer-->
+    
     <div class="DarkMatterDownline">
-        <p id="Downline"></p>
+        <p id="Downline" class="DarkMatterDownline"></p>
     </div>
-
-    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
-    <noscript>
-        <div class="NoScript">
-            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
-            опция отключена в вашем браузере.
-        </div>
-    </noscript>
 
 </body>
 
