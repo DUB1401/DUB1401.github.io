@@ -1,9 +1,8 @@
 //Начальный стиль бокового меню.
 var MenuMode;
 
-function pause(delay) {
+function Pause(delay) {
     var startTime = Date.now();
-  
     while (Date.now() - startTime < delay);
   }
 
@@ -17,10 +16,10 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Следы во времени=Time Steps";
-var SubHrefArray = "for-the-sake-of-tomorrow/main.html|";
+var SubSearchArray = "Забытый выбор=Forgotten Choice";
+var SubHrefArray = "../Books/forgotten-choice.html";
 
-/*Функция поиска новелл.*/
+//Поиск новелл.
 function Search() {
     var SearchArray = SubSearchArray.split('|');
     var HrefArray = SubHrefArray.split('|');
@@ -35,7 +34,8 @@ function Search() {
     
     for (i = 0; i < SearchArray.length; i++) {
         var Mask = document.getElementById("SearchBox").value;
-        if (SearchArray[i].indexOf(Mask) > -1 && Mask.length >= 3) {
+        Mask = Mask.toLowerCase();
+        if (SearchArray[i].toLowerCase().indexOf(Mask) > -1 && Mask.length >= 3) {
             var Div = document.createElement('div');
             Div.className = "DarkMatterUplineSearchElement";
             var Link = document.createElement('a');
@@ -50,7 +50,7 @@ function Search() {
     }
 }
 
-/*Загружает текст в Footer сайта.*/
+//Загружает текст в Footer сайта.
 function PageDataUpdate() {
     document.getElementById("Downline").innerHTML="Copyright © 2017-2019. Created by Evolv Group & Powered by GitHub Pages.";
     document.getElementById("VK").href = "https://vk.com/evolv_group";
@@ -58,28 +58,27 @@ function PageDataUpdate() {
     MenuMode = document.getElementById('AdaptiveMenu').style.left;
 }
 
-// file:///C:/Users/Влад/Documents/GitHub/DUB1401.github.io/read.html?novel=forgotten-choice+chapter=1
-
+//Загружает главу в читалку.
 function LoadChapter() {
     //Чтение аргументов страницы.
     var Arguments = window.location.href.split('?')[1];
-    Arguments = Arguments.split('+');
+    Arguments = Arguments.split('=');
     //Составление адреса для чтения базы данных.
-    var Path = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/" + Arguments[1].split('=')[1] + ".txt";
-    var Declaration = "https://dub1401.github.io/Novels/" + Arguments[0].split('=')[1] + "/Declaratio.txt";
+    var Path = "https://dub1401.github.io/Novels/" + Arguments[0] + "/" + Arguments[1] + ".txt";
+    var Declaration = "https://dub1401.github.io/Novels/" + Arguments[0] + "/Declaratio.txt";
     
     $.get(Declaration, function(decl){
         $.get(Path, function(data) {
 
             var Tables = document.getElementsByClassName("SelectorTable");
             //Если глава не первая.
-            if (Arguments[1].split('=')[1] > 1) {
+            if (Arguments[1] > 1) {
                 //Создание кнопок "Предыдущая".
                 var TDL = document.createElement('td');
                 var AL = document.createElement('a');
                 AL.className = "ButtonReader";
                 AL.innerHTML = "<span class=\"ButtonReaderNavigate\">← Предыдущая</span>";
-                AL.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (Arguments[1].split('=')[1] - 1);
+                AL.href = "read.html?" + Arguments[0] + "=" + (+Arguments[1] - 1);
                 TDL.appendChild(AL);
                 for (var i = 0; i < 2; i++) Tables[i].appendChild(TDL.cloneNode(true));
             }
@@ -89,18 +88,18 @@ function LoadChapter() {
             var A = document.createElement('a');
             A.className = "ButtonReader";
             A.innerHTML = "<img class=\"ButtonReader\" src=\"Images/Book.png\"><span class=\"ButtonReaderMain\">Оглавление</span>";
-            A.href = "Books/" +  Arguments[0].split('=')[1] + ".html";
+            A.href = "Books/" +  Arguments[0] + ".html";
             TD.appendChild(A);
             for (var i = 0; i < 2; i++) Tables[i].appendChild(TD.cloneNode(true));
 
             //Если не последняя.
-            if (Arguments[1].split('=')[1] < decl) {
+            if (Arguments[1] < decl) {
                 //Создание кнопок "Следующая".
                 var TDR = document.createElement('td');
                 var AR = document.createElement('a');
                 AR.className = "ButtonReader";
                 AR.innerHTML = "<span class=\"ButtonReaderNavigate\">Следующая →</span>";
-                AR.href = "read.html?novel=" + Arguments[0].split('=')[1] + "+chapter=" + (+Arguments[1].split('=')[1] + 1);
+                AR.href = "read.html?" + Arguments[0] + "=" + (+Arguments[1] + 1);
                 TDR.appendChild(AR);
                 for (var i = 0; i < 2; i++) Tables[i].appendChild(TDR.cloneNode(true));
             }

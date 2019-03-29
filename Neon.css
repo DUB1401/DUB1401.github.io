@@ -212,18 +212,47 @@ span.DarkMatterMenuElement {
 /*Таблица обновлений новелл*/
 
 table.DarkMatterRelises {
-    margin: 40px 0 40px 0;
+    margin: 40px auto 40px auto;
+    min-width: 560px;
+    max-width: 70%;
     width: 100%;
     border: 1px solid red;
+    border-left: 2px solid var(--color-dark);
+    border-right: 2px solid var(--color-dark);
 }
 
 td.DarkMatterRelisesCover {
     width: 48px;
     height: 64px;
+    padding: 0;
 }
 
 td.DarkMatterRelisesDescription {
     width: calc(100% - 48px);
+    color: white;
+    vertical-align: top;
+    padding: 0;
+}
+
+th.DarkMatterRelises {
+    background-color: var(--color-dark);
+}
+
+img.DarkMatterRelises {
+    display: block;
+    width: 48px;
+    height: 64px;
+}
+
+h6.DarkMatterRelises {
+    padding: 0;
+    margin: 0 0 0 5px;
+    font-size: 20px;
+}
+
+p.DarkMatterRelises {
+    padding: 0;
+    margin: 5px 0 0 5px;
 }
 
 /*Читалка*/
@@ -401,6 +430,12 @@ span.Italic {
         font-size: 26px;
         display: inline-block;
         vertical-align: middle;
+    }
+
+    /*Панель поиска*/
+
+    div.DarkMatterUplineSearch {
+        visibility: hidden;
     }
 
     /*Шапка сайта*/
