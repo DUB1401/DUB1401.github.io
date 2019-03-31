@@ -1,326 +1,248 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title>Забытый выбор</title>
-    <link rel="stylesheet" type="text/css" href="../Style.css" />
+    <link rel="stylesheet" type="text/css" href="../Neon.css" />
     <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
-    <script src="../Script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../Neon.js"></script>
 </head>
-<body class="DarkMatter" onload="DownlineUpdate()">
 
-    <!--Верхняя панель навигации.-->
+<body class="DarkMatter" onload="PageDataUpdate()">
+
+    <!--Верхняя панель навигации-->
     <div class="DarkMatterUpline">
-        <table class="DarkMatterUplineMagnus">
-            <tr>
-                
-                <td class="DarkMatterUplineMagnus">
-                    <table class="DarkMatterUplineParvus">
-                        <tr>
-                            <td class="DarkMatterUplineParvusLeft">
-                                <img class="DarkMatterUplineParvus" src="../Images/Home.png">
-                            </td>
-                            <td class="DarkMatterUplineParvusRight">
-                                <a class="DarkMatterUplineParvus" href="../index.html">Главная</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
-                <td class="DarkMatterUplineMagnus">
-                    <table class="DarkMatterUplineParvus">
-                        <tr>
-                            <td class="DarkMatterUplineParvusLeft">
-                                <img class="DarkMatterUplineParvus" src="../Images/Libruary.png">
-                            </td>
-                            <td class="DarkMatterUplineParvusRight">
-                                <a class="DarkMatterUplineParvus" href="../Libruary.html">Библиотека</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
-                <td class="DarkMatterUplineMagnus">
-                    <table class="DarkMatterUplineParvus">
-                        <tr>
-                            <td class="DarkMatterUplineParvusLeft">
-                                <img class="DarkMatterUplineParvus" src="../Images/Box.png">
-                            </td>
-                            <td class="DarkMatterUplineParvusRight">
-                                <a class="DarkMatterUplineParvus" href="../Storage.html">Хранилище</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
-                <td class="DarkMatterUplineMagnus">
-                    <table class="DarkMatterUplineParvus">
-                        <tr>
-                            <td class="DarkMatterUplineParvusLeft">
-                                <img class="DarkMatterUplineParvus" src="../Images/About.png">
-                            </td>
-                            <td class="DarkMatterUplineParvusRight">
-                                <a class="DarkMatterUplineParvus" href="../About.html">Информация</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
-                <td class="DarkMatterUplineMagnus">
-                    <table class="DarkMatterUplineParvus">
-                        <tr>
-                            <td class="DarkMatterUplineParvusLeft">
-                                <img class="DarkMatterUplineParvus" src="../Images/VK.png">
-                            </td>
-                            <td class="DarkMatterUplineParvusRight">
-                                <a class="DarkMatterUplineParvus" href="https://vk.com/evolv_group" target="_blank">ВКонтакте</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
-            </tr>
-        </table>
-    </div>   
-
-    <div class="DarkMatterBook">
-        
-        <!--Заголовок библиотечной страницы.-->
-        <div class="DarkMatterIntro">
-
-            <!--Обложка.-->
-            <div class="DarkMatterCover">
-                <ul id="DarkMatterCoverSlides">
-                    <li class="DarkMatterCoverSlide DarkMatterCoverShowing"><img class="DarkMatterCover" src="https://dubostorage001.github.io/Covers.fol/16.jpg"></li>
-                    <li class="DarkMatterCoverSlide"><img class="DarkMatterCover" src="https://dubostorage001.github.io/Covers.fol/17.jpg"></li>
-                </ul>
-                <script src="../Slider.js"></script>
-            </div>
-
-            <div class="DarkMatterDescription">
-                <h1 class="DarkMatterDescription">Забытый выбор / Forgotten Choice</h1>
-                <hr class="DarkMatterDescription">
-                <!--Автор.-->
-                <div class="DarkMatterDescriptionStr">
-                    <table class="DarkMatterDescription">
-                        <tr>
-                            <td class="DarkMatterDescriptionLeft">
-                                <img src="../Images/BookFile.png" class="DarkMatterDescription">
-                            </td>
-                            <td class="DarkMatterDescriptionMiddle">
-                                <p class="DarkMatterDescription">Авторы: DUB1401, DUB1840</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <hr class="DarkMatterDescription">
-                <!--Дата публикации.-->
-                <div class="DarkMatterDescriptionStr">
-                    <table class="DarkMatterDescription">
-                        <tr>
-                            <td class="DarkMatterDescriptionLeft">
-                                <img src="../Images/Cloack.png" class="DarkMatterDescription">
-                            </td>
-                            <td class="DarkMatterDescriptionMiddle">
-                                <p class="DarkMatterDescription">Дата публикации: </p>
-                            </td>
-                            <td class="DarkMatterDescriptionRight">
-                                <span class="DarkMatterDescriptionRight">09.04.2018</span>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <hr class="DarkMatterDescription">
-                <!--Жанры.-->
-                <div class="DarkMatterDescriptionStr">
-                    <table class="DarkMatterDescription">
-                        <tr>
-                            <td class="DarkMatterDescriptionLeft">
-                                <img src="../Images/Marks.png" class="DarkMatterDescription">
-                            </td>
-                            <td class="DarkMatterDescriptionMiddle">
-                                <p class="DarkMatterDescription">Жанры: драма, комедия, повседневность, романтика, мистика</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <hr class="DarkMatterDescription">
-                <!--Статус публикации.-->
-                <div class="DarkMatterDescriptionStr">
-                    <table class="DarkMatterDescription">
-                        <tr>
-                            <td class="DarkMatterDescriptionLeft">
-                                <img src="../Images/Warning.png" class="DarkMatterDescription">
-                            </td>
-                            <td class="DarkMatterDescriptionMiddle">
-                                <p class="DarkMatterDescription">Статус: завершён 1-ый том</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <hr class="DarkMatterDescription">
-                <!--Статус публикации.-->
-                <div class="DarkMatterDescriptionStr">
-                    <table class="DarkMatterDescription">
-                        <tr>
-                            <td class="DarkMatterDescriptionLeft">
-                                <img src="../Images/Age.png" class="DarkMatterDescription">
-                            </td>
-                            <td class="DarkMatterDescriptionMiddle">
-                                <p class="DarkMatterDescription">Возрастной рейтинг: без ограничений</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <hr class="DarkMatterDescription">
-            </div>
-
+            <h6 class="DarkMatterUpline">Забытый выбор</h6>
+        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
+        <div class="DarkMatterUplineSearch" id="SearchContainer">
+            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
+                oninput="Search()">
         </div>
-        
-        <!--Описание новеллы.-->
-        <div class="DarkMatterBookTextBox">
-            <div class="DarkMatterBookTextBoxUpline">
-                <img src="../Images/Lines.png" class="DarkMatterBookTextBoxUpline"><p class="DarkMatterBookTextBoxUpline">Описание:</p>
-            </div>
-           <p class="DarkMatterBookTextBox">Когда-то давно Ямадзаки Эиджи и его друзья стали свидетелями конца света. Им открылся последний день Земли и пламя, которое однажды поглотит её, однако дети не сразу поняли свою роль, а через пару месяцев Эиджи и вовсе переехал в Токио.</p>
-            <p class="DarkMatterBookTextBox">Прошло несколько лет, он вырос, живёт обычной размеренной жизнью, но с необычным даром. С того самого рокового случая Эиджи получил выбивающую из колеи способность – видеть мысли других людей. С каждым днём он всё больше убеждается, что люди не достойны спасений, как и сам Ямадзаки. </p>
-            <p class="DarkMatterBookTextBox">Изменить выбор мальчика решаются его старые друзья. У них одна задача – показать Эиджи лучшие стороны человечества. Для этого ребята придумывают хитрый план, но смогут ли они провернуть его против того, кто видит людей насквозь? </p>
-     </div>
-        
-        <!--Спойлеры глав и томов.-->
-        <div class="DarkMatterBookContent">
-            
-            <!--Том 1. Путь изгнанника.-->
-            <details class="DarkMatterBookContent" open>
-                <summary class="DarkMatterBookContent">Том 1. Предвестник перемен</summary>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 9. Точка рандеву</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=9">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 8. Фестивальное распутье</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=8">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 7. В предвкушении фестиваля Цудзи</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=7">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 6. Болезнь и рисовая каша</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=6">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 5. Суть Эиджи-куна</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=5">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 4. Ужас третьего этажа</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=4">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 3. Это свидание?</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=3">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 2. Изменить решение</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=2">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="DarkMatterBookChapter">
-                    <table class="DarkMatterBookChapter">
-                        <tr>
-                            <td class="DarkMatterBookChapterLeft">
-                                <p class="DarkMatterBookChapter">Глава 1. Новая возможность</p>
-                            </td>
-                            <td class="DarkMatterBookChapterRight">
-                                <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=1">➞ Читать</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-            </details>
-            
-        </div>
-
     </div>
+
+    <!--Содержимое страницы-->
+    <div class="DarkMatterContent">
     
-    <div class="DarkMatterDownline">
-        <p id="Downline" class="DarkMatterDownline"></p>
+        <div class="BookDescription">
+            <div class="BookLeftLayout">
+                <div id="BookCoversContainer">
+                    <img class="BookCover BookCoverActive" src="https://dubostorage001.github.io/Covers.fol/16.jpg">
+                    <img class="BookCover" src="https://dubostorage001.github.io/Covers.fol/17.jpg">
+                    <script src="../Slider.js"></script>
+                </div>
+            </div><div class="BookRightLayout">
+                <h1 class="BookName">Забытый выбор / Forgotten Choice</h1>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/BookFile.png);">Авторы: DUB1401,
+                        DUB1840</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Cloack.png);">Дата
+                        публикации:<span class="BookDescriptionLineRight">09.04.2018</span></p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Marks.png);">Жанры: драма,
+                        комедия, повседневность, романтика, мистика</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Warning.png);">Статус: завершён
+                        1-ый том</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Age.png);">Возрастной рейтинг: без
+                        ограничений</p>
+                </div>
+                <hr class="BookLine">
+            </div>
+            <div class="BookDescriptionText">
+                <p class="BookDescriptionTextHead" style="background-image: url(../Images/Lines.png)">Описание:</p>
+                <p class="BookDescriptionText">
+                    Когда-то давно Ямадзаки Эиджи и его друзья стали свидетелями конца света. Им открылся последний день
+                    Земли и пламя, которое однажды поглотит её, однако дети не сразу поняли свою роль, а через пару месяцев
+                    Эиджи и вовсе переехал в Токио.</p>
+                <p class="BookDescriptionText">
+                    Прошло несколько лет, он вырос, живёт обычной размеренной жизнью, но с необычным даром. С того самого
+                    рокового случая Эиджи получил выбивающую из колеи способность – видеть мысли других людей. С каждым днём
+                    он всё больше убеждается, что люди не достойны спасений, как и сам Ямадзаки.</p>
+                <p class="BookDescriptionText">
+                    Изменить выбор мальчика решаются его старые друзья. У них одна задача – показать Эиджи лучшие стороны
+                    человечества. Для этого ребята придумывают хитрый план, но смогут ли они провернуть его против того, кто
+                    видит людей насквозь?</p>
+    
+            </div>
+
+            <!--Спойлеры глав и томов.-->
+            <div class="DarkMatterBookContent">
+            
+                <!--Том 1. Предвестник перемен-->
+                <details class="DarkMatterBookContent" open>
+                    <summary class="DarkMatterBookContent">Том 1. Предвестник перемен</summary>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 9. Точка рандеву</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=9">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 8. Фестивальное распутье</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=8">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 7. В предвкушении фестиваля Цудзи</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=7">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 6. Болезнь и рисовая каша</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=6">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 5. Суть Эиджи-куна</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=5">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 4. Ужас третьего этажа</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=4">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 3. Это свидание?</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=3">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 2. Изменить решение</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=2">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 1. Новая возможность</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?forgotten-choice=1">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </details> 
+            </div>
+        </div>
+
+        
     </div>
+
+    <!--Меню навигации-->
+    <div class="DarkMatterMenu" id="AdaptiveMenu">
+        <h1 class="DarkMatterMenu">Evolv Box</h1>
+        <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
+        <ul class="DarkMatterMenuElement">
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../index.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../Images/Home.png);"></span>Главная страница</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Libruary.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../Images/Libruary.png);"></span>Библиотека</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Storage.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../Images/Box.png);"></span>Хранилище</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../About.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../Images/About.png);"></span>О нас</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
+                        class="DarkMatterMenuElement" style="background-image: url(../Images/VK.png);"></span>Группа
+                    ВКонтакте</a></li>
+        </ul>
+    </div>
+
+    <!--Footer-->
+    <div class="DarkMatterDownline">
+        <p id="Downline"></p>
+    </div>
+
+    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
+    <noscript>
+        <div class="NoScript">
+            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
+            опция отключена в вашем браузере.
+        </div>
+    </noscript>
 
 </body>
+
 </html>

@@ -522,28 +522,23 @@ div.BookDescription {
     margin: auto;
 	max-width: 1200px;
     width: 100%;
-    /*background-color: red;*/
-    margin-bottom: -4px;
 }
 
 div.BookLeftLayout {
     width: 30%;
-    /*background-color: green;*/
-    max-width: 100%;
+    margin-left: 15px;
     display: inline-block;
-	margin-right: -4px;
-	margin-left: 15px;
     border: 2px solid black;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 div.BookRightLayout {
     width: calc(70% - 45px);
-    height: 400px;
-    /*background-color: #f0a310;*/
+    margin-right: 15px;
+    margin-left: 15px;
     display: inline-block;
     vertical-align: top;
-    padding: 0 15px 0 15px;
+    padding: 0;
 }
 
 #BookCoversContainer {
@@ -560,7 +555,7 @@ img.BookCover {
     display: block;
     z-index: 1;
     opacity: 0;
-    transition: 0.8s;
+    transition: 1s;
 }
 
 img.BookCoverActive {
@@ -582,6 +577,153 @@ hr.BookLine {
 	border: 0.5px solid RGBA(0, 0, 0, 0.2);
 }
 
+div.BookDescriptionLine {
+    width: 100%;
+}
+
+p.BookDescriptionLine {
+    color: white;
+    padding: 0 0px 0px 0;
+    margin: 0 0px 0px 10px;
+    font-size: 18px;
+    background: url() no-repeat left center; 
+    background-size: 20px; 
+    display: inline-block;
+    vertical-align:bottom;
+    padding-left: 25px;
+    width: calc(100% - 40px);
+}
+
+span.BookDescriptionLineRight {
+    font-size: 18px;
+    color: #7aad00;
+    float: right;
+    margin-right: 0;
+}
+
+div.BookDescriptionText {
+    border: 2px dashed white;
+    border-radius: 15px;
+    margin: 40px auto 40px auto;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+}
+
+p.BookDescriptionTextHead {
+    color: white;
+    font-size: 28px;
+    background: url() no-repeat left center; 
+    background-size: 24px; 
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 30px;
+    width: 100%;
+    margin: 0;
+}
+
+p.BookDescriptionText {
+    padding: 5px 0 5px 0 ;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    text-indent: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+details.DarkMatterBookContent {
+    width: calc(100% - 40px);
+    margin: 15px auto 0 auto;
+}
+
+summary.DarkMatterBookContent {
+    background-color: var(--color-top-dark);
+    cursor: pointer;
+    outline: 0;
+    color: white;
+    padding: 5px 0 5px 15px;
+    font-size: 24px;
+    -moz-user-select: none;
+    /*Firefox.*/
+    -ms-user-select: none;
+    /*Internet Explorer.*/
+    -khtml-user-select: none;
+    /*KHTML browsers (e.g. Konqueror).*/
+    -webkit-user-select: none;
+    /*Chrome, Safari, and Opera.*/
+    -webkit-touch-callout: none;
+    /*Disable Android and iOS callouts.*/
+    transition: 0.5s;
+}
+
+summary:hover.DarkMatterBookContent {
+    background-color: #ff8c00;
+}
+
+div.DarkMatterBookChapter {
+    width: 100%;
+    background-color: var(--color-dark);
+    vertical-align: middle;
+    transition: 0.5s;
+    border-bottom: 1px solid var(--color-top-dark);
+    border-right: 1px solid var(--color-top-dark);
+    border-left: 1px solid var(--color-top-dark);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div:hover.DarkMatterBookChapter {
+    background-color: RGB(68, 78, 96);
+}
+
+p.DarkMatterBookChapter {
+    font-size: 24px;
+    color: white;
+    margin: 5px 0 5px 10px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Georgia" inherit;
+    cursor: default;
+    display: inline-block;
+}
+
+a.DarkMatterBookChapter {
+
+    background: #75829b;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+table.DarkMatterBookChapter {
+    width: 100%;
+}
+
+td.DarkMatterBookChapterLeft {
+    width: 80%;
+}
+
+td.DarkMatterBookChapterRight {
+    width: 20%;
+}
+
+a.DarkMatterBookChapter:hover {
+    background: #ff8c00;
+}
 
 /*Для смартфонов*/
 
@@ -821,7 +963,6 @@ hr.BookLine {
         margin: 0;
     }
     
-
     h2.Main {
         color: white;
         font-size: 14px;
@@ -873,6 +1014,67 @@ hr.BookLine {
         height: auto;
         max-width: 35px;
         margin-left: 0;
+    }
+
+    /*Старинца новеллы.*/
+    
+    details.DarkMatterBookContent summary::-webkit-details-marker {
+        font-size: 46px;
+    }
+
+    div.DarkMatterBookChapter {
+        width: 100%;
+        background-color: var(--color-light-dark);
+        vertical-align: middle;
+        transition: 0.5s;
+        border-bottom: 3px solid var(--color-top-dark);
+        border-right: 3px solid var(--color-top-dark);
+        border-left: 3px solid var(--color-top-dark);
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    p.DarkMatterBookChapter {
+        font-size: 46px;
+        color: white;
+        /*margin: 5px 0 5px 42px;*/
+        vertical-align: middle;
+        display: inline-block;
+        font-family: "Georgia" inherit;
+        cursor: default;
+        width: 90%;
+        box-sizing:padding-box;
+    }
+
+    a.DarkMatterBookChapter {
+        font-size: 40px;
+        background: #75829b;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        outline: none;
+        border-radius: 5px;
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        float: right;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin: 8px;
+        transition: 0.5s;
+    }
+
+    p.BookDescriptionTextHead {
+        background-size: 36px; 
+        padding-left: 50px;
+        font-size: 46px;
+    }
+    
+    p.BookDescriptionText {
+        text-indent: 5%;
     }
 
 }
