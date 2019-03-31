@@ -11,7 +11,7 @@
 body.DarkMatter {
     margin: 0;
     background-color: var(--color-light-dark);
-    min-width: 400px;
+    min-width: 500px;
 }
 
 div.NoScript {
@@ -134,6 +134,7 @@ div.DarkMatterMenu {
     top: 0;
     background-color: var(--color-top-dark);
     position: fixed;
+    z-index: 999;
 }
 
 h1.DarkMatterMenu {
@@ -215,52 +216,6 @@ span.DarkMatterMenuElement {
     height: 22px; 
     margin-right: 10px;
     display: inline-block;
-}
-
-/*Таблица обновлений новелл*/
-
-table.DarkMatterRelises {
-    margin: 40px auto 40px auto;
-    min-width: 560px;
-    max-width: 70%;
-    width: 100%;
-    border: 1px solid red;
-    border-left: 2px solid var(--color-dark);
-    border-right: 2px solid var(--color-dark);
-}
-
-td.DarkMatterRelisesCover {
-    width: 48px;
-    height: 64px;
-    padding: 0;
-}
-
-td.DarkMatterRelisesDescription {
-    width: calc(100% - 48px);
-    color: white;
-    vertical-align: top;
-    padding: 0;
-}
-
-th.DarkMatterRelises {
-    background-color: var(--color-dark);
-}
-
-img.DarkMatterRelises {
-    display: block;
-    width: 48px;
-    height: 64px;
-}
-
-h6.DarkMatterRelises {
-    padding: 0;
-    margin: 0 0 0 5px;
-    font-size: 20px;
-}
-
-p.DarkMatterRelises {
-    padding: 0;
-    margin: 5px 0 0 5px;
 }
 
 /*Читалка*/
@@ -559,6 +514,75 @@ img.LogoContainer {
     width: 100%;
 }
 
+/*Страница новеллы.*/
+
+div.BookDescription {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+	max-width: 1200px;
+    width: 100%;
+    /*background-color: red;*/
+    margin-bottom: -4px;
+}
+
+div.BookLeftLayout {
+    width: 30%;
+    /*background-color: green;*/
+    max-width: 100%;
+    display: inline-block;
+	margin-right: -4px;
+	margin-left: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+div.BookRightLayout {
+    width: calc(70% - 45px);
+    height: 400px;
+    /*background-color: #f0a310;*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px 0 15px;
+}
+
+#BookCoversContainer {
+    position: relative;
+    height: 100%;
+}
+
+img.BookCover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+img.BookCoverActive {
+    z-index: 2;
+    opacity: 1;
+}
+
+h1.BookName {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Georgia";
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: default;
+}
+
+hr.BookLine {
+	border: 0.5px solid RGBA(0, 0, 0, 0.2);
+}
+
+
 /*Для смартфонов*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -737,4 +761,118 @@ img.LogoContainer {
         margin-right: 20px;
         display: inline-block;
     }
+
+    /*Читалка.*/
+
+    div.Reader {
+        margin: auto;
+        width: 95%;
+        text-align: justify;
+        color: white;
+        padding: 0;
+        font-size: 24px;
+        font-family: "Times New Roman";
+        line-height: 300%;
+        text-indent: 10%;
+        word-break: break-word;
+    }
+
+    div.ReaderPoem {
+        width: 95%;
+        margin: auto;
+        text-align: justify;
+        text-indent: 0;
+        color: white;
+        font-size: 14px;
+        font-family: "Georgia";
+    }
+    
+    img.Reader25 {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    img.Reader50 {
+        width: 75%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    img.Reader75 {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    h4.Reader {
+        text-indent: 10%;
+        text-align: justify;
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-family: "Times New Roman";
+        margin: 0;
+    }
+    
+
+    h2.Main {
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        font-family: "Roboto" inherit;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+
+    h3.Main {
+        color: white;
+        font-size: 36px;
+        text-align: left;
+        font-family: "Roboto" inherit;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-left: 30px;
+    }
+
+    a.ButtonReader {
+        display: inline-block;
+        background: #252b37;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        outline: none;
+        transition: 0.2s;
+        width: 100%;
+        height: 60px;
+    }
+
+    span.ButtonReaderMain {
+        font-size: 40px;
+        color: white;
+        margin-left: 15px;
+    }
+
+    span.ButtonReaderNavigate {
+        font-size: 40px;
+        color: white;
+        margin: 0;
+    }
+
+    img.ButtonReader {
+        height: auto;
+        max-width: 35px;
+        margin-left: 0;
+    }
+
 }

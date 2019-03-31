@@ -925,7 +925,7 @@ button:active.StorageBoxParvus {
     p.DarkMatterBookChapter {
         font-size: 24px;
         color: white;
-        margin: 5px 0 5px 42px;
+        margin: 5px 0 5px 10px;
         vertical-align: middle;
         display: inline-block;
         font-family: "Georgia" inherit;
@@ -1736,7 +1736,7 @@ button:active.StorageBoxParvus {
     p.DarkMatterBookChapter {
         font-size: 46px;
         color: white;
-        margin: 5px 0 5px 42px;
+        /*margin: 5px 0 5px 42px;*/
         vertical-align: middle;
         display: inline-block;
         font-family: "Georgia" inherit;

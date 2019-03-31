@@ -127,3 +127,11 @@ function LoadChapter() {
     
     
 }
+
+$(function(){
+  $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
+
+  $(window).resize(function(){
+    $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
+  });
+});
