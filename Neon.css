@@ -1,5 +1,6 @@
 :root {
-    --color-light-dark: RGB(48, 58, 76);
+    --color-middle-dark: RGB(48, 58, 76);
+    --color-light-dark: RGB(61, 71, 90); 
     --color-dark: #252b37;
     --color-top-dark: #11141a;
     --color-yellow: RGB(240, 163, 16);
@@ -637,7 +638,7 @@ details.DarkMatterBookContent {
 }
 
 summary.DarkMatterBookContent {
-    background-color: var(--color-top-dark);
+    background-color: var(--color-dark);
     cursor: pointer;
     outline: 0;
     color: white;
@@ -662,12 +663,12 @@ summary:hover.DarkMatterBookContent {
 
 div.DarkMatterBookChapter {
     width: 100%;
-    background-color: var(--color-dark);
+    background-color: var(--color-middle-dark);
     vertical-align: middle;
     transition: 0.5s;
-    border-bottom: 1px solid var(--color-top-dark);
-    border-right: 1px solid var(--color-top-dark);
-    border-left: 1px solid var(--color-top-dark);
+    border-bottom: 1px solid var(--color-dark);
+    border-right: 1px solid var(--color-dark);
+    border-left: 1px solid var(--color-dark);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
