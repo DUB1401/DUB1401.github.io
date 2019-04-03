@@ -1028,9 +1028,9 @@ a.DarkMatterBookChapter:hover {
         background-color: var(--color-light-dark);
         vertical-align: middle;
         transition: 0.5s;
-        border-bottom: 3px solid var(--color-top-dark);
-        border-right: 3px solid var(--color-top-dark);
-        border-left: 3px solid var(--color-top-dark);
+        border-bottom: 3px solid var(--color-dark);
+        border-right: 3px solid var(--color-dark);
+        border-left: 3px solid var(--color-dark);
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -1075,7 +1075,22 @@ a.DarkMatterBookChapter:hover {
     }
     
     p.BookDescriptionText {
-        text-indent: 5%;
+        text-indent: 50px;
+    }
+
+    p.BookDescriptionLine {
+        font-size: 30px;
+        background-size: 30px; 
+        padding-left: 45px;
+        width: calc(100% - 60px);
+    }
+
+    span.BookDescriptionLineRight {
+        font-size: 30px;
+    }
+
+    h1.BookName {
+        font-size: 36px;
     }
 
 }
