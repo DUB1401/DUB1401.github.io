@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Забытый выбор=Forgotten Choice";
-var SubHrefArray = "../Books/forgotten-choice.html";
+var SubSearchArray = "Забытый выбор=Forgotten Choice|Следы во времени=Time Steps";
+var SubHrefArray = "../Books/forgotten-choice.html|../Books/time-steps.html";
 
 //Поиск новелл.
 function Search() {
