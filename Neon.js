@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Забытый выбор=Forgotten Choice|Следы во времени=Time Steps";
-var SubHrefArray = "../Books/forgotten-choice.html|../Books/time-steps.html";
+var SubSearchArray = "Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium";
+var SubHrefArray = "../Books/forgotten-choice.html|../Books/time-steps.html|../Books/millenium.html";
 
 //Поиск новелл.
 function Search() {
@@ -109,15 +109,15 @@ function LoadChapter() {
     
             //Сохранение свойств главы.
             var Novel = document.getElementById("novel_in").textContent;
-            var Volume = document.getElementById("volume_in").textContent;
+            if (document.getElementById('volume_in') != null) var Volume = document.getElementById("volume_in").textContent;
             var Chapter = document.getElementById("chapter_in").textContent;
             //Удаление элементов-контейнеров.
             $('#novel_in').remove();
-            $('#volume_in').remove();
+            if (document.getElementById('volume_in') != null) $('#volume_in').remove();
             $('#chapter_in').remove();
             //Установка параметров главы.
             document.getElementById("novel_off").textContent = Novel;
-            document.getElementById("volume_off").textContent = Volume;
+            if (document.getElementById('volume_in') != null) document.getElementById("volume_off").textContent = Volume;
             document.getElementById("chapter_off").textContent = Chapter;
             document.title = Chapter;
         });

@@ -1,35 +1,5 @@
-﻿<!DOCTYPE html>
-
-<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../Style.css" />
-    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
-    <title>Глава 3. Дома у девушки или мой худший кошмар</title>
-</head>
-
-<body class="Reader" oncopy="return false">
-    <div class="Main">
-        <h1 class="Main">Тысячелетие</h1>
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="ch2.html" class="ButtonReader"><span class="ButtonReaderNavigate">← Предыдущая</span></a>
-                </td>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span
-                            class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-                <td>
-                    <a href="ch4.html" class="ButtonReader"><span class="ButtonReaderNavigate">Следующая  →</span></a>
-                </td>
-            </tr>
-        </table>
-        <h3 class="Main">Глава 3. Дома у девушки или мой худший кошмар</h3>
-        <hr class="Main">
-    </div>
-    <div class="Reader">
+﻿<p id="novel_in">Тысячелеие</p>
+<p id="chapter_in">Глава 3. Дома у девушки или мой худший кошмар</p>
 <!--Converted by DHTML-->
 <p>- Уваааа! Как круто! Асано-чан, ты прямо как кинозвезда.</p>
 <p>Дом семьи Асано выглядел как традиционное японское жилище, однако сам стиль имел множество архитектурных новшеств. За высокой каменной оградой скрывался небольшой сад и пруд с золотыми рыбками. Пройдя по аллее, можно было попасть в фамильное святилище – крохотную каменную будку, на стенах которой выгравированы имена всех людей, образующих фамильное древо Асано.</p>
@@ -231,24 +201,3 @@
 <p>Предложение было принято единогласно. Весь вечер ребята провели за просмотром комедийных шоу и болтовнёй обо всякой всячине. Мотохаме даже показалось, что после смерти он зажил по-настоящему. Проводить время с друзьями в приятной обстановке – это ли не счастье? Он только и думал о том, как бы продлить этот момент.</p>
 <p>*ТУК ТУК ТУК*</p>
 <p>В одной из спален на втором этаже раздался очень тихий стук, но из-за смеха никто из школьников его не услышал…</p>
-        
-    </div>
-    <div class="Main">
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="ch2.html" class="ButtonReader"><span class="ButtonReaderNavigate">← Предыдущая</span></a>
-                </td>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span
-                            class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-                <td>
-                    <a href="ch4.html" class="ButtonReader"><span class="ButtonReaderNavigate">Следующая  →</span></a>
-                </td>
-            </tr>
-        </table>
-    </div>
-</body>
-
-</html>

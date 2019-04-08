@@ -1,34 +1,6 @@
-﻿<!DOCTYPE html>
-
-<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../Style.css" />
-    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
-    <title>Глава 4. Теория заговора или чувство неполноценности</title>
-</head>
-
-<body class="Reader" oncopy="return false">
-    <div class="Main">
-        <h1 class="Main">Тысячелетие</h1>
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="ch3.html" class="ButtonReader"><span class="ButtonReaderNavigate">← Предыдущая</span></a>
-                </td>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span
-                            class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-            </tr>
-        </table>
-        <h3 class="Main">Глава 4. Теория заговора или чувство неполноценности</h3>
-        <hr class="Main">
-    </div>
-    <div class="Reader">
-
-        <!--Converted by DHTML-->
+﻿<p id="novel_in">Тысячелеие</p>
+<p id="chapter_in">Глава 4. Теория заговора или чувство неполноценности</p>
+<!--Converted by DHTML-->
 <p>- Асано-чан?</p>
 <p>В темноте раздавался голос Мотохмы, отражаемый стенами. Эхо летало по коридорам, как сумасшедшее, отзываясь тихим криком, из-за которого на душе становилось неспокойно.</p>
 <p>Выйдя на кухню, Хасибе остановился. Сначала его заворожило зрелище за окном: вместо двора и звёздного неба там простиралось старое кладбище. Множество одинаковых надгробий на холме с единственным деревом окружали дом, который сам стал похож на монумент чьей-то смерти.</p>
@@ -134,21 +106,3 @@
 <p>- Ну это… Сложно всё.</p>
 <p>- Уа-ха-ха-ха-ха!!!</p>
 <p>Солнечным утром по окраинам Осаки разносился звонкий смех трёх школьников, не обращающих внимание на одну необычную деталь. У троих ребят было четыре тени…</p>
-
-    </div>
-    <div class="Main">
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="ch3.html" class="ButtonReader"><span class="ButtonReaderNavigate">← Предыдущая</span></a>
-                </td>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span
-                            class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-            </tr>
-        </table>
-    </div>
-</body>
-
-</html>
