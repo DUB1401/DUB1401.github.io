@@ -128,6 +128,7 @@ function LoadChapter() {
     
 }
 
+
 $(function(){
   $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
 
@@ -135,3 +136,36 @@ $(function(){
     $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
   });
 });
+
+
+function VarticalAlignBookHeads() {
+    var Boxes = document.getElementsByClassName('LibruaryBookName');
+    
+    for (var i = 0; i < Boxes.length; i++) {
+        Boxes[i].style.height = "auto";
+    }
+
+    var Numero;
+
+    if (Boxes.length % 4 == 0) {
+        Numero = Boxes.length / 4;
+    } else {
+        Numero = Math.floor(Boxes.length / 4 + 1);
+    }
+
+    for (var u = 0; u < Numero; u++) {
+        var Height = 0;
+        for (var i = 4 * u; i < 4 * u + 4; i++) {
+            if (i < Boxes.length && Boxes[i].offsetHeight > Height) {
+                Height = Boxes[i].offsetHeight;
+            }
+        }
+
+        for (var i = 4 * u; i < 4 * u + 4; i++) {
+            if (i < Boxes.length) Boxes[i].style.height = Height + "px";
+        }
+
+    }
+
+    
+}
