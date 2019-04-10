@@ -72,7 +72,7 @@ function LoadChapter() {
 
             var Tables = document.getElementsByClassName("SelectorTable");
             //Если глава не первая.
-            if (Arguments[1] > 1) {
+            if (+Arguments[1] > 1) {
                 //Создание кнопок "Предыдущая".
                 var TDL = document.createElement('td');
                 var AL = document.createElement('a');
@@ -93,7 +93,7 @@ function LoadChapter() {
             for (var i = 0; i < 2; i++) Tables[i].appendChild(TD.cloneNode(true));
 
             //Если не последняя.
-            if (Arguments[1] < decl) {
+            if (+Arguments[1] < +decl) {
                 //Создание кнопок "Следующая".
                 var TDR = document.createElement('td');
                 var AR = document.createElement('a');
@@ -109,15 +109,15 @@ function LoadChapter() {
     
             //Сохранение свойств главы.
             var Novel = document.getElementById("novel_in").textContent;
-            if (document.getElementById('volume_in') != null) var Volume = document.getElementById("volume_in").textContent;
+            if (document.getElementById('volume_in') != null) { var Volume = document.getElementById("volume_in").textContent;}
             var Chapter = document.getElementById("chapter_in").textContent;
-            //Удаление элементов-контейнеров.
+            //Удаление элементов-контейнеров. 
             $('#novel_in').remove();
-            if (document.getElementById('volume_in') != null) $('#volume_in').remove();
+            { $('#volume_in').remove();}
             $('#chapter_in').remove();
             //Установка параметров главы.
             document.getElementById("novel_off").textContent = Novel;
-            if (document.getElementById('volume_in') != null) document.getElementById("volume_off").textContent = Volume;
+             {document.getElementById("volume_off").textContent = Volume;}
             document.getElementById("chapter_off").textContent = Chapter;
             document.title = Chapter;
         });
