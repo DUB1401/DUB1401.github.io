@@ -628,7 +628,7 @@ p.BookDescriptionText {
     margin: 0;
     color: white;
     font-size: 18px;
-    text-indent: 20px;
+    text-indent: 30px;
     width: 100%;
     text-align: justify;
 }
@@ -781,6 +781,117 @@ img.LibruaryBookCapture {
     border: 2px solid black;
     box-sizing: border-box;
     margin: 20px 0 0 0;
+}
+
+/*Новые релизы.*/
+
+div.NewReleases {
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+}
+
+div.NewReleasesHead {
+    background-color: var(--color-dark);
+}
+
+p.NewReleasesHead {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0;
+}
+
+table.NewReleases {
+    width: 100%;
+    background-color: var(--color-middle-dark);
+    border-left: 2px solid var(--color-dark);
+    border-right: 2px solid var(--color-dark);
+    border-bottom: 2px solid var(--color-dark);
+    transition: 0.4s;
+}
+
+table:hover.NewReleases {
+    background-color: var(--color-light-dark);
+}
+
+td.NewReleasesCover {
+    width: 48px;
+    padding: 0;
+}
+
+img.NewReleasesCover {
+    display: block;
+    width: 48px;
+    border-right: 2px solid var(--color-dark);
+}
+
+td.NewReleasesText {
+    padding: 0;
+    vertical-align: top;
+}
+
+h2.NewReleasesText {
+    margin: 0;
+    padding: 5px 0 0 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+
+p.NewReleasesText {
+    margin: 0;
+    padding: 0px 0 0 10px;
+    color: white;
+    font-size: 18px;
+}
+
+span.NewReleasesText {
+    color: green;
+    font-size: 16px;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+
+td.NewReleasesButton {
+    padding: 0 10px 0px 20px;
+    width: 100px;
+}
+
+button.NewReleasesButton {
+    -moz-user-select: none;
+    /*Firefox.*/
+    -ms-user-select: none;
+    /*Internet Explorer.*/
+    -khtml-user-select: none;
+    /*KHTML browsers (e.g. Konqueror).*/
+    -webkit-user-select: none;
+    /*Chrome, Safari, and Opera.*/
+    -webkit-touch-callout: none;
+    /*Disable Android and iOS callouts.*/
+    padding: 0;
+    background-color: var(--color-grey);
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover.NewReleasesButton {
+    background-color: var(--color-orange);
+}
+
+button:active.NewReleasesButton {
+    outline: none;
+}
+
+button:focus.NewReleasesButton {
+    outline: none;
 }
 
 /*Для смартфонов*/
@@ -1190,6 +1301,36 @@ img.LibruaryBookCapture {
         outline: none;
     }
 
+    /*Новые релизы.*/
+
+    p.NewReleasesHead {
+        font-size: 46px;
+    }
+
+    td.NewReleasesCover {
+        width: 96px;
+    }
+
+    img.NewReleasesCover {
+        width: 96px;
+    }
+
+    h2.NewReleasesText {
+        font-size: 42px;
+    }
+
+    p.NewReleasesText {
+        font-size: 25px;
+    }
+
+    span.NewReleasesText {
+        font-size: 20px;
+    }
+
+    button.NewReleasesButton {
+        padding: 15px;
+        font-size: 36px;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');

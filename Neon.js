@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love";
-var SubHrefArray = "../Books/forgotten-choice.html|../Books/time-steps.html|../Books/millenium.html|../Books/online-love.html";
+var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love";
+var SubHrefArray = "../Books/for-the-sake-of-tomorrow.html|../Books/forgotten-choice.html|../Books/time-steps.html|../Books/millenium.html|../Books/online-love.html";
 
 //Поиск новелл.
 function Search() {
