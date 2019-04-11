@@ -344,10 +344,8 @@ img.ButtonReader {
 	margin-left: 0;
 }
 
-div.ReaderPoem {
-	width: 50%;
-	margin: auto;
-	text-indent: 26px;
+div.Poem {
+    width: 100%;
 	text-align: justify;
 	color: white;
 	font-size: 17px;
