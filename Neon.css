@@ -345,11 +345,9 @@ img.ButtonReader {
 }
 
 div.Poem {
-    width: 100%;
-	text-align: justify;
-	color: white;
-	font-size: 17px;
-	font-family: "Georgia";
+    text-indent: 0px;
+    line-height: 20px;
+    text-align: left;
 }
 
 div.Reader {
