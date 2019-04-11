@@ -1,5 +1,6 @@
 var Releases = "";
-Releases = Releases + "Тысячелетие$Глава 7. Школьная медсестра, остановись! Или как меня разоблачила девушка с F размером$11.04.2019$millenium=7$15.jpg@";
+Releases = Releases + "Вещает станция «Восход»$3. Поле брацкай крывi$12.04.2019$broadcasting-station-sunrise=28$11.jpg@";
+Releases = Releases + "Вещает станция «Восход»$2. Никому$12.04.2019$broadcasting-station-sunrise=27$11.jpg@";
 Releases = Releases + "Тысячелетие$Глава 7. Школьная медсестра, остановись! Или как меня разоблачила девушка с F размером$11.04.2019$millenium=7$15.jpg@";
 
 Releases = Releases.slice(0, -1);
