@@ -1,35 +1,7 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../Style.css" />
-    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
-    <title>Родина Земля</title>
-</head>
-
-<body class="Reader" oncopy="return false">
-    <div class="Main">
-        <h1 class="Main">Вещает станция DUB1401</h1>
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-                <td>
-                    <a href="vol1_ch2.html" class="ButtonReader"><span class="ButtonReaderNavigate">Следующая →</span></a>
-                </td>
-            </tr>
-        </table>
-
-
-        <h2 class="Main">Альбом первый. Верю в людей</h2>
-        <h3 class="Main">Родина Земля</h3>
-        <hr class="Main">
-    </div>
-    <div class="Reader Poem">
-        <p>Обычный человек: шатаюсь в кепке по дворам,</p>
+﻿<p id="novel_in">Вещает станция «Восход»</p>
+<p id="volume_in">Альбом первый. Верю в людей</p>
+<p id="chapter_in">Родина Земля</p>
+<p>Обычный человек: шатаюсь в кепке по дворам,</p>
         <p>Я ничего не жду, но верю в своё чудо,</p>
         <p>Хоть приперало, но ни разу не взмолился небесам.</p>
         <p>Шёл смело в гору, не смел сойти со звёздного маршрута.</p>
@@ -75,20 +47,3 @@
         <p>Не слушай никого, и позабудь меня.</p>
         <p>Я знаю, ты оправдания под нос себе бормочешь.</p>
         <p>Тебя простит всегда лишь твоя мама - Родина Земля.</p>
-        
-    </div>
-    <div class="Main">
-        <table class="ButtonReader">
-            <tr>
-                <td>
-                    <a href="main.html" class="ButtonReader"><img class="ButtonReader" src="../Images/Book.png"><span class="ButtonReaderMain">Оглавление</span></a>
-                </td>
-                <td>
-                    <a href="vol1_ch2.html" class="ButtonReader"><span class="ButtonReaderNavigate">Следующая →</span></a>
-                </td>
-            </tr>
-        </table>
-    </div>
-</body>
-
-</html>
