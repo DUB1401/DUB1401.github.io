@@ -128,7 +128,6 @@ function LoadChapter() {
     
 }
 
-
 $(function(){
   $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
 
@@ -137,7 +136,7 @@ $(function(){
   });
 });
 
-
+//Выравнивание названий новелл.
 function VarticalAlignBookHeads() {
     var Boxes = document.getElementsByClassName('LibruaryBookName');
     
@@ -168,4 +167,14 @@ function VarticalAlignBookHeads() {
     }
 
     
+}
+
+//Копирование строки в буфер обмена.
+function TextCopy(URLtext) {
+    var copytext = document.createElement('input')
+    copytext.value = URLtext
+    document.body.appendChild(copytext)
+    copytext.select()
+    document.execCommand('copy')
+    document.body.removeChild(copytext)
 }
