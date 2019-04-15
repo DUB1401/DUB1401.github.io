@@ -592,6 +592,16 @@ p.BookDescriptionLine {
     width: calc(100% - 40px);
 }
 
+a.BookDescriptionTranslater {
+    color: rgb(167, 164, 164);
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+a:hover.BookDescriptionTranslater {
+    color: RGB(255, 163, 16);
+}
+
 span.BookDescriptionLineRight {
     font-size: 18px;
     color: #7aad00;

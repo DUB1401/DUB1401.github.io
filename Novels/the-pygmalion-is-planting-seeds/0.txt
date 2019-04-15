@@ -1,0 +1,3 @@
+﻿<p id="novel_in">Пигмалион сажает семена</p>
+<p id="volume_in">Том 1</p>
+<p id="chapter_in">Глава 1</p>
