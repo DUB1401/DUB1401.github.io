@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love";
-var SubHrefArray = "../Books/for-the-sake-of-tomorrow.html|../Books/forgotten-choice.html|../Books/time-steps.html|../Books/millenium.html|../Books/online-love.html";
+var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love|Атлантида: До падения=Atlantis: Before the Falling|Пигмалион сажает семена=The Pygmalion Is Planting Seeds Pygmalion wa Tane wo Maku|Вещает станция «Восход»=Broadcasting statinon «Sunrise»";
+var SubHrefArray = "for-the-sake-of-tomorrow|forgotten-choice|time-steps|millenium|online-love|atlantis-before-the-falling|the-pygmalion-is-planting-seeds|broadcasting-station-sunrise";
 
 //Поиск новелл.
 function Search() {
@@ -39,7 +39,7 @@ function Search() {
             var Div = document.createElement('div');
             Div.className = "DarkMatterUplineSearchElement";
             var Link = document.createElement('a');
-            Link.href = HrefArray[i];
+            Link.href = "../Books/" + HrefArray[i] + ".html";
             Link.innerHTML = SearchArray[i].split('=')[0];
             Link.className = "DarkMatterUplineSearchElement";
             Div.appendChild(Link);
