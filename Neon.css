@@ -9,10 +9,29 @@
     --color-grey: RGB(117, 130, 155);
 }
 
+html {
+    height: 100%;
+}
+
 body.DarkMatter {
     margin: 0;
     background-color: var(--color-light-dark);
     min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+td {
+    padding: 0;
+}
+
+tr {
+    padding: 0;
+}
+
+th {
+    padding: 0;
 }
 
 div.NoScript {
@@ -28,6 +47,7 @@ div.NoScript {
 
 div.DarkMatterContent {
     width: 100%;
+    flex: 1 0 auto;
 }
 
 div.DarkMatterContainer {
@@ -42,6 +62,7 @@ div.DarkMatterDownline {
     font-size: 20px;
     display: inline-block;
     vertical-align: middle;
+    flex: 0 0 auto;
 }
 
 /*Шапка сайта*/
@@ -55,6 +76,7 @@ div.DarkMatterUpline {
     background-color: var(--color-dark);
     width: 100%;
     height: 60px;
+    flex: 0 0 auto;
 }
 
 button.DarkMatterUpline {
@@ -900,6 +922,229 @@ button:focus.NewReleasesButton {
     outline: none;
 }
 
+/*Хранилище*/
+
+table.StorageBox {
+    width: calc(100% - 30px);
+    background-color: var(--color-dark);
+    margin: 40px 15px 40px 15px;
+    border: 5px solid var(--color-middle-dark);
+    box-sizing: border-box;
+}
+
+td.StorageBoxLine {
+    border-top: 1px solid RGBA(0,0,0,0.2);
+    vertical-align: middle;
+    display: table;
+    width: 100%;
+}
+
+div.StorageBoxLeft {
+    width: 85%;
+    display: table-cell;
+    padding: 2px 5px 2px 10px;
+    vertical-align: middle;
+}
+
+div.StorageBoxRight {
+    width: 15%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+p.StorageBoxHead {
+    cursor: default;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+}
+
+a.StorageBoxFolder {
+    color: white;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    text-decoration: none;
+    font-size: 28px;
+    background: url() no-repeat left center; 
+    background-size: 32px; 
+    padding-left: 40px;
+    transition: 0.4s;
+}
+
+a:hover.StorageBoxFolder {
+    color: var(--color-orange);
+}
+
+p.StorageBoxDeclaration {
+    cursor: default;
+    color: white;
+    padding: 2px 5px 2px 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+span.StorageBoxDate {
+    color: green;
+}
+
+span.StorageBoxSize {
+    color: #B22222;
+}
+
+/*Страница Хранилища*/
+
+table.StoragePageHead {
+    width: calc(100% - 30px);
+    margin: 40px 15px 40px 15px;
+    background-color: var(--color-dark);
+    border: 5px solid var(--color-middle-dark);
+    box-sizing: border-box;
+
+}
+
+td.StoragePageHeadLeft {
+    width: calc(100% - 150px);
+    vertical-align: top;
+}
+
+h2.StoragePageHeadLeft {
+    color: white;
+    margin: 0;
+    padding: 5px 0 5px 10px;
+    font-size: 22px;
+}
+
+p.StoragePageHeadLeft {
+    color: white;
+    margin: 0;
+    padding: 0px 0 5px 10px;
+    font-size: 18px;
+}
+
+span.StoragePageHeadLeftOpen {
+    color: gold;
+}
+
+span.StoragePageHeadLeftClosed {
+    color: green;
+}
+
+td.StoragePageHeadRight {
+    width: 150px;
+    position: relative;
+}
+
+button.StoragePageHeadRight {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto"inherit;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(147, 160, 185);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+button:hover.StoragePageHeadRight {
+    color: black;
+    background-color: rgb(197, 210, 235);
+}
+
+button:focus.StoragePageHeadRight {
+    outline: none;
+}
+
+button:active.StoragePageHeadRight {
+    outline: none;
+    background-color: rgb(167, 180, 205);
+    border: 1px solid black;
+}
+
+div.StorageImages {
+    width: calc(100% - 30px);
+    margin: 30px 15px 40px 15px;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-middle-dark);
+    border: 5px solid var(--color-top-dark);
+}
+
+div.StorageImagesHead {
+    color: white;
+    width: 100%;
+    font-size: 28px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-bottom: 5px solid var(--color-top-dark);
+    background-color: var(--color-dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.StorageBlock {
+    border: 5px solid var(--color-top-dark);
+    margin: 10px 5px 0 5px;
+}
+
+div.StorageImageContainer {
+    height: 150px;
+    width: 150px;
+    background-color: var(--color-middle-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img.StorageImage {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+button.StorageBlock {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: var(--color-grey);
+    border-top: 3px solid var(--color-top-dark);
+    transition: 0.4s;
+    transition-property: color;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    font-size: 17px;
+}
+
+button:hover.StorageBlock {
+    color: black;
+}
+
+button:focus.StorageBlock {
+    outline: none;
+}
+
+button:active.StorageBlock {
+    outline: none;
+    background-color: var(--color-yellow);
+}
+
 /*Для смартфонов*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -1336,6 +1581,45 @@ button:focus.NewReleasesButton {
     button.NewReleasesButton {
         padding: 15px;
         font-size: 36px;
+    }
+
+    /*Хранилище*/
+    table.StorageBox {
+        width: 100%;
+        margin: 40px 0px 40px 0px;
+		border-top: 5px solid var(--color-middle-dark);
+		border-bottom: 5px solid var(--color-middle-dark);
+    }
+
+    td.StorageBoxLine {
+        border-top: 2px solid RGBA(0, 0, 0, 0.4);
+    }
+
+    div.StorageBoxLeft {
+        width: 70%;
+    }
+
+    div.StorageBoxRight {
+        width: 30%;
+    }
+
+    p.StorageBoxHead {
+        padding: 5px;
+        font-size: 48px;
+    }
+
+    a.StorageBoxFolder {
+        font-size: 36px;
+        background-size: 54px;
+        padding-left: 64px;
+    }
+
+    p.StorageBoxDeclaration {
+        font-size: 24px;
+    }
+
+    span.StorageBoxSize {
+        color: red;
     }
 }
 

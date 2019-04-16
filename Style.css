@@ -3,6 +3,7 @@
 
 div.DarkMatterContent {
     width: 100%;
+    flex: 1 0 auto;
 }
 
 :root {
@@ -817,6 +818,7 @@ button:active.StorageBoxParvus {
         background-color: #252b37;
         height: 60px;
         margin-bottom: 40px;
+        flex: 0 0 auto;
     }
     
     table.DarkMatterUplineMagnus {
