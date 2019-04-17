@@ -1080,8 +1080,9 @@ div.StorageImages {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--color-middle-dark);
-    border: 5px solid var(--color-top-dark);
+    background-color: var(--color-dark);
+    border: 5px solid var(--color-middle-dark);
+    box-sizing: border-box;
 }
 
 div.StorageImagesHead {
@@ -1090,7 +1091,7 @@ div.StorageImagesHead {
     font-size: 28px;
     padding: 5px 10px 5px 10px;
     text-align: center;
-    border-bottom: 5px solid var(--color-top-dark);
+    border-bottom: 5px solid var(--color-middle-dark);
     background-color: var(--color-dark);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -1124,8 +1125,6 @@ button.StorageBlock {
     border: none;
     background-color: var(--color-grey);
     border-top: 3px solid var(--color-top-dark);
-    transition: 0.4s;
-    transition-property: color;
     cursor: pointer;
     font-weight: bold;
     outline: none;

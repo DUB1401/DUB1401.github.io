@@ -200,3 +200,9 @@ function TextCopy(URLtext) {
     document.execCommand('copy')
     document.body.removeChild(copytext)
 }
+
+//Копирование ссылки изображения в буфер обмена.
+function CopyImageURL(index) {
+    var Images = document.getElementsByTagName("img");
+    TextCopy(Images[index - 1].src);
+}
