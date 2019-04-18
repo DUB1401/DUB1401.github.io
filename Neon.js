@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love|Атлантида: До падения=Atlantis: Before the Falling|Пигмалион сажает семена=The Pygmalion Is Planting Seeds Pygmalion wa Tane wo Maku|Вещает станция «Восход»=Broadcasting statinon «Sunrise»";
-var SubHrefArray = "for-the-sake-of-tomorrow|forgotten-choice|time-steps|millenium|online-love|atlantis-before-the-falling|the-pygmalion-is-planting-seeds|broadcasting-station-sunrise";
+var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love|Атлантида: До падения=Atlantis: Before the Falling|Пигмалион сажает семена=The Pygmalion Is Planting Seeds Pygmalion wa Tane wo Maku|Вещает станция «Восход»=Broadcasting statinon «Sunrise»|Я побрился. Затем привёл домой старшеклассницу=Hige wo Soru. Soshite Joshikousei wo Hirou I Shaved. Then I Brought a High School Girl Home";
+var SubHrefArray = "for-the-sake-of-tomorrow|forgotten-choice|time-steps|millenium|online-love|atlantis-before-the-falling|the-pygmalion-is-planting-seeds|broadcasting-station-sunrise|i-shaved-then-i-brought-a-high-school-girl-home";
 
 //Поиск новелл.
 function Search() {
