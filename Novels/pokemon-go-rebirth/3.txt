@@ -67,4 +67,4 @@
 <p>- Гастли! Я тебя уничтожу!</p>
 <p>Из кустов за Джейком наблюдал газовый покемон, которого мальчик теперь считает своим злейшим врагом. Дымная голова больше не смеялась, а только чувствовала вину…</p>
 <h4 class="Reader">Гастли (Gastly)</h4>
-<img class="Reader75" src="https://photosp.ru/images/2018/11/25/GASTLI.png" />
+<img class="Reader75" src="https://dubostorage001.github.io/pokemon-go-rebirth/2_1.png" />
