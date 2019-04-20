@@ -1,6 +1,8 @@
 var Releases = "";
 
-Releases = Releases + "Я побрился. Затем привёл домой старшеклассницу$Глава 7. Косметика$18.04.2019$i-shaved-then-i-brought-a-high-school-girl-home=8$20.jpg@";
+Releases = Releases + "Тысячелетие$Глава 9. Спиритический сеанс или нам не следовало этого делать$21.04.2019$millenium=9$15.jpg@";
+Releases = Releases + "Геймеры!$Пролог!$20.04.2019$gamers=1$27.jpg@";
+//Releases = Releases + "Я побрился. Затем привёл домой старшеклассницу$Глава 7. Косметика$18.04.2019$i-shaved-then-i-brought-a-high-school-girl-home=8$20.jpg@";
 Releases = Releases + "Тысячелетие$Глава 8. Легенда о Бугимене или дыхание в затылок$14.04.2019$millenium=8$15.jpg@";
 Releases = Releases + "Вещает станция «Восход»$3. Поле брацкай крывi$12.04.2019$broadcasting-station-sunrise=28$11.jpg@";
 Releases = Releases + "Вещает станция «Восход»$2. Никому$12.04.2019$broadcasting-station-sunrise=27$11.jpg@";
