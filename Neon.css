@@ -1,3 +1,5 @@
+/*001*/
+
 :root {
     --color-middle-dark: RGB(48, 58, 76);
     --color-light-dark: RGB(61, 71, 90); 
@@ -845,22 +847,22 @@ table:hover.NewReleases {
 td.NewReleasesCover {
     width: 48px;
     padding: 0;
+    border-right: 2px solid var(--color-dark);
 }
 
 img.NewReleasesCover {
     display: block;
     width: 48px;
-    border-right: 2px solid var(--color-dark);
 }
 
 td.NewReleasesText {
-    padding: 0;
+    padding: 5px 0 0 10px;
     vertical-align: top;
 }
 
 h2.NewReleasesText {
     margin: 0;
-    padding: 5px 0 0 10px;
+    padding: 0px 0px 0px 0px;
     font-weight: bold;
     color: white;
     font-size: 28px;
@@ -868,7 +870,7 @@ h2.NewReleasesText {
 
 p.NewReleasesText {
     margin: 0;
-    padding: 0px 0 0 10px;
+    padding: 0 0 0 0px;
     color: white;
     font-size: 18px;
 }
