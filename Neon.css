@@ -862,7 +862,6 @@ td.NewReleasesText {
 
 h2.NewReleasesText {
     margin: 0;
-    padding: 0px 0px 0px 0px;
     font-weight: bold;
     color: white;
     font-size: 28px;
@@ -878,8 +877,7 @@ p.NewReleasesText {
 span.NewReleasesText {
     color: green;
     font-size: 16px;
-    padding: 0 0 0 10px;
-    vertical-align: middle;
+    padding: 0px 0 0 10px;
 }
 
 td.NewReleasesButton {
