@@ -1,6 +1,6 @@
 ﻿<!--Converted by DHTML-->
 <p id="novel_in">Вещает станция «Восход»</p>
-<p id="volume_in">Альбом третий. Дератизация</p>
+<p id="volume_in">Альбом третий. Нечистоты</p>
 <p id="chapter_in">Поле брацкай крывi</p>
 <div class="Poem">
 <p>Яднайцеся, народы бацькаў мужных,</p>
