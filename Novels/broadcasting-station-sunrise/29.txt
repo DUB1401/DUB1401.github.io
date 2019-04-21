@@ -60,4 +60,4 @@
 <p>Свободным ветром дышит.</p>
 <p>Дохлятину пихает в рот</p>
 <p>И песни музы слышит.</p>
-<img class="Reader75" src="https://dubostorage001.github.io/BSD_VOL3/4,jpg"/>
+<img class="Reader75" src="https://dubostorage001.github.io/BSD_VOL3/4.jpg"/>
