@@ -375,7 +375,7 @@ div.Poem {
 div.Reader {
 	max-width: 1000px;
 	line-height: 25px;
-	margin: auto;
+	margin: 0px auto 20px auto;
 	text-indent: 50px;
 	text-align: justify;
 	color: white;
