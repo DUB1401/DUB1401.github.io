@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Evolv Box</title>
+    <link rel="stylesheet" type="text/css" href="../../Neon.css" />
+    <link rel="stylesheet" type="text/css" href="milky-way-map/Style.css" />
+    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../../Neon.js"></script>
+    <script src="milky-way-map/Script.js"></script>
+</head>
+
+<body class="DarkMatter" onload="PageDataUpdate()">
+
+    <!--Верхняя панель навигации-->
+    <div class="DarkMatterUpline">
+        <h6 class="DarkMatterUpline">Страница</h6>
+        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
+        <div class="DarkMatterUplineSearch" id="SearchContainer">
+            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
+                oninput="Search()">
+
+
+        </div>
+    </div>
+
+    <!--Содержимое страницы-->
+    <div class="DarkMatterContent">
+        
+        <div class="GalaxyMapContainer">
+            <div class="GalaxyTexture">
+                <img class="GalaxyTexture" src="milky-way-map/milky-way-texture.jpg">
+                <!-- <div class="Quadrantum"></div>
+                <div class="Quadrantum" style="left: 50%;"></div>
+                <div class="Quadrantum" style="left: 50%; top: 50%;"></div>
+                <div class="Quadrantum" style="left: 0; top: 50%;"></div> -->
+
+                <div class="Planet" id="Earth" onclick="ShowPlanetInfo(1)"></div>
+                <div class="Planet" id="Tangara" onclick="ShowPlanetInfo(2)"></div>
+            </div>
+
+            <div class="PlanetInfo" id="PlanetInfo">
+                <h1 class="PlanetInfo">Солнечная система</h1>
+                <p class="PlanetDescription"><span class="PlanetDescription">Расположение: </span>Альфа-квадрант</p>
+                <p class="PlanetDescription"><span class="PlanetDescription">Планеты: </span>Меркурий, Венера, Земля, Марс, Юпитер, Сатурн, Уран, Нептун</p>
+                <p class="PlanetDescription"><span class="PlanetDescription">Описание: </span>Место зарождения расы людей. Эта система была домом для последних детей Великих Городов Древних, а сейчас стала центром запутанных интриг и обителью Корпуса Охотников. Населена людьми в конце электронной эры. Не имеет ценных ресурсов.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Меню навигации-->
+    <div class="DarkMatterMenu" id="AdaptiveMenu">
+        <h1 class="DarkMatterMenu">Evolv Box</h1>
+        <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
+        <ul class="DarkMatterMenuElement">
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../index.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Home.png);"></span>Главная страница</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Libruary.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Libruary.png);"></span>Библиотека</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Journal.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Magazine.png);"></span>Журнал</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Storage.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Box.png);"></span>Хранилище</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../About.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/About.png);"></span>О нас</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
+                        class="DarkMatterMenuElement" style="background-image: url(../../Images/VK.png);"></span>Группа
+                    ВКонтакте</a></li>
+        </ul>
+    </div>
+
+    <!--Footer-->
+    <div class="DarkMatterDownline">
+        <p id="Downline"></p>
+    </div>
+
+    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
+    <noscript>
+        <div class="NoScript">
+            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
+            опция отключена в вашем браузере.
+        </div>
+    </noscript>
+
+</body>
+
+</html>

@@ -321,6 +321,16 @@ h4.Reader {
 	margin: 0;
 }
 
+h5.Reader {
+	text-indent: 50px;
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	font-family: "Times New Roman";
+	margin: 0;
+}
+
 table.ButtonReader {
 	width: 100%;
 }
@@ -1378,6 +1388,11 @@ button:active.StorageBlock {
         font-style: normal;
         font-family: "Times New Roman";
         margin: 0;
+    }
+
+    h5.Reader {
+        text-indent: 10%;
+        text-align: right;
     }
     
     h2.Main {
