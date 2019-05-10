@@ -4,32 +4,60 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Evolv Box</title>
-    <link rel="stylesheet" type="text/css" href="Neon.css" />
+    <title>Иллюстрации к новелле «Забытый выбор»</title>
+    <link rel="stylesheet" type="text/css" href="../Neon.css" />
     <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script src="Neon.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../Neon.js"></script>
 </head>
 
 <body class="DarkMatter" onload="PageDataUpdate()">
 
     <!--Верхняя панель навигации-->
     <div class="DarkMatterUpline">
-        <h6 class="DarkMatterUpline">Страница</h6>
+        <h6 class="DarkMatterUpline">Во имя завтрашнего дня</h6>
         <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
         <div class="DarkMatterUplineSearch" id="SearchContainer">
             <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
                 oninput="Search()">
-
-
         </div>
     </div>
 
     <!--Содержимое страницы-->
     <div class="DarkMatterContent">
         
-        
+        <table cellspacing="0" class="StoragePageHead">
+            <tr>
+                <td class="StoragePageHeadLeft">
+                    <h2 class="StoragePageHeadLeft">Справочные материалы к новелле «Во имя завтрашнего дня»</h2>
+                    <p class="StoragePageHeadLeft">Статус колонки: <span class="StoragePageHeadLeftOpen">открыта</span></p>
+                </td>
+                <td class="StoragePageHeadRight">
+                    <button class="StoragePageHeadRight" onclick="window.location.href='../Journal.html'">Назад</button>
+                </td>
+            </tr>
+        </table>
+
+        <table class="StorageBox" cellspacing="0">
+            <tr class="StorageBox">
+                <th>
+                    <p class="JournalBoxHead">Справочные материалы</p>
+                </th>
+            </tr>
+            <tr class="JournalBox">
+                <td class="JournalBoxLine">
+                    <div class="JournalBoxLeft">
+                        <a class="JournalBoxFolder" style="background-image: url(../Images/Magazine.png);"
+                            href="for-the-sake-of-tomorrow/fractions.html">Фракции и организации</a>
+                    </div>
+                    <div class="JournalBoxRight">
+                        <p class="StorageBoxDeclaration">Автор: <span class="StorageBoxSize">DUB1401</span></p>
+                        <p class="StorageBoxDeclaration">Обновлено: <span class="StorageBoxDate">10.05.2019</span></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
     </div>
 
