@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Вещает станция «Восход»$6. Умираю молодым$06.06.2019$broadcasting-station-sunrise=31$11.jpg@";
+Releases = Releases + "Вещает станция «Восход»$5. Никто не вспомнит о тебе$05.06.2019$broadcasting-station-sunrise=30$11.jpg@";
 Releases = Releases + "Вещает станция «Восход»$4. Дохлятина$22.04.2019$broadcasting-station-sunrise=29$11.jpg@";
 
 Releases = Releases + "Тысячелетие$Глава 9. Спиритический сеанс или нам не следовало этого делать$21.04.2019$millenium=9$15.jpg@";
