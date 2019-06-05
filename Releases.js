@@ -1,5 +1,6 @@
 var Releases = "";
 
+Releases = Releases + "Геймеры!$Глава 1. Амано Кэйто и люди, на которых равняются. Часть первая$06.06.2019$gamers=2$27.jpg@";
 Releases = Releases + "Тысячелетие$Глава 11. Умри, мамочка, умри! Или игрушка для двоих$06.06.2019$millenium=11$15.jpg@";
 Releases = Releases + "Тысячелетие$Глава 10. Первый раб нового Бога или падение ангела крови$06.06.2019$millenium=10$15.jpg@";
 
@@ -13,7 +14,6 @@ Releases = Releases + "Геймеры!$Пролог!$20.04.2019$gamers=1$27.jpg@
 Releases = Releases + "Тысячелетие$Глава 8. Легенда о Бугимене или дыхание в затылок$14.04.2019$millenium=8$15.jpg@";
 
 Releases = Releases + "Вещает станция «Восход»$3. Поле брацкай крывi$12.04.2019$broadcasting-station-sunrise=28$11.jpg@";
-Releases = Releases + "Вещает станция «Восход»$2. Никому$12.04.2019$broadcasting-station-sunrise=27$11.jpg@";
 
 Releases = Releases.slice(0, -1);
 var ReleaseArray = Releases.split('@');
