@@ -1281,7 +1281,7 @@ a.JournalBoxFolder {
     transition: 0.4s;
 }
 
-a:hover.StorageBoxFolder {
+a:hover.JournalBoxFolder {
     color: var(--color-orange);
 }
 
