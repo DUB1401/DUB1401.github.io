@@ -1,5 +1,8 @@
 var Releases = "";
 
+Releases = Releases + "Тысячелетие$Глава 11. Умри, мамочка, умри! Или игрушка для двоих$06.06.2019$millenium=11$15.jpg@";
+Releases = Releases + "Тысячелетие$Глава 10. Первый раб нового Бога или падение ангела крови$06.06.2019$millenium=10$15.jpg@";
+
 Releases = Releases + "Вещает станция «Восход»$6. Умираю молодым$06.06.2019$broadcasting-station-sunrise=31$11.jpg@";
 Releases = Releases + "Вещает станция «Восход»$5. Никто не вспомнит о тебе$05.06.2019$broadcasting-station-sunrise=30$11.jpg@";
 Releases = Releases + "Вещает станция «Восход»$4. Дохлятина$22.04.2019$broadcasting-station-sunrise=29$11.jpg@";
@@ -11,7 +14,6 @@ Releases = Releases + "Тысячелетие$Глава 8. Легенда о Б
 
 Releases = Releases + "Вещает станция «Восход»$3. Поле брацкай крывi$12.04.2019$broadcasting-station-sunrise=28$11.jpg@";
 Releases = Releases + "Вещает станция «Восход»$2. Никому$12.04.2019$broadcasting-station-sunrise=27$11.jpg@";
-Releases = Releases + "Тысячелетие$Глава 7. Школьная медсестра, остановись! Или как меня разоблачила девушка с F размером$11.04.2019$millenium=7$15.jpg@";
 
 Releases = Releases.slice(0, -1);
 var ReleaseArray = Releases.split('@');
