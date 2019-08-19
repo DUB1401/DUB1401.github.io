@@ -110,3 +110,4 @@
 <p>Спасёт ваших детей Исида.</p>
 <p>От участи больных свиней,</p>
 <p>От пустоты и стыда.</p></div>
+<img class="Reader75" src="https://dubostorage001.github.io/BSD_VOL3/7.jpg"/>
