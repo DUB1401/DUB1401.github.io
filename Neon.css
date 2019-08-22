@@ -769,11 +769,12 @@ div.LibruaryBookContainer {
     max-width: 1200px;
     width: 100%;
     margin: 40px auto 40px auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
 }
 
 div.LibruaryBookBlock {
@@ -784,8 +785,6 @@ div.LibruaryBookBlock {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: auto;
 }
 
 h1.LibruaryBookName {
@@ -796,6 +795,7 @@ h1.LibruaryBookName {
     font-size: 120%;
     font-weight: 700;
     overflow: hidden;
+    height: 100%;
 }
 
 button.LibruaryBookButton {
