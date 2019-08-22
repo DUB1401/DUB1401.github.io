@@ -769,15 +769,23 @@ div.LibruaryBookContainer {
     max-width: 1200px;
     width: 100%;
     margin: 40px auto 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     overflow: hidden;
 }
 
 div.LibruaryBookBlock {
-    width: 25%;
+    width: 280px;
     padding-right: 15px;
     padding-left: 15px;
     float: left;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 h1.LibruaryBookName {
@@ -1689,6 +1697,11 @@ span.StorageBoxSize {
         width: 100%;
         margin: 40px auto 40px auto;
         overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
     }
     
     div.LibruaryBookBlock {
@@ -1698,6 +1711,10 @@ span.StorageBoxSize {
         padding-left: 15px;
         float: left;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
     
     h1.LibruaryBookName {
