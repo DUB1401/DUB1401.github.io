@@ -20,6 +20,7 @@ body.DarkMatter {
     display: flex;
     flex-direction: column;
     height: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 td {
@@ -1326,14 +1327,17 @@ span.StorageBoxSize {
     h6.DarkMatterUpline {
         font-size: 64px;
         color: white;
-        padding: 0;
+        padding: 0 120px 0 0;
         margin: 0;
         padding-left: 20px;
         vertical-align: middle;
-        display: flex;
         height: 120px;
+        line-height: 120px;
         align-items: center;
         visibility: visible;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     div.DarkMatterUpline {
@@ -1603,6 +1607,10 @@ span.StorageBoxSize {
         font-size: 46px;
     }
 
+    summary.DarkMatterBookContent {
+        font-size: 50px;
+    }
+
     div.DarkMatterBookChapter {
         width: 100%;
         background-color: var(--color-light-dark);
@@ -1656,6 +1664,7 @@ span.StorageBoxSize {
     
     p.BookDescriptionText {
         text-indent: 50px;
+        font-size: 40px;
     }
 
     p.BookDescriptionLine {
@@ -1732,7 +1741,7 @@ span.StorageBoxSize {
     }
 
     p.NewReleasesText {
-        font-size: 25px;
+        font-size: 34px;
     }
 
     span.NewReleasesText {

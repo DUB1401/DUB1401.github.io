@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Сказание о странствующем мастере ки</title>
+    <link rel="stylesheet" type="text/css" href="../Neon.css" />
+    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../Neon.js"></script>
+</head>
+
+<body class="DarkMatter" onload="PageDataUpdate()">
+
+    <!--Верхняя панель навигации-->
+    <div class="DarkMatterUpline">
+            <h6 class="DarkMatterUpline">Сказание о странтсвующем мастере ки</h6>
+        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
+        <div class="DarkMatterUplineSearch" id="SearchContainer">
+            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
+                oninput="Search()">
+        </div>
+    </div>
+
+    <!--Содержимое страницы-->
+    <div class="DarkMatterContent">
+    
+        <div class="BookDescription">
+            <div class="BookLeftLayout">
+                <div id="BookCoversContainer">
+                    <img class="BookCover BookCoverActive" src="https://dubostorage001.github.io/Covers.fol/29.jpg">
+                </div>
+            </div><div class="BookRightLayout">
+                <h1 class="BookName">Сказание о странствующем мастере ки / The Legend of the Wandering Ki Master</h1>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/BookFile.png);">Авторы: DUB1401</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Cloack.png);">Дата
+                        публикации:<span class="BookDescriptionLineRight">22.08.2019</span></p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Marks.png);">Жанры: фэнтези, комедия, гарем, приключения</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Warning.png);">Статус: публикуется 1-ый том</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Age.png);">Возрастной рейтинг: без ограничений</p>
+                </div>
+                <hr class="BookLine">
+            </div>
+            <div class="BookDescriptionText">
+                <p class="BookDescriptionTextHead" style="background-image: url(../Images/Lines.png)">Описание:</p>
+                <p class="BookDescriptionText">
+                    Сто лет назад Император Змей расколол мир пополам, чтобы справиться с Ордой демонов, угрожавших человечеству. Он уничтожил себя, свои владения и свой народ, канув в небытие вместе с великой силой. Люди прозвали эту силу – душа природы «ки».</p>
+                <p class="BookDescriptionText">
+                    И поныне великие воины практикуют умение говорить с окружающими их духами. Странствуя по миру, эти отшельники становятся известными личностями. Кто-то ищет славы, кто-то богатства, кто-то силы... А Кендзи всю жизнь искал дом. Но однажды бедного простолюдина вместе с его четвероногим другом Оками втягивает в неприятности обольстительная миловидная принцесса. С этого момента спокойное путешествие можно считать оконченным?</p>
+            </div>
+
+            <!--Спойлеры глав и томов.-->
+            <div class="DarkMatterBookContent">
+            
+                <details class="DarkMatterBookContent" open>
+                    <summary class="DarkMatterBookContent">История первая. Неспокойное графство</summary>
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 1. Принцесса в беде! Нужен герой</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?the-legend-of-the-wandering-ki-master=1">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+            
+                </details>
+            </div>
+            </div>
+
+        
+    </div>
+
+    <!--Меню навигации-->
+    <div class="DarkMatterMenu" id="AdaptiveMenu">
+            <h1 class="DarkMatterMenu">Evolv Box</h1>
+            <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
+            <ul class="DarkMatterMenuElement">
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../index.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Home.png);"></span>Главная
+                        страница</a></li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Libruary.html"><span
+                            class="DarkMatterMenuElement"
+                            style="background-image: url(../Images/Libruary.png);"></span>Библиотека</a></li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Journal.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Magazine.png);"></span>Журнал</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Storage.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Box.png);"></span>Хранилище</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../About.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/About.png);"></span>О нас</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/VK.png);"></span>Группа
+                        ВКонтакте</a></li>
+            </ul>
+        </div>
+
+    <!--Footer-->
+    <div class="DarkMatterDownline">
+        <p id="Downline"></p>
+    </div>
+
+    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
+    <noscript>
+        <div class="NoScript">
+            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
+            опция отключена в вашем браузере.
+        </div>
+    </noscript>
+
+</body>
+
+</html>
