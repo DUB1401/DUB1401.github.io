@@ -128,15 +128,6 @@ function LoadChapter() {
     
 }
 
-//Выравнивание высоты обложек новелл в библиотеке.
-$(function(){
-  $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
-
-  $(window).resize(function(){
-    $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
-  });
-});
-
 //Копирование строки в буфер обмена.
 function TextCopy(URLtext) {
     var copytext = document.createElement('input')
