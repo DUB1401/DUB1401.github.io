@@ -58,6 +58,15 @@ function PageDataUpdate() {
     MenuMode = document.getElementById('AdaptiveMenu').style.left;
 }
 
+//Выравнивание высоты обложек новелл на их страницах.
+$(function(){
+    $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
+  
+    $(window).resize(function(){
+      $('.BookLeftLayout').height($('.BookLeftLayout').width()/0.75);
+    });
+  });
+
 //Загружает главу в читалку.
 function LoadChapter() {
     //Чтение аргументов страницы.
