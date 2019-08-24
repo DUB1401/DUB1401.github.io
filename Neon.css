@@ -1692,16 +1692,17 @@ span.StorageBoxSize {
 
     /*Библиотека.*/
 
+
     div.LibruaryBookContainer {
         max-width: 1200px;
         width: 100%;
         margin: 40px auto 40px auto;
-        overflow: hidden;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        justify-content: center;
-        overflow: hidden;
     }
     
     div.LibruaryBookBlock {
@@ -1713,8 +1714,6 @@ span.StorageBoxSize {
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: auto;
     }
     
     h1.LibruaryBookName {
@@ -1724,6 +1723,15 @@ span.StorageBoxSize {
         color: white;
         font-size: 54px;
         overflow: hidden;
+    }
+
+    img.LibruaryBookCapture {
+        display: block;
+        
+        width: 100%;
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin: 20px 0 0 0;
     }
     
     button.LibruaryBookButton {

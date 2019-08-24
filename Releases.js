@@ -1,6 +1,6 @@
 var Releases = "";
 
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 16. Двуглавый змей$23.08.2019$the-legend-of-the-wandering-ki-master=16$29.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 17. Помутнение рассудка и вулканический кулак горничной!$25.08.2019$the-legend-of-the-wandering-ki-master=17$29.jpg@";
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 
 Releases = Releases + "Геймеры!$Глава 1. Амано Кэйто и люди, на которых равняются. Часть первая$06.06.2019$gamers=2$27.jpg@";
