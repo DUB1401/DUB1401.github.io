@@ -1495,7 +1495,6 @@ span.StorageBoxSize {
     /*Читалка.*/
 
     div.Reader {
-        margin: auto;
         width: 95%;
         text-align: justify;
         color: white;
