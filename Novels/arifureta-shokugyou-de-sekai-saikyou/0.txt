@@ -1,0 +1,4 @@
+src:code=1;url=https://dubostorage001.github.io/arifureta-shokugyou-de-sekai-saikyou/1.jpg;size=75;
+novel:Арифурэта: Сильнейший ремесленник в мире
+chapter:
+volume:Том 1
