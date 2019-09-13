@@ -75,7 +75,7 @@ function LoadChapter() {
     //Составление адреса для чтения базы данных.
     var Path = "https://dub1401.github.io/Novels/" + Arguments[0] + "/" + Arguments[1] + ".txt";
     var Declaration = "https://dub1401.github.io/Novels/" + Arguments[0] + "/Declaratio.txt";
-    
+    //НЕ ТРОГАЙ БЛЯДЬ СУКА ТУПАЯ ОНО РАБОТАЕТ НЕ ЗНАЮ КАК НО РАБОТАЕТ ТАКЧТО В ПИЗДУ НЕ ТРОГАЙ ШЛЮХА СИЫИЛИСНАЯ
     $.get(Declaration, function(decl){
         $.get(Path, function(data) {
 
