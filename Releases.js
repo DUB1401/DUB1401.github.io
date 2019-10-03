@@ -1,6 +1,6 @@
 var Releases = "";
 
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 6. Бегемот$13.09.2019$arifureta-shokugyou-de-sekai-saikyou=7$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 12. Отчаянное решение$04.10.2019$arifureta-shokugyou-de-sekai-saikyou=13$30.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 18. Взгляд со спины$30.08.2019$the-legend-of-the-wandering-ki-master=18$29.jpg@";
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 
