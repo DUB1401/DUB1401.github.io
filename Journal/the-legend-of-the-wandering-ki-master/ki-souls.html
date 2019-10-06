@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Духи ки</title>
+    <link rel="stylesheet" type="text/css" href="../../Neon.css" />
+    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../../Neon.js"></script>
+    <style>
+        h3.Reader {
+            text-indent: 0;
+            color: white;
+            font-size: 36px;
+            font-style: normal;
+            font-family: "Times New Roman";
+            margin: 0 0 50px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        table.ki {
+            width: 90%;
+            margin: 0 auto 50px auto;
+            background-color: var(--color-middle-dark);
+            border: 2px solid var(--color-top-dark);
+            border-top: none;
+            color: white;
+            font-family: "Times New Roman";
+            font-size: 18px;
+        }
+
+        td.ki-name {
+            width: 20%;
+            padding: 5px 0 0 0;
+            margin: 0;
+            border-right: 2px solid var(--color-top-dark);
+            border-top: 2px solid var(--color-top-dark);
+            text-align: center;
+        }
+
+        td.ki-description {
+            width: 80%;
+            margin: 0;
+            padding: 5px;
+            text-indent: 20px;
+            text-align: justify;
+            border-top: 2px solid var(--color-top-dark);
+        }
+
+        span.ki-name {
+            text-align: center;
+            font-style: italic;
+            padding-top: 5px;
+        }
+
+        img.ki {
+            height: 50px;
+            width: 50px;
+            display: block;
+            margin: auto;
+        }
+    
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            h3.Reader {
+                font-size: 80px;
+            }
+    
+            h4.Reader {
+                font-size: 56px;
+                margin: 0 0 -50px 0;
+                text-indent: 0;
+                padding: 0;
+            }
+    
+            div.Reader {
+                width: 95%;
+                text-align: justify;
+                color: white;
+                padding: 0;
+                font-size: 50px;
+                font-family: "Times New Roman";
+                line-height: 150%;
+                text-indent: 10%;
+                word-break: break-word;
+            }
+    
+        }
+
+    </style>
+</head>
+
+<body class="DarkMatter" onload="PageDataUpdate()">
+
+    <!--Верхняя панель навигации-->
+    <div class="DarkMatterUpline">
+        <h6 class="DarkMatterUpline">Духи ки</h6>
+        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
+        <div class="DarkMatterUplineSearch" id="SearchContainer">
+            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
+                oninput="Search()">
+
+
+        </div>
+    </div>
+
+    <!--Содержимое страницы-->
+    <div class="DarkMatterContent">
+        <table cellspacing="0" class="StoragePageHead">
+            <tr>
+                <td class="StoragePageHeadLeft">
+                    <h2 class="StoragePageHeadLeft">Сказание о странствующем мастере ки → Духи ки</h2>
+                    <p class="StoragePageHeadLeft">Автор: <span class="StorageBoxSize">DUB4056</span> &nbsp;&nbsp;&nbsp; Дата: <span class="StorageBoxDate">06.10.2019</span></p>
+                </td>
+                <td class="StoragePageHeadRight">
+                    <button class="StoragePageHeadRight" onclick="window.location.href='../the-legend-of-the-wandering-ki-master.html'">Назад</button>
+                </td>
+            </tr>
+        </table>
+
+        <h3 class="Reader">Духи ки</h3>
+
+        <table cellspacing="0" class="ki">
+            
+            <tr>
+                <td class="ki-name">
+                    <img class="ki" src="https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/3.jpg">
+                    <span class="ki-name">Мэй</span>
+                </td>
+                <td class="ki-description">
+                    «Мэй» – жизнь. Определяющий дух всего сущего, способный наполнить дыханием любой объект и исцелить раненного.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <img class="ki" src="https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/2.jpg">
+                    <span class="ki-name">Вунь</span>
+                </td>
+                <td class="ki-description">
+                    «Вунь» – дух удара, позволяет многократно усилить физическую атаку и побороть границы человеческого тела, однако при использовании его нерешительным человеком чувствует отвращение и наносит урон призвавшему.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <img class="ki" src="https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/6.jpg">
+                    <span class="ki-name">Мизу</span>
+                </td>
+                <td class="ki-description">
+                    «Мизу» – вода. Элементальный дух, покровитель рек и морей, дождя и тумана.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <img class="ki" src="https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/10.jpg">
+                    <span class="ki-name">Мако</span>
+                </td>
+                <td class="ki-description">
+                    «Мако» – всевидящее око. Безглазый орёл, подаривший своё чудесное зрение мастерам Дзен.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Секи</span>
+                </td>
+                <td class="ki-description">
+                    «Секи» – камень. Элементальный дух, покровитель большинства земляных техник и главный защитник всего живого.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Моку</span>
+                </td>
+                <td class="ki-description">
+                    «Моку» – дерево. Символ роста и жизненной энергии, преобразования смерти в новое начало.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Хэби</span>
+                </td>
+                <td class="ki-description">
+                    «Хэби» – змея. Одно из имён великого Змея, на которое он никогда не откликается, а вместо этого посылает своих
+                слуг. Используется чаще всего для призыва.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Ни</span>
+                </td>
+                <td class="ki-description">
+                    «Ни» – неизученный символ
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Хото</span>
+                </td>
+                <td class="ki-description">
+                    «Хото» – один из основополагающих символов учения клинка, обозначающий принадлежность к роду мечников и
+                благословляющий фамильный меч. Им в совершенстве овладел брат Литий, один из трёх братьев-духов, защищающих Клан
+                Лотоса.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <span class="ki-name">Конпон</span>
+                </td>
+                <td class="ki-description">
+                    «Конпон» – основание. Фрагмент многих боевых техник.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ki-name">
+                    <img class="ki" src="https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/11.jpg">
+                    <span class="ki-name">Киоку</span>
+                </td>
+                <td class="ki-description">
+                    «Киоку» – душа исцеляющей песни, покровительница всех гейш и врачевателей, приносящее в жизнь спокойствие и умиротворение при помощи искусство песнопения. 
+                </td>
+            </tr>
+        </table>
+
+    
+    </div>
+
+    <!--Меню навигации-->
+    <div class="DarkMatterMenu" id="AdaptiveMenu">
+        <h1 class="DarkMatterMenu">Evolv Box</h1>
+        <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
+        <ul class="DarkMatterMenuElement">
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../index.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Home.png);"></span>Главная страница</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Libruary.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Libruary.png);"></span>Библиотека</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Journal.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Magazine.png);"></span>Журнал</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../Storage.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/Box.png);"></span>Хранилище</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../../About.html"><span class="DarkMatterMenuElement"
+                        style="background-image: url(../../Images/About.png);"></span>О нас</a></li>
+            <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
+                        class="DarkMatterMenuElement" style="background-image: url(../../Images/VK.png);"></span>Группа
+                    ВКонтакте</a></li>
+        </ul>
+    </div>
+
+    <!--Footer-->
+    <div class="DarkMatterDownline">
+        <p id="Downline"></p>
+    </div>
+
+    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
+    <noscript>
+        <div class="NoScript">
+            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
+            опция отключена в вашем браузере.
+        </div>
+    </noscript>
+
+</body>
+
+</html>
