@@ -1,6 +1,6 @@
 var Releases = "";
 
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 19. Техника гейши... Серьёзно? Гейши?!$06.10.2019$the-legend-of-the-wandering-ki-master=19$29.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 20. Северный волк$08.10.2019$the-legend-of-the-wandering-ki-master=20$29.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 12. Отчаянное решение$04.10.2019$arifureta-shokugyou-de-sekai-saikyou=13$30.jpg@";
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 
