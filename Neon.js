@@ -16,8 +16,8 @@ function UnflipMenu() {
     
 }
 
-var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love|Атлантида: До падения=Atlantis: Before the Falling|Пигмалион сажает семена=The Pygmalion Is Planting Seeds Pygmalion wa Tane wo Maku|Вещает станция «Восход»=Broadcasting statinon «Sunrise»|Я побрился. Затем привёл домой старшеклассницу=Hige wo Soru. Soshite Joshikousei wo Hirou I Shaved. Then I Brought a High School Girl Home|Pokemon GO: Возрождение=Pokemon GO: Rebirth|Геймеры!=Gamers!|Сказание о странствующем мастере ки=The Legend of the Wandering Ki Master";
-var SubHrefArray = "for-the-sake-of-tomorrow|forgotten-choice|time-steps|millenium|online-love|atlantis-before-the-falling|the-pygmalion-is-planting-seeds|broadcasting-station-sunrise|i-shaved-then-i-brought-a-high-school-girl-home|pokemon-go-rebirth|gamers|the-legend-of-the-wandering-ki-master";
+var SubSearchArray = "Во имя завтрашнего дня=For the Sake of Tomorrow|Забытый выбор=Forgotten Choice|Следы во времени=Time Steps|Тысячелетие=Millenium|Сетевая любовь=Online Love|Атлантида: До падения=Atlantis: Before the Falling|Пигмалион сажает семена=The Pygmalion Is Planting Seeds Pygmalion wa Tane wo Maku|Вещает станция «Восход»=Broadcasting statinon «Sunrise»|Я побрился. Затем привёл домой старшеклассницу=Hige wo Soru. Soshite Joshikousei wo Hirou I Shaved. Then I Brought a High School Girl Home|Pokemon GO: Возрождение=Pokemon GO: Rebirth|Геймеры!=Gamers!|Сказание о странствующем мастере ки=The Legend of the Wandering Ki Master|Арифурэта: Сильнейший ремесленник в мире=Arifureta: From Commonplace to World's Strongest|Дневник потерянных глаз=Diary of Lost Eyes";
+var SubHrefArray = "for-the-sake-of-tomorrow|forgotten-choice|time-steps|millenium|online-love|atlantis-before-the-falling|the-pygmalion-is-planting-seeds|broadcasting-station-sunrise|i-shaved-then-i-brought-a-high-school-girl-home|pokemon-go-rebirth|gamers|the-legend-of-the-wandering-ki-master|arifureta-shokugyou-de-sekai-saikyou|diary-of-lost-eyes";
 
 //Поиск новелл.
 function Search() {
