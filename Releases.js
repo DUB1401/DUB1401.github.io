@@ -1,8 +1,8 @@
 var Releases = "";
 
 Releases = Releases + "Дневник потерянных глаз$Глава 2. Актёр и его публика$07.17.2019$diary-of-lost-eyes=3$31.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 21. Страж глубин$06.11.2019$arifureta-shokugyou-de-sekai-saikyou=22$30.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 20. Северный волк$08.10.2019$the-legend-of-the-wandering-ki-master=20$29.jpg@";
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 12. Отчаянное решение$04.10.2019$arifureta-shokugyou-de-sekai-saikyou=13$30.jpg@";
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 
 Releases = Releases + "Геймеры!$Глава 1. Амано Кэйто и люди, на которых равняются. Часть первая$06.06.2019$gamers=2$27.jpg@";
