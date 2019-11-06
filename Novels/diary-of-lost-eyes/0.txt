@@ -1,0 +1,4 @@
+src:code=1;url=https://dubostorage001.github.io/diary-of-lost-eyes/1.jpg;size=75;
+novel:Дневник потерянных глаз
+chapter:
+volume:Том I
