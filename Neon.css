@@ -714,6 +714,13 @@ div.DarkMatterBookChapter {
     box-sizing: border-box;
 }
 
+img.DarkMatterBookChapter {
+    margin-bottom: -2px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
 div:hover.DarkMatterBookChapter {
     background-color: RGB(68, 78, 96);
 }
@@ -1629,6 +1636,13 @@ span.StorageBoxSize {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+    }
+
+    img.DarkMatterBookChapter {
+        margin-bottom: -6px;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
     }
 
     p.DarkMatterBookChapter {
