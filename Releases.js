@@ -1,7 +1,7 @@
 var Releases = "";
 
 Releases = Releases + "Аватар короля: Ради славы$Глава 3. Единожды став друзьями, остались противниками на всю жизнь. Часть 2$29.11.2019$the-kings-avatar-for-the-glory=3$32.jpg@";
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Омакэ. Купание$09.11.2019$arifureta-shokugyou-de-sekai-saikyou=25$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Мужская романтика$29.11.2019$arifureta-shokugyou-de-sekai-saikyou=27$30.jpg@";
 Releases = Releases + "Дневник потерянных глаз$Глава 3. Аномальная активность$07.17.2019$diary-of-lost-eyes=4$31.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 20. Северный волк$08.10.2019$the-legend-of-the-wandering-ki-master=20$29.jpg@";
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
