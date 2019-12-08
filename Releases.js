@@ -1,5 +1,9 @@
 var Releases = "";
 
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Что если бы?$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=32$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Нисхождение богини в райские кущи$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=31$30.jpg@";
+
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 22. Обитель духов на земле$08.12.2019$the-legend-of-the-wandering-ki-master=22$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 21. Святой меч паладинов$07.12.2019$the-legend-of-the-wandering-ki-master=21$29.jpg@";
 Releases = Releases + "Аватар короля: Ради славы$Глава 3. Единожды став друзьями, остались противниками на всю жизнь. Часть 2$29.11.2019$the-kings-avatar-for-the-glory=3$32.jpg@";
@@ -8,10 +12,6 @@ Releases = Releases + "Дневник потерянных глаз$Глава 3
 
 Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 Releases = Releases + "Геймеры!$Глава 1. Амано Кэйто и люди, на которых равняются. Часть первая$06.06.2019$gamers=2$27.jpg@";
-Releases = Releases + "Тысячелетие$Глава 11. Умри, мамочка, умри! Или игрушка для двоих$06.06.2019$millenium=11$15.jpg@";
-Releases = Releases + "Тысячелетие$Глава 10. Первый раб нового Бога или падение ангела крови$06.06.2019$millenium=10$15.jpg@";
-
-Releases = Releases + "Вещает станция «Восход»$6. Умираю молодым$06.06.2019$broadcasting-station-sunrise=31$11.jpg@";
 
 //Releases = Releases + "Я побрился. Затем привёл домой старшеклассницу$Глава 7. Косметика$18.04.2019$i-shaved-then-i-brought-a-high-school-girl-home=8$20.jpg@";
 
