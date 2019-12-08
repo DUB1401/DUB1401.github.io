@@ -1,5 +1,6 @@
 var Releases = "";
 
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Настольная игра освободителей$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=34$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Что если бы?$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=32$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Нисхождение богини в райские кущи$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=31$30.jpg@";
