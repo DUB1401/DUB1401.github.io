@@ -422,7 +422,6 @@ div.DarkMatterPersons {
 div.Person {
     border-bottom: 2px solid var(--color-dark);
     width: 100%;
-    margin-top: -1px;
 }
 
 div.PersonTitle {
