@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Зима юности Мацуи-куна</title>
+    <link rel="stylesheet" type="text/css" href="../Neon.css" />
+    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../Neon.js"></script>
+</head>
+
+<body class="DarkMatter" onload="PageDataUpdate()">
+
+    <!--Верхняя панель навигации-->
+    <div class="DarkMatterUpline">
+            <h6 class="DarkMatterUpline">Зима юности Мацуи-куна</h6>
+        <button class="DarkMatterUpline" onclick="FlipMenu()">&#9776;</button>
+        <div class="DarkMatterUplineSearch" id="SearchContainer">
+            <input class="DarkMatterUplineSearch" type="text" placeholder="Найти новеллу" id="SearchBox"
+                oninput="Search()">
+        </div>
+    </div>
+
+    <!--Содержимое страницы-->
+    <div class="DarkMatterContent">
+    
+        <div class="BookDescription">
+            <div class="BookLeftLayout">
+                <div id="BookCoversContainer">
+                    <img class="BookCover BookCoverActive" src="https://dubostorage001.github.io/Covers.fol/33.jpg">
+                </div>
+            </div><div class="BookRightLayout">
+                <h1 class="BookName">Зима юности Мацуи-куна / The Winter of Matsui-kun's Youth</h1>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/BookFile.png);">Автор: Антон Шахалин</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Cloack.png);">Дата
+                        публикации:<span class="BookDescriptionLineRight">15.12.2019</span></p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Marks.png);">Жанры: школа, комедия, повседневность, романтика</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Warning.png);">Статус: публикуется</p>
+                </div>
+                <hr class="BookLine">
+                <div class="BookDescriptionLine">
+                    <p class="BookDescriptionLine" style="background-image: url(../Images/Age.png);">Возрастной рейтинг: без ограничений</p>
+                </div>
+                <hr class="BookLine">
+            </div>
+            <div class="BookDescriptionText">
+                <p class="BookDescriptionTextHead" style="background-image: url(../Images/Lines.png)">Описание:</p>
+                <p class="BookDescriptionText">
+                        Мацуи Харуто – человек, который больше всего на свете ненавидит общение. Всю свою жизнь он прожил как добропорядочный затворник и изгой, решая проблемы самым действенным методом – безжалостно и напрямую. И всё бы было хорошо в его спокойной однообразной жизни, если бы Харуто не открыл для себя увлечение, изменившее его мир. Он начал постигать азы отаку!</p>
+                <p class="BookDescriptionText">
+                        Однако Мацуи-кун сталкивается на своём пути к одиночеству с серьёзной проблемой. Место, которое он облюбовал для чтения манги, постоянно занято какой-то неудачницей, Мидзуно Саори, не дающей ему насладиться режимом «соло». В результате Харуто приходится заключить с ней договор: он помогает ей найти друзей, а она больше никогда не приходит к его «мысу одиночества». Но получится ли у одиночки выполнить условия контракта, не изменившись при этои самому? 
+                </p>
+            </div>
+
+            <!--Спойлеры глав и томов.-->
+            <div class="DarkMatterBookContent">
+            
+                <details class="DarkMatterBookContent" open>
+                    <summary class="DarkMatterBookContent">Содержание</summary>
+                   
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Глава 1. Тень самого себя</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?the-winter-of-matsui-kuns-youth=2">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+            
+                    <div class="DarkMatterBookChapter">
+                        <table class="DarkMatterBookChapter">
+                            <tr>
+                                <td class="DarkMatterBookChapterLeft">
+                                    <p class="DarkMatterBookChapter">Пролог</p>
+                                </td>
+                                <td class="DarkMatterBookChapterRight">
+                                    <a class="DarkMatterBookChapter" href="../read.html?the-winter-of-matsui-kuns-youth=1">➞ Читать</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+            
+                </details>
+            </div>
+            </div>
+
+        
+    </div>
+
+    <!--Меню навигации-->
+    <div class="DarkMatterMenu" id="AdaptiveMenu">
+            <h1 class="DarkMatterMenu">Evolv Box</h1>
+            <button class="DarkMatterMenu" onclick="UnflipMenu()">&#9587;</button>
+            <ul class="DarkMatterMenuElement">
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../index.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Home.png);"></span>Главная
+                        страница</a></li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Libruary.html"><span
+                            class="DarkMatterMenuElement"
+                            style="background-image: url(../Images/Libruary.png);"></span>Библиотека</a></li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Journal.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Magazine.png);"></span>Журнал</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../Storage.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/Box.png);"></span>Хранилище</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" href="../About.html"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/About.png);"></span>О нас</a>
+                </li>
+                <li class="DarkMatterMenuElement"><a class="DarkMatterMenuElement" id="VK" target="_blanck"><span
+                            class="DarkMatterMenuElement" style="background-image: url(../Images/VK.png);"></span>Группа
+                        ВКонтакте</a></li>
+            </ul>
+        </div>
+
+    <!--Footer-->
+    <div class="DarkMatterDownline">
+        <p id="Downline"></p>
+    </div>
+
+    <!--Блок, блокирующий отображение сайта без доступа к JavaScript-->
+    <noscript>
+        <div class="NoScript">
+            Для корректного отображения Evolv Box необходимо разрешение на исполнение JavaScript. Скорее всего, эта
+            опция отключена в вашем браузере.
+        </div>
+    </noscript>
+
+</body>
+
+</html>
