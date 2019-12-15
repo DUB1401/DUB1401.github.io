@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 23. Осколки Ян$15.12.2019$the-legend-of-the-wandering-ki-master=23$29.jpg@";
+
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Семейный сон$09.12.2019$arifureta-shokugyou-de-sekai-saikyou=35$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Настольная игра освободителей$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=34$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
@@ -10,8 +12,8 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 21. Святой меч паладинов$07.12.2019$the-legend-of-the-wandering-ki-master=21$29.jpg@";
 Releases = Releases + "Аватар короля: Ради славы$Глава 3. Единожды став друзьями, остались противниками на всю жизнь. Часть 2$29.11.2019$the-kings-avatar-for-the-glory=3$32.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Мужская романтика$29.11.2019$arifureta-shokugyou-de-sekai-saikyou=30$30.jpg@";
-Releases = Releases + "Дневник потерянных глаз$Глава 3. Аномальная активность$07.17.2019$diary-of-lost-eyes=4$31.jpg@";
 
+//Releases = Releases + "Дневник потерянных глаз$Глава 3. Аномальная активность$07.17.2019$diary-of-lost-eyes=4$31.jpg@";
 //Releases = Releases + "Вещает станция «Восход»$7. Правильно$19.08.2019$broadcasting-station-sunrise=32$11.jpg@";
 //Releases = Releases + "Геймеры!$Глава 1. Амано Кэйто и люди, на которых равняются. Часть первая$06.06.2019$gamers=2$27.jpg@";
 //Releases = Releases + "Я побрился. Затем привёл домой старшеклассницу$Глава 7. Косметика$18.04.2019$i-shaved-then-i-brought-a-high-school-girl-home=8$20.jpg@";
