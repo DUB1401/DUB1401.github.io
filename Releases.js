@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 24. Виновен, пока не скажут обратного$21.12.2019$the-legend-of-the-wandering-ki-master=24$29.jpg@";
+
 Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 Releases = Releases + "Зима юности Мацуи-куна$Пролог$15.12.2019$the-winter-of-matsui-kuns-youth=1$33.jpg@";
 
@@ -12,7 +14,6 @@ Releases = Releases + "Арифурэта: Сильнейший ремеслен
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Нисхождение богини в райские кущи$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=31$30.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 22. Обитель духов на земле$08.12.2019$the-legend-of-the-wandering-ki-master=22$29.jpg@";
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 21. Святой меч паладинов$07.12.2019$the-legend-of-the-wandering-ki-master=21$29.jpg@";
 
 //Releases = Releases + "Аватар короля: Ради славы$Глава 3. Единожды став друзьями, остались противниками на всю жизнь. Часть 2$29.11.2019$the-kings-avatar-for-the-glory=3$32.jpg@";
 //Releases = Releases + "Дневник потерянных глаз$Глава 3. Аномальная активность$07.17.2019$diary-of-lost-eyes=4$31.jpg@";
