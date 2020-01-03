@@ -53,7 +53,7 @@ function Search() {
 
 //Загружает текст в Footer сайта.
 function PageDataUpdate() {
-    document.getElementById("Downline").innerHTML="Copyright © 2017-2019. Created by Evolv Group & Powered by GitHub Pages.";
+    document.getElementById("Downline").innerHTML="Copyright © 2017-2020. Created by Evolv Group & Powered by GitHub Pages.";
     document.getElementById("VK").href = "https://vk.com/evolv_group";
     document.getElementById("SearchBox").value = "";
     MenuMode = document.getElementById('AdaptiveMenu').style.left;
