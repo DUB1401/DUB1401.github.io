@@ -1,5 +1,10 @@
 var Releases = "";
 
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 29. Контракт завершён$17.01.2020$arifureta-shokugyou-de-sekai-saikyou=39$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 28. Обстоятельства Шии Хаулии$16.01.2020$arifureta-shokugyou-de-sekai-saikyou=38$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 27. Гранд Каньон Райзен и несчастный кролик$15.01.2020$arifureta-shokugyou-de-sekai-saikyou=37$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Экстра. Ни единого шанса на победу$14.01.2020$arifureta-shokugyou-de-sekai-saikyou=36$30.jpg@";
+
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 27. Шестое чувство охотника$10.01.2020$the-legend-of-the-wandering-ki-master=28$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Эпилог: Деревня клинка$05.01.2020$the-legend-of-the-wandering-ki-master=27$29.jpg@";
@@ -10,12 +15,6 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 24. Виновен, пока не скажут обратного$21.12.2019$the-legend-of-the-wandering-ki-master=24$29.jpg@";
 
 Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
-Releases = Releases + "Зима юности Мацуи-куна$Пролог$15.12.2019$the-winter-of-matsui-kuns-youth=1$33.jpg@";
-
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 23. Осколки Ян$15.12.2019$the-legend-of-the-wandering-ki-master=23$29.jpg@";
-
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Семейный сон$09.12.2019$arifureta-shokugyou-de-sekai-saikyou=35$30.jpg@";
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Настольная игра освободителей$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=34$30.jpg@";
 
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
 //Releases = Releases + "Аватар короля: Ради славы$Глава 3. Единожды став друзьями, остались противниками на всю жизнь. Часть 2$29.11.2019$the-kings-avatar-for-the-glory=3$32.jpg@";
