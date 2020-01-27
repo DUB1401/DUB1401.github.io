@@ -1,6 +1,8 @@
 var Releases = "";
 
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 28. Детская невинность$26.01.2019$the-legend-of-the-wandering-ki-master=29$29.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 29. Безмятежность и тревога$28.01.2020$the-legend-of-the-wandering-ki-master=30$29.jpg@";
+
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 28. Детская невинность$26.01.2020$the-legend-of-the-wandering-ki-master=29$29.jpg@";
 
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 29. Контракт завершён$17.01.2020$arifureta-shokugyou-de-sekai-saikyou=39$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 28. Обстоятельства Шии Хаулии$16.01.2020$arifureta-shokugyou-de-sekai-saikyou=38$30.jpg@";
@@ -13,8 +15,6 @@ Releases = Releases + "Сказание о странствующем масте
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 26. Руки прочь от гостя короля!$03.01.2020$the-legend-of-the-wandering-ki-master=26$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 25. На милость суда$03.01.2020$the-legend-of-the-wandering-ki-master=25$29.jpg@";
-
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 24. Виновен, пока не скажут обратного$21.12.2019$the-legend-of-the-wandering-ki-master=24$29.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
