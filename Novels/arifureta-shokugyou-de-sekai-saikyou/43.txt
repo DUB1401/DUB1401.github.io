@@ -1,0 +1,20 @@
+<!--Converted by DHTML-->
+<p id="novel_in">Арифурэта: Сильнейший ремесленник в мире</p>
+<p id="volume_in">Том 2</p>
+<p id="chapter_in">Глава 33. Племя без стыда и совести</p>
+<p>system.call("Error 64: uncorrect password");</p>
+<p>At line 115 detected @_excl process!</p>
+<p>Evolv Seed was stopped. Database if offline!</p>
+<p>Access is granted only to employees of the Evolv Group. Please contact your system administrator to provide you with a personal account.</p>
+<br>
+<p>system.call("Error 64: uncorrect password");</p>
+<p>At line 115 detected @_excl process!</p>
+<p>Evolv Seed was stopped. Database if offline!</p>
+<p>Access is granted only to employees of the Evolv Group. Please contact your system administrator to provide you with a personal account.</p>
+<br>
+<p>system.call("Error 64: uncorrect password");</p>
+<p>At line 115 detected @_excl process!</p>
+<p>Evolv Seed was stopped. Database if offline!</p>
+<p>Access is granted only to employees of the Evolv Group. Please contact your system administrator to provide you with a personal account.</p>
+<br>
+<p>ATTENTION!!! Access is blocked. Evolv Seed has moved to the involution stage. Before destroying the container with ID-Arifureta: 42h : 18m : 05s.</p>
