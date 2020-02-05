@@ -1,6 +1,7 @@
 var Releases = "";
 
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 33. Племя без стыда и совести$02.02.2020$arifureta-shokugyou-de-sekai-saikyou=43$30.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 31. Проблемы с дендроидами$06.02.2020$the-legend-of-the-wandering-ki-master=32$29.jpg@";
+
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 32. Чувства Шии и Халтийский Океан Деревьев$02.02.2020$arifureta-shokugyou-de-sekai-saikyou=42$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 31. Солдаты Империи$02.02.2020$arifureta-shokugyou-de-sekai-saikyou=41$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 30. Племя Хаулий и неожиданная встреча$01.01.2020$arifureta-shokugyou-de-sekai-saikyou=40$30.jpg@";
