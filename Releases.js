@@ -1,5 +1,6 @@
 var Releases = "";
 
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 33. Тёплая память и горшочек мёда$09.02.2020$the-legend-of-the-wandering-ki-master=34$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 32. Знаток деревянных сердец$08.02.2020$the-legend-of-the-wandering-ki-master=33$29.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 33. Как и ожидалось, Хаулиям стыд неведом$07.02.2020$arifureta-shokugyou-de-sekai-saikyou=43$30.jpg@";
 
@@ -13,8 +14,6 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 29. Безмятежность и тревога$28.01.2020$the-legend-of-the-wandering-ki-master=30$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 28. Детская невинность$26.01.2020$the-legend-of-the-wandering-ki-master=29$29.jpg@";
-
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 29. Контракт завершён$17.01.2020$arifureta-shokugyou-de-sekai-saikyou=39$30.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
