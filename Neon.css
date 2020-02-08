@@ -628,6 +628,7 @@ a.BookDescriptionTranslater {
     color: rgb(167, 164, 164);
     transition: 0.4s;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover.BookDescriptionTranslater {
