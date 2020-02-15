@@ -7,6 +7,7 @@
     --color-orange: RGB(260, 163, 16);
     --color-dark-orange: RGB(204, 128, 6);
     --color-grey: RGB(117, 130, 155);
+    --color-read-grey: RGB(41, 47, 60);
 }
 
 html {
@@ -245,7 +246,7 @@ span.DarkMatterMenuElement {
 /*Читалка*/
 
 body.Reader {
-    background-color: #323B4A;
+    background-color: var(--color-read-grey);
 }
 
 div.Main {
@@ -338,7 +339,7 @@ table.ButtonReader {
 
 a.ButtonReader {
 	display: inline-block;
-	background: #252b37;
+	background: var(--color-top-dark);
 	color: black;
 	text-align: center;
 	text-decoration: none;
@@ -395,7 +396,7 @@ div.Reader {
 }
 
 div.DarkBackground {
-	background-color: RGB(37, 43, 55);
+	background-color: var(--color-top-dark);
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 10px;
@@ -1506,11 +1507,11 @@ span.StorageBoxSize {
         text-align: justify;
         color: white;
         padding: 0;
-        font-size: 24px;
-        font-family: "Times New Roman";
-        line-height: 300%;
+        font-size: 22px;
+        line-height: 275%;
         text-indent: 10%;
         word-break: break-word;
+        
     }
 
     div.ReaderPoem {
@@ -1553,13 +1554,19 @@ span.StorageBoxSize {
         color: white;
         font-size: 20px;
         font-style: normal;
-        font-family: "Times New Roman";
         margin: 0;
     }
 
     h5.Reader {
         text-indent: 10%;
         text-align: right;
+    }
+
+    h1.Main {
+        padding: 0 10% 0 10%;
+        font-size: 30px;
+        font-family: 'Lemonada', cursive;
+        font-weight: normal;
     }
     
     h2.Main {
@@ -1570,6 +1577,7 @@ span.StorageBoxSize {
         margin-bottom: 0px;
         margin-top: 10px;
         padding-left: 30px;
+        font-style: italic;
     }
 
     h3.Main {
@@ -1577,15 +1585,25 @@ span.StorageBoxSize {
         font-size: 36px;
         text-align: left;
         font-family: "Roboto" inherit;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         margin-top: 0px;
         padding-left: 30px;
     }
 
+    h3.Main::before {
+        content: "◈ ";
+    }
+
+    table.ButtonReader {
+        border-spacing: 8px 0;
+    }
+
+    hr.Main {
+        border: 2px solid var(--color-light-dark);
+    }
+
     a.ButtonReader {
         display: inline-block;
-        background: #252b37;
-        color: black;
         text-align: center;
         text-decoration: none;
         user-select: none;
@@ -1594,6 +1612,7 @@ span.StorageBoxSize {
         outline: none;
         transition: 0.2s;
         width: 100%;
+        border-radius: 25px;
         height: 60px;
     }
 
@@ -1857,4 +1876,10 @@ span.StorageBoxSize {
     }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* font-family: 'PT Serif', serif; */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+/* font-family: 'Lemonada', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
