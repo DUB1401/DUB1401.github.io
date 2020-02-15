@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 35. Бравые рыцари Лирана. Часть первая$15.02.2020$the-legend-of-the-wandering-ki-master=36$29.jpg@";
+
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 34. Странное поведение не повод для тревог$09.02.2020$the-legend-of-the-wandering-ki-master=35$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 33. Тёплая память и горшочек мёда$09.02.2020$the-legend-of-the-wandering-ki-master=34$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 32. Знаток деревянных сердец$08.02.2020$the-legend-of-the-wandering-ki-master=33$29.jpg@";
@@ -11,8 +13,6 @@ Releases = Releases + "Арифурэта: Сильнейший ремеслен
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 31. Солдаты Империи$02.02.2020$arifureta-shokugyou-de-sekai-saikyou=41$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 30. Племя Хаулий и неожиданная встреча$01.01.2020$arifureta-shokugyou-de-sekai-saikyou=40$30.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 30. Сладкий запах успеха$01.02.2020$the-legend-of-the-wandering-ki-master=31$29.jpg@";
-
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 29. Безмятежность и тревога$28.01.2020$the-legend-of-the-wandering-ki-master=30$29.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
