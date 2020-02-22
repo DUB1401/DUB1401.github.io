@@ -1,5 +1,9 @@
 var Releases = "";
 
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 35. Единственный способ выжить$23.02.2020$arifureta-shokugyou-de-sekai-saikyou=45$30.jpg@";
+Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 34. Собрание старейшин$23.02.2020$arifureta-shokugyou-de-sekai-saikyou=44$30.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 3. Бравые рыцари Лирана. Часть вторая$23.02.2020$the-legend-of-the-wandering-ki-master=37$29.jpg@";
+
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 35. Бравые рыцари Лирана. Часть первая$15.02.2020$the-legend-of-the-wandering-ki-master=36$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 34. Странное поведение не повод для тревог$09.02.2020$the-legend-of-the-wandering-ki-master=35$29.jpg@";
