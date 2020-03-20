@@ -1,6 +1,7 @@
 var Releases = "";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 44. Глина и немного мошенничества$21.03.2020$the-legend-of-the-wandering-ki-master=45$29.jpg@";
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 43. Винные откровения$20.03.2020$the-legend-of-the-wandering-ki-master=44$29.jpg@";
 
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 43. Глина и немного мошенничества$15.03.2020$the-legend-of-the-wandering-ki-master=44$29.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 42. Вперёд за сокровищем!$15.03.2020$the-legend-of-the-wandering-ki-master=43$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 41. Во гневе страшен – во добре богат$14.03.2020$the-legend-of-the-wandering-ki-master=42$29.jpg@";
