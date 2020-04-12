@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Сказание о странствующем мастере ки$Глава 47. Осада Серпентхольма$13.04.2020$the-legend-of-the-wandering-ki-master=48$29.jpg@";
+
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 46. Да, я внебрачная дочь, и что с того?$09.04.2020$the-legend-of-the-wandering-ki-master=47$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 45. Как снег на голову$25.03.2020$the-legend-of-the-wandering-ki-master=46$29.jpg@";
@@ -14,8 +16,6 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 37. Неожиданные перемены Хаулий$08.03.2020$arifureta-shokugyou-de-sekai-saikyou=47$30.jpg@";
 Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 36. Шия, великая битва, происходящая раз в жизни$08.03.2020$arifureta-shokugyou-de-sekai-saikyou=46$30.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 40. Ведьмины долги$07.03.2020$the-legend-of-the-wandering-ki-master=41$29.jpg@";
-
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 39. Рождённый во льдах и крови$01.03.2020$the-legend-of-the-wandering-ki-master=40$29.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
