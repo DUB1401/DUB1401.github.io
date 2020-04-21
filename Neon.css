@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Georgia; 
+    src: url(Fonts/Georgia.ttf);
+}
+
+
 :root {
     --color-middle-dark: RGB(48, 58, 76);
     --color-light-dark: RGB(61, 71, 90); 
@@ -262,7 +268,6 @@ h1.Main {
 	color: white;
 	font-size: 30px;
 	text-align: center;
-	font-family: "Georgia";
 	margin-bottom: 20px;
 	margin-top: 0;
 }
@@ -271,7 +276,6 @@ h2.Main {
 	color: white;
 	font-size: 26px;
 	text-align: left;
-	font-family: "Roboto"inherit;
 	margin-bottom: 0px;
 	margin-top: 10px
 }
@@ -280,7 +284,6 @@ h3.Main {
 	color: white;
 	font-size: 20px;
 	text-align: left;
-	font-family: "Roboto"inherit;
 	margin-bottom: 0px;
 	margin-top: 10px
 }
@@ -598,7 +601,6 @@ h1.BookName {
     color: white;
     font-size: 30px;
     text-align: left;
-    font-family: "Georgia";
     margin-bottom: 0;
     margin-top: 0;
     cursor: default;
@@ -732,7 +734,7 @@ p.DarkMatterBookChapter {
     margin: 5px 0 5px 10px;
     vertical-align: middle;
     display: inline-block;
-    font-family: "Georgia" inherit;
+    
     cursor: default;
     display: inline-block;
 }
@@ -1374,7 +1376,6 @@ span.StorageBoxSize {
         left: auto;
         right: 0;
         top: 0;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     /*Панель поиска*/
@@ -1521,7 +1522,6 @@ span.StorageBoxSize {
         text-indent: 0;
         color: white;
         font-size: 14px;
-        font-family: "Georgia";
     }
     
     img.Reader25 {
@@ -1670,7 +1670,6 @@ span.StorageBoxSize {
         /*margin: 5px 0 5px 42px;*/
         vertical-align: middle;
         display: inline-block;
-        font-family: "Georgia" inherit;
         cursor: default;
         width: 90%;
         box-sizing:padding-box;
@@ -1704,7 +1703,8 @@ span.StorageBoxSize {
     
     p.BookDescriptionText {
         text-indent: 50px;
-        font-size: 40px;
+        font-size: 30px;
+        font-family: 'Georgia', serif;
     }
 
     p.BookDescriptionLine {
@@ -1720,6 +1720,7 @@ span.StorageBoxSize {
 
     h1.BookName {
         font-size: 36px;
+        font-family: Georgia;
     }
 
     /*Библиотека.*/
@@ -1876,6 +1877,7 @@ span.StorageBoxSize {
     }
 }
 
+/* font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* font-family: 'PT Serif', serif; */
@@ -1883,3 +1885,6 @@ span.StorageBoxSize {
 
 /* font-family: 'Lemonada', cursive; */
 @import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
