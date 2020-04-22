@@ -1,5 +1,6 @@
 var Releases = "";
 
+Releases = Releases + "Вещает станция «Восход»$8. Девочка с гитарой$23.04.2020$broadcasting-station-sunrise=33$11.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 49. Божественные кузни$21.04.2020$the-legend-of-the-wandering-ki-master=50$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 48. Ускользая от трудностей$14.04.2020$the-legend-of-the-wandering-ki-master=49$29.jpg@";
@@ -15,8 +16,6 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 42. Вперёд за сокровищем!$15.03.2020$the-legend-of-the-wandering-ki-master=43$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 41. Во гневе страшен – во добре богат$14.03.2020$the-legend-of-the-wandering-ki-master=42$29.jpg@";
-
-Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Глава 37. Неожиданные перемены Хаулий$08.03.2020$arifureta-shokugyou-de-sekai-saikyou=47$30.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
