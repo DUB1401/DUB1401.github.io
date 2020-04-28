@@ -1,0 +1,13 @@
+src:code=1;url=https://dubostorage001.github.io/the-last-emperor-sengoku/1.jpg;size=75;
+novel:Последний император Сэнгоку
+chapter:Эпилог:Воссточная экспедиция
+volume:История вторая. Повседневная жизнь героя королевства
+error 502. request failed with exit code -1 
+debug info:
+evolv-seed is ON
+evolv-box-server-manager is ON
+evolv-protector is ON
+evolv-dhtml is OFF
+
+Please, launch the "Evolv DHTML" module before reading. 
+Evolv Group. Copyright 2017-2020
