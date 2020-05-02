@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Последний император Сэнгоку$Эпилог: Воссточная экспедиция$02.05.2020$the-last-emperor-sengoku=53$29.jpg@";
+
 Releases = Releases + "Вещает станция «Восход»$8. Девочка с гитарой$23.04.2020$broadcasting-station-sunrise=33$11.jpg@";
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 49. Божественные кузни$21.04.2020$the-last-emperor-sengoku=50$29.jpg@";
 
@@ -14,8 +16,6 @@ Releases = Releases + "Сказание о странствующем масте
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 43. Винные откровения$20.03.2020$the-last-emperor-sengoku=44$29.jpg@";
 
 Releases = Releases + "Сказание о странствующем мастере ки$Глава 42. Вперёд за сокровищем!$15.03.2020$the-last-emperor-sengoku=43$29.jpg@";
-
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 41. Во гневе страшен – во добре богат$14.03.2020$the-last-emperor-sengoku=42$29.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
