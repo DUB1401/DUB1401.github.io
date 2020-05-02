@@ -1,4 +1,4 @@
 src:code=1;url=https://dubostorage001.github.io/the-last-emperor-sengoku/1.jpg;size=75;
 novel:Последний император Сэнгоку
 chapter:
-volume:История вторая. Повседневная жизнь героя королевства
+volume:История третья. Падение Эртании
