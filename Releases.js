@@ -1,5 +1,7 @@
 var Releases = "";
 
+Releases = Releases + "Последний император Сэнгоку$Интерлюдия: Небесный город богов$12.05.2020$the-last-emperor-sengoku=57$29.jpg@";
+Releases = Releases + "Последний император Сэнгоку$Глава 53. Старый друг дороже новых двух$11.05.2020$the-last-emperor-sengoku=56$29.jpg@";
 
 Releases = Releases + "Последний император Сэнгоку$Глава 52. Выгодное предложение$10.05.2020$the-last-emperor-sengoku=55$29.jpg@";
 
