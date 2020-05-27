@@ -1,4 +1,4 @@
-src:code=1;url=https://dubostorage001.github.io/the-legend-of-the-wandering-ki-master/1.jpg;size=75;
+src:code=1;url=https://dubostorage001.github.io/broadcasting-station-sunrise/33.jpg;size=75;
 novel:Вещает станция «Восход»
 chapter:Правильно
 volume:Нечистоты
