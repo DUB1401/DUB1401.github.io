@@ -1,5 +1,8 @@
 var Releases = "";
 
+Releases = Releases + "Последний император Сэнгоку$Глава 56. Свет обещаний$21.06.2020$the-last-emperor-sengoku=60$29.jpg@";
+Releases = Releases + "Последний император Сэнгоку$Глава 55. Эффектное появление$20.06.2020$the-last-emperor-sengoku=59$29.jpg@";
+
 Releases = Releases + "Вещает станция «Восход»$9. Инопришеленцы$27.05.2020$broadcasting-station-sunrise=34$11.jpg@";
 
 Releases = Releases + "Последний император Сэнгоку$Глава 54. Дикие нравы$18.05.2020$the-last-emperor-sengoku=58$29.jpg@";
@@ -11,10 +14,6 @@ Releases = Releases + "Последний император Сэнгоку$Гл
 
 Releases = Releases + "Последний император Сэнгоку$Пролог: Ниндзя в столице$03.05.2020$the-last-emperor-sengoku=54$29.jpg@";
 Releases = Releases + "Последний император Сэнгоку$Эпилог: Воссточная экспедиция$02.05.2020$the-last-emperor-sengoku=53$29.jpg@";
-
-Releases = Releases + "Вещает станция «Восход»$8. Девочка с гитарой$23.04.2020$broadcasting-station-sunrise=33$11.jpg@";
-Releases = Releases + "Сказание о странствующем мастере ки$Глава 49. Божественные кузни$21.04.2020$the-last-emperor-sengoku=50$29.jpg@";
-
 
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
