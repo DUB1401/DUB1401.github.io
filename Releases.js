@@ -1,5 +1,6 @@
 var Releases = "";
 
+Releases = Releases + "Последний император Сэнгоку$Глава 63. Туз в рукаве$03.08.2020$the-last-emperor-sengoku=67$29.jpg@";
 Releases = Releases + "Последний император Сэнгоку$Глава 62. Туз в рукаве$02.08.2020$the-last-emperor-sengoku=66$29.jpg@";
 
 Releases = Releases + "Последний император Сэнгоку$Глава 61. Кровь генерала$23.07.2020$the-last-emperor-sengoku=65$29.jpg@";
@@ -11,8 +12,6 @@ Releases = Releases + "Вещает станция «Восход»$10. Безм
 Releases = Releases + "Последний император Сэнгоку$Глава 58. Предчувствие беды$29.06.2020$the-last-emperor-sengoku=62$29.jpg@";
 
 Releases = Releases + "Последний император Сэнгоку$Глава 57. Работа, от которой не отказываются$22.06.2020$the-last-emperor-sengoku=61$29.jpg@";
-
-Releases = Releases + "Последний император Сэнгоку$Глава 56. Свет обещаний$21.06.2020$the-last-emperor-sengoku=60$29.jpg@";
 
 Releases = Releases + "Вещает станция «Восход»$9. Инопришеленцы$27.05.2020$broadcasting-station-sunrise=34$11.jpg@";
 
