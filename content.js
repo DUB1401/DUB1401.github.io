@@ -72,28 +72,7 @@ const plugin = {
 			document.body.querySelector('.plugin-notificaction').remove()
 		}
 
-		if (message == 'Глава загружена на сервер') document.body.insertAdjacentHTML('beforeend', `
-			<div
-				class="plugin-notificaction"
-				onclick="this.remove()"
-				style="
-					position: fixed;
-					z-index: 10;
-					top: 5rem;
-					right: 1rem;
-					width: 25rem;
-					padding: 1rem 2rem;
-					background-color: #9ACD32;
-					box-shadow: 0 0 5px #ccc;
-					border-radius: 4px;
-					cursor: pointer;
-					font-family: sans-serif;
-				">
-				${message}
-			</div>`
-		)
-
-		if (messange != 'Глава загружена на сервер') document.body.insertAdjacentHTML('beforeend', `
+		document.body.insertAdjacentHTML('beforeend', `
 		<div
 			class="plugin-notificaction"
 			onclick="this.remove()"
@@ -104,7 +83,7 @@ const plugin = {
 				right: 1rem;
 				width: 25rem;
 				padding: 1rem 2rem;
-				background-color: #fff;
+				background-color: #606e8c;
 				box-shadow: 0 0 5px #ccc;
 				border-radius: 4px;
 				cursor: pointer;
