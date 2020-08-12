@@ -1,17 +1,17 @@
 var Releases = "";
 
-Releases = Releases + "Последний император Сэнгоку$Глава 65. Подготовка к осаде$05.08.2020$the-last-emperor-sengoku=69$29.jpg@";
-Releases = Releases + "Последний император Сэнгоку$Глава 64. Важное решение$04.08.2020$the-last-emperor-sengoku=68$29.jpg@";
-Releases = Releases + "Последний император Сэнгоку$Глава 63. Колода пересмешника$03.08.2020$the-last-emperor-sengoku=67$29.jpg@";
-Releases = Releases + "Последний император Сэнгоку$Глава 62. Туз в рукаве$02.08.2020$the-last-emperor-sengoku=66$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 65. Подготовка к осаде$05.08.2020$the-last-emperor-sengoku=69$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 64. Важное решение$04.08.2020$the-last-emperor-sengoku=68$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 63. Колода пересмешника$03.08.2020$the-last-emperor-sengoku=67$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 62. Туз в рукаве$02.08.2020$the-last-emperor-sengoku=66$29.jpg@";
 
-Releases = Releases + "Последний император Сэнгоку$Глава 61. Кровь генерала$23.07.2020$the-last-emperor-sengoku=65$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 61. Кровь генерала$23.07.2020$the-last-emperor-sengoku=65$29.jpg@";
 
-Releases = Releases + "Последний император Сэнгоку$Глава 60. Голодный дух – злой дух$17.07.2020$the-last-emperor-sengoku=64$29.jpg@";
-Releases = Releases + "Последний император Сэнгоку$Глава 59. В наступление!$15.07.2020$the-last-emperor-sengoku=63$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 60. Голодный дух – злой дух$17.07.2020$the-last-emperor-sengoku=64$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 59. В наступление!$15.07.2020$the-last-emperor-sengoku=63$29.jpg@";
 
 Releases = Releases + "Вещает станция «Восход»$10. Безмолвный крик$30.05.2020$broadcasting-station-sunrise=35$11.jpg@";
-Releases = Releases + "Последний император Сэнгоку$Глава 58. Предчувствие беды$29.06.2020$the-last-emperor-sengoku=62$29.jpg@";
+//Releases = Releases + "Последний император Сэнгоку$Глава 58. Предчувствие беды$29.06.2020$the-last-emperor-sengoku=62$29.jpg@";
 
 //Releases = Releases + "Зима юности Мацуи-куна$Глава 1. Промежуточные тесты$18.12.2019$the-winter-of-matsui-kuns-youth=2$33.jpg@";
 //Releases = Releases + "Арифурэта: Сильнейший ремесленник в мире$Бонусная история. Страшный кошмар в бездне$08.12.2019$arifureta-shokugyou-de-sekai-saikyou=33$30.jpg@";
