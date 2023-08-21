@@ -1,4 +1,4 @@
-import {Fetcher} from "@/libs/Fetcher"
+import {GetData} from "@/libs/GetData"
 
 //================================================================================//
 //---> Описания типов и интерфейсы.
@@ -30,35 +30,45 @@ function CreatePoemMarkup(Text: string) {
 //---> Экспортируемые компоненты.
 //================================================================================//
 
-// Генерирует локальные метаданные страниц с динамическим роутингом.
-export async function generateMetadata({params: {slug}}: PoemSlug) {
-	// Запрос данных стихотворения.
-	const PoemData = await Fetcher("api/poems?slug=" + slug);
+// Предоставляет список алиасов для статического роутинга.
+export async function generateStaticParams() {
+	// Чтение списка алиасов.
+	let PoemsSlugs: string[] = GetData(null)["slugs"];
 
-	return {title: PoemData["title"] + " – DUB1401"};
+	return PoemsSlugs.map((Slug) => ({
+	  slug: Slug,
+	}))
+  }
+
+// Генерирует локальные метаданные страниц с динамическим роутингом.
+export function generateMetadata({params: {slug}}: PoemSlug) {
+	// Запрос данных стихотворения.
+	const PoemData = GetData(slug);
+
+	return {title: PoemData["title" as keyof typeof PoemData] + " – DUB1401"};
 }
 
 // Возвращает React-объект: контейнер стихотворения и иллюстрации.
 export default async function Poem({ params: { slug } }: PoemSlug) {
 	// Запрос данных стихотворения.
-	const PoemData = await Fetcher("api/poems?slug=" + slug);
+	const PoemData = await GetData(slug);
 	// Составления ссылки на иллюстрацию.
 	const ImageLink = "/images/poems/" + slug + ".webp";
 	// Генерация разметки.
-	const Poem = CreatePoemMarkup(PoemData["text"]);
+	const Poem = CreatePoemMarkup(PoemData["text" as keyof typeof PoemData]);
 	// Заметка.
 	let PoemNote: JSX.Element = <></>;
 
 	// Если заметка есть, создать для неё элемент.
-	if (PoemData["note"] != null) {
-		PoemNote = <div className="flex flex-row justify-center w-full my-10 px-5 text-center"><i className="md:w-1/2"><p>{PoemData["note"]}</p></i></div>
+	if (PoemData["note" as keyof typeof PoemData] != null) {
+		PoemNote = <div className="flex flex-row justify-center w-full my-10 px-5 text-center"><i className="md:w-1/2"><p>{PoemData["note" as keyof typeof PoemData]}</p></i></div>
 	}
 
 	return (
 		<div className="my-5 w-full">
 
 			<div className="flex flex-row justify-center w-full">
-				<h2 className="poem text-center">{PoemData["title"]}</h2>
+				<h2 className="poem text-center">{PoemData["title" as keyof typeof PoemData]}</h2>
 			</div>
 
 			<div className="flex flex-row justify-center w-full my-10 px-5">{Poem}</div>

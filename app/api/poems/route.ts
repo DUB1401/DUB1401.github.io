@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server";
-import { PoemsJSON } from "@/data/poems"
+import {NextResponse} from "next/server";
+import {PoemsJSON} from "@/data/poems"
 
 // GET: возвращает JSON-представление данных о стихотворении(ях).
 export async function GET(RequestData: Request) {
