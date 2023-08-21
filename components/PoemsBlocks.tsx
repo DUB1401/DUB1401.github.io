@@ -1,5 +1,5 @@
 import {PoemsJSON} from "@/data/poems"
-import {Fetcher} from "@/libs/Fetcher"
+import {GetData} from "@/libs/GetData"
 
 // Декларирование параметров CreatePoemsBlocks.
 type Props = {
@@ -7,9 +7,9 @@ type Props = {
 }
 
 // Генерирует блоки представления стихотворений.
-export async function PoemsBlocks({ShowAllPoems}: Props) {
+export function PoemsBlocks({ShowAllPoems}: Props) {
 	// Запрос списка алиасов стихотворений.
-	const PoemsListData = await Fetcher("api/poems");
+	const PoemsListData = GetData(null)["slugs"];
 	// Получение списка алиасов стихотворений.
 	const PoemsList: string[] = PoemsListData["slugs" as keyof typeof PoemsListData]
 	// Список ссылок на иллюстрации стихотворений.
