@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color-main-light);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-main-very-light);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-text-hover);
+}
+
+:root {
+	--color-main-dark: black;
+	--color-main: #0f0f0f;
+	--color-main-light: #151515;
+	--color-main-very-light: #242424;
+	--color-text-base: #fff;
+	--color-text-hover: #00c4e7;
+  }
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: var(--color-main);
+	color: var(--color-text-base);
+}
+
+header {
+	color: var(--color-text-base);
+	background-color: var(--color-main-dark);
+}
+
+img.header {
+	width: 50px;
+	height: 50px;
+}
+
+div.header:hover {
+	color: var(--color-text-hover);
+	background-color: var(--color-main-light);
+	transition-duration: 0.1s;
+}
+
+footer {
+	color: var(--color-text-base);
+	background-color: var(--color-main-dark);
+}
+
+.poem-block {
+	color: var(--color-text-base);
+	width: 400px;
+	height: 240px;
+}
+
+.poem-block:hover {
+	color: var(--color-text-hover);
+	transition-duration: 0.25s;
+}
+
+h2.poem {
+	font-family: "Cormorant Garamond", serif;
+	font-size: 2.5rem;
+}
+
+img.poem {
+	min-width: 400px;
+	width: 50%;
+}
+
+p {
+	font-size: 1.125rem;
+}
+
+p:empty {
+	height: 1.5rem;
+}

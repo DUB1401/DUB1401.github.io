@@ -1,0 +1,76 @@
+import {Fetcher} from "@/libs/Fetcher"
+
+//================================================================================//
+//---> Описания типов и интерфейсы.
+//================================================================================//
+
+// Декларирование параметров generateMetadata и Poem.
+type PoemSlug = {
+	params: {slug: string}
+}
+
+//================================================================================//
+//---> Вспомогательные компоненты.
+//================================================================================//
+
+// Возвращает React-объект: размеченная тегами абзацев колонка стихотворения..
+function CreatePoemMarkup(Text: string) {
+	// Разбиение текста стихотворения по символу новой строки.
+	const ParagraphsList = Text.split("\n");
+
+	// Заключение каждой строки в тег абзаца.
+	const Poem = ParagraphsList.map((Paragraph) => {
+	  return <p>{Paragraph}</p>;
+	});
+  
+	return <div>{Poem}</div>;
+}
+
+//================================================================================//
+//---> Экспортируемые компоненты.
+//================================================================================//
+
+// Генерирует локальные метаданные страниц с динамическим роутингом.
+export async function generateMetadata({params: {slug}}: PoemSlug) {
+	// Запрос данных стихотворения.
+	const PoemData = await Fetcher("api/poems?slug=" + slug);
+
+	return {title: PoemData["title"] + " – DUB1401"};
+}
+
+// Возвращает React-объект: контейнер стихотворения и иллюстрации.
+export default async function Poem({ params: { slug } }: PoemSlug) {
+	// Запрос данных стихотворения.
+	const PoemData = await Fetcher("api/poems?slug=" + slug);
+	// Составления ссылки на иллюстрацию.
+	const ImageLink = "/images/poems/" + slug + ".webp";
+	// Генерация разметки.
+	const Poem = CreatePoemMarkup(PoemData["text"]);
+	// Заметка.
+	let PoemNote: JSX.Element = <></>;
+
+	// Если заметка есть, создать для неё элемент.
+	if (PoemData["note"] != null) {
+		PoemNote = <div className="flex flex-row justify-center w-full my-10 px-5 text-center"><i className="md:w-1/2"><p>{PoemData["note"]}</p></i></div>
+	}
+
+	return (
+		<div className="my-5 w-full">
+
+			<div className="flex flex-row justify-center w-full">
+				<h2 className="poem text-center">{PoemData["title"]}</h2>
+			</div>
+
+			<div className="flex flex-row justify-center w-full my-10 px-5">{Poem}</div>
+
+			{PoemNote}
+
+			<div className="flex justify-center">
+				<img className="poem rounded-xl" src={ImageLink}></img>
+			</div>
+
+
+		</div>
+	);
+}
+

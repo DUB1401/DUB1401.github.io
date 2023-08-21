@@ -1,4 +1,0 @@
-src:code=1;url=https://dubostorage001.github.io/the-last-emperor-sengoku/21.jpg;size=75;
-novel:Последний император Сэнгоку
-chapter:
-volume:История четвёртая. Союз Пяти Королевств

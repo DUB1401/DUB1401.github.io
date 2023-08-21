@@ -1,4 +1,0 @@
-<h1 class="PlanetInfo">Солнечная система</h1>
-                <p class="PlanetDescription"><span class="PlanetDescription">Расположение: </span>Альфа-квадрант</p>
-                <p class="PlanetDescription"><span class="PlanetDescription">Планеты: </span>Меркурий, Венера, Земля, Марс, Юпитер, Сатурн, Уран, Нептун</p>
-                <p class="PlanetDescription"><span class="PlanetDescription">Описание: </span>Место зарождения расы людей. Эта система была домом для последних детей Великих Городов Древних, а сейчас стала центром запутанных интриг и обителью Корпуса Охотников. Населена людьми в конце электронной эры. Не имеет ценных ресурсов.</p>
