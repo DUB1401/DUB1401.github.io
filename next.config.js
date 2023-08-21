@@ -1,14 +1,12 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-	"output": "export",
+	output: "export",
+	trailingSlash: true,
 	images: {
-  		unoptimized: true
+  		unoptimized: true,
+		  domains: ["localhost", "dub1401.github.io"]
 	}
 };
 
-module.exports = {
-	images: {
-		domains: ["localhost", "dub1401.github.io"]
-	}
-}
+module.exports = nextConfig
