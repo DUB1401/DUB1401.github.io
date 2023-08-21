@@ -9,7 +9,7 @@ type Props = {
 // Генерирует блоки представления стихотворений.
 export function PoemsBlocks({ShowAllPoems}: Props) {
 	// Запрос списка алиасов стихотворений.
-	const PoemsListData = GetData(null)["slugs"];
+	const PoemsListData = GetData(null);
 	// Получение списка алиасов стихотворений.
 	const PoemsList: string[] = PoemsListData["slugs" as keyof typeof PoemsListData]
 	// Список ссылок на иллюстрации стихотворений.

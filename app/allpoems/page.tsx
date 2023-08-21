@@ -8,6 +8,6 @@ import {PoemsBlocks} from "@/components/PoemsBlocks"
 
 // Возвращает React-объект: список блочно представленных стихотворений.
 export default function Poems() {
-
-	return <div className="flex flex-wrap justify-center w-full"><PoemsBlocks ShowAllPoems={false}></PoemsBlocks></div>;	
+	
+	return <div className="flex flex-wrap justify-center w-full"><PoemsBlocks ShowAllPoems={true}></PoemsBlocks></div>;	
 }

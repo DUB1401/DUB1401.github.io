@@ -49,9 +49,9 @@ export function generateMetadata({params: {slug}}: PoemSlug) {
 }
 
 // Возвращает React-объект: контейнер стихотворения и иллюстрации.
-export default async function Poem({ params: { slug } }: PoemSlug) {
+export default function Poem({ params: { slug } }: PoemSlug) {
 	// Запрос данных стихотворения.
-	const PoemData = await GetData(slug);
+	const PoemData = GetData(slug);
 	// Составления ссылки на иллюстрацию.
 	const ImageLink = "/images/poems/" + slug + ".webp";
 	// Генерация разметки.
